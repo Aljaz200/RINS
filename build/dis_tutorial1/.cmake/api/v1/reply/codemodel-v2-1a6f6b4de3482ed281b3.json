@@ -1,0 +1,287 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-00553eb035d3eca2a8dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				},
+				{
+					"build" : "dis_tutorial1__py",
+					"jsonFile" : "directory-dis_tutorial1__py-3c4923b186fa33df68ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/osboxes/ros2_ws/build/dis_tutorial1/dis_tutorial1__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dis_tutorial1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dis_tutorial1_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dis_tutorial1_egg-5eca832723ab60f624ee.json",
+					"name" : "ament_cmake_python_build_dis_tutorial1_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dis_tutorial1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dis_tutorial1-a7c08fd59a9ef80a70c3.json",
+					"name" : "ament_cmake_python_copy_dis_tutorial1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "complete_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complete_node-8eac9f3e7f4abda63ee1.json",
+					"name" : "complete_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1-8149d45ecc92cd255c16.json",
+					"name" : "dis_tutorial1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__cpp-5969c0b059ed9562415e.json",
+					"name" : "dis_tutorial1__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dis_tutorial1__py::@cbcef6bc00b1ce15f9e2",
+					"jsonFile" : "target-dis_tutorial1__py-155ce0bc1bd457bd8e4b.json",
+					"name" : "dis_tutorial1__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_generator_c-6f3b749319619e547e5c.json",
+					"name" : "dis_tutorial1__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_generator_py-a9d7a14d85439c9f42c8.json",
+					"name" : "dis_tutorial1__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_c-8a87b4770866df369986.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_c__pyext-ef67c00d487210215050.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_cpp-ab628c5b646ddd71594f.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_fastrtps_c-79700a7ec157e2e2f062.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext-1c5898a363f34d2f7af8.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_fastrtps_cpp-9ecd081a50c4bf1b5600.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_introspection_c-7f86c6aecbe7e2148451.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_introspection_c__pyext-657f809aca0d2473341a.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1__rosidl_typesupport_introspection_cpp-4dc1cb0304059672e9a3.json",
+					"name" : "dis_tutorial1__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dis_tutorial1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dis_tutorial1_uninstall-7c22016aa680f4b72b4b.json",
+					"name" : "dis_tutorial1_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_client_node-69cf468ee5dbeb21464f.json",
+					"name" : "simple_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_publisher-fb7ee3ab418a869d5c4c.json",
+					"name" : "simple_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_server_node-28c4490a84833d6d0f44.json",
+					"name" : "simple_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_set_bool_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_set_bool_server_node-55948cd851b4a13d89b7.json",
+					"name" : "simple_set_bool_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_subscriber-03d79b2aa1ac72e23311.json",
+					"name" : "simple_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1d3e1a13b8bda52e96b5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/osboxes/ros2_ws/build/dis_tutorial1",
+		"source" : "/home/osboxes/ros2_ws/src/dis_tutorial1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

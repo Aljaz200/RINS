@@ -1,0 +1,9 @@
+{
+  "package_name": "dis_tutorial1",
+  "non_idl_tuples": [
+    "/home/osboxes/ros2_ws/src/dis_tutorial1:msg/CustomMessage.msg",
+    "/home/osboxes/ros2_ws/src/dis_tutorial1:srv/AddTwoInts.srv",
+    "/home/osboxes/ros2_ws/src/dis_tutorial1:msg/CustomMessage2.msg",
+    "/home/osboxes/ros2_ws/src/dis_tutorial1:srv/SumService.srv"
+  ]
+}
