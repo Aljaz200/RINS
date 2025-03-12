@@ -35,10 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 # Install Python executables
 install(PROGRAMS
-  scripts/py_simple_publisher.py
-  scripts/py_simple_subscriber.py
-  scripts/py_simple_server_node.py
-  scripts/py_simple_client_node.py
+  scripts/py_move_trajectory.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
