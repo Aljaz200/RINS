@@ -19,7 +19,6 @@ def Movetriangle(g):
     message_num = 0.0
     message.linear.x = 1.0/2
     message.linear.y = math.sqrt(3)/2
-    g = 11
     first = True
     counter = 0
     while rclpy.ok():
