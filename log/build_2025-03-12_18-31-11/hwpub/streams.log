@@ -1,0 +1,178 @@
+[0.626s] Invoking command in '/home/osboxes/ros2_ws/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/hwpub -- -j4 -l4
+[0.723s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.977s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.995s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.099s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.117s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.146s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.212s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.213s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.428s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.509s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.511s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.533s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.959s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.875s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.912s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.912s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.913s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.979s] -- Configuring done
+[3.113s] -- Generating done
+[3.136s] -- Build files have been written to: /home/osboxes/ros2_ws/build/hwpub
+[3.183s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_generator_c[0m
+[3.206s] [  2%] Built target hwpub__cpp
+[3.212s] [ 12%] Built target hwpub__rosidl_generator_c
+[3.224s] [ 12%] Built target ament_cmake_python_symlink_hwpub
+[3.226s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_fastrtps_cpp[0m
+[3.231s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_cpp[0m
+[3.251s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_fastrtps_c[0m
+[3.251s] [ 23%] Built target hwpub__rosidl_typesupport_cpp
+[3.253s] [ 33%] Built target hwpub__rosidl_typesupport_fastrtps_cpp
+[3.259s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_introspection_cpp[0m
+[3.267s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_c[0m
+[3.272s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_introspection_c[0m
+[3.282s] [ 43%] Built target hwpub__rosidl_typesupport_fastrtps_c
+[3.293s] [ 53%] Built target hwpub__rosidl_typesupport_c
+[3.293s] [ 64%] Built target hwpub__rosidl_typesupport_introspection_c
+[3.297s] [ 74%] Built target hwpub__rosidl_typesupport_introspection_cpp
+[3.325s] [ 74%] Built target hwpub
+[3.362s] [ 76%] Built target hwpub__py
+[3.384s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_generator_py[0m
+[3.408s] [ 84%] Built target hwpub__rosidl_generator_py
+[3.425s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.428s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_c__pyext[0m
+[3.439s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_introspection_c__pyext[0m
+[3.458s] [ 89%] Built target hwpub__rosidl_typesupport_fastrtps_c__pyext
+[3.469s] [ 94%] Built target hwpub__rosidl_typesupport_introspection_c__pyext
+[3.469s] [100%] Built target hwpub__rosidl_typesupport_c__pyext
+[3.581s] running egg_info
+[3.584s] writing hwpub.egg-info/PKG-INFO
+[3.586s] writing dependency_links to hwpub.egg-info/dependency_links.txt
+[3.588s] writing top-level names to hwpub.egg-info/top_level.txt
+[3.597s] reading manifest file 'hwpub.egg-info/SOURCES.txt'
+[3.599s] writing manifest file 'hwpub.egg-info/SOURCES.txt'
+[3.653s] [100%] Built target ament_cmake_python_build_hwpub_egg
+[3.671s] Invoked command in '/home/osboxes/ros2_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/hwpub -- -j4 -l4
+[3.674s] Invoking command in '/home/osboxes/ros2_ws/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/hwpub
+[3.686s] -- Install configuration: ""
+[3.686s] -- Execute custom install script
+[3.686s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/rosidl_interfaces/hwpub
+[3.687s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__functions.h
+[3.687s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.h
+[3.687s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.h
+[3.688s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/hwmsg.h
+[3.688s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_c__visibility_control.h
+[3.688s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/customserv.h
+[3.689s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__functions.h
+[3.689s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.h
+[3.689s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.h
+[3.689s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/library_path.sh
+[3.689s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/library_path.dsv
+[3.689s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_c.h
+[3.690s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.690s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_c.h
+[3.690s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__builder.hpp
+[3.691s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.hpp
+[3.691s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__traits.hpp
+[3.691s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.hpp
+[3.692s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/hwmsg.hpp
+[3.692s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.692s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/customserv.hpp
+[3.692s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__builder.hpp
+[3.692s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.hpp
+[3.693s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__traits.hpp
+[3.693s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.hpp
+[3.693s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.693s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.694s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_cpp.hpp
+[3.694s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_c.h
+[3.694s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.694s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_c.h
+[3.695s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_cpp.hpp
+[3.696s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_cpp.hpp
+[3.696s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/pythonpath.sh
+[3.696s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/pythonpath.dsv
+[3.696s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/PKG-INFO
+[3.696s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/SOURCES.txt
+[3.697s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/dependency_links.txt
+[3.697s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/top_level.txt
+[3.698s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py
+[3.698s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c
+[3.698s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.699s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c
+[3.699s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.699s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.699s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.700s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/libhwpub__rosidl_generator_py.so
+[3.700s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py
+[3.700s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py
+[3.700s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg_s.c
+[3.700s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py
+[3.701s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py
+[3.701s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv_s.c
+[3.701s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.702s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.702s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.703s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/msg/Hwmsg.idl
+[3.703s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv.idl
+[3.704s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/msg/Hwmsg.msg
+[3.704s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv.srv
+[3.704s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv_Request.msg
+[3.704s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv_Response.msg
+[3.704s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/lib/hwpub/py_move_trajectory.py
+[3.704s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/package_run_dependencies/hwpub
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/parent_prefix_path/hwpub
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/ament_prefix_path.sh
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/ament_prefix_path.dsv
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/path.sh
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/path.dsv
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.bash
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.sh
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.zsh
+[3.705s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.dsv
+[3.706s] -- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/package.dsv
+[3.716s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/packages/hwpub
+[3.717s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake-extras.cmake
+[3.717s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.717s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.718s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_libraries-extras.cmake
+[3.718s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_targets-extras.cmake
+[3.718s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.719s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.719s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpubConfig.cmake
+[3.720s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpubConfig-version.cmake
+[3.720s] -- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/package.xml
+[3.721s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_generator_c.so
+[3.721s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so
+[3.721s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so
+[3.721s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so
+[3.721s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so
+[3.721s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so
+[3.721s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so
+[3.778s] Listing '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub'...
+[3.778s] Compiling '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py'...
+[3.778s] Listing '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg'...
+[3.778s] Listing '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv'...
+[3.784s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_generator_py.so
+[3.785s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport.cmake
+[3.785s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport-noconfig.cmake
+[3.785s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport.cmake
+[3.785s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.786s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cppExport.cmake
+[3.786s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.786s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.786s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport.cmake
+[3.786s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.786s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport.cmake
+[3.786s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport-noconfig.cmake
+[3.787s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport.cmake
+[3.787s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.788s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport.cmake
+[3.788s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport-noconfig.cmake
+[3.789s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport.cmake
+[3.790s] -- Up-to-date: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport-noconfig.cmake
+[3.794s] Invoked command in '/home/osboxes/ros2_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/hwpub

@@ -1,0 +1,1 @@
+/home/osboxes/ros2_ws/src/hwpub/scripts/py_move_trajectory.py

@@ -1,0 +1,1 @@
+/home/osboxes/ros2_ws/build/hwpub/rosidl_generator_py/hwpub/msg/__init__.py

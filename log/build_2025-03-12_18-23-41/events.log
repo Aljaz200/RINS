@@ -1,0 +1,600 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (dis_tutorial1) JobQueued: {'identifier': 'dis_tutorial1', 'dependencies': OrderedDict()}
+[0.000838] (dis_tutorial2) JobQueued: {'identifier': 'dis_tutorial2', 'dependencies': OrderedDict()}
+[0.000960] (hwpub) JobQueued: {'identifier': 'hwpub', 'dependencies': OrderedDict()}
+[0.001000] (dis_tutorial1) JobStarted: {'identifier': 'dis_tutorial1'}
+[0.015098] (dis_tutorial2) JobStarted: {'identifier': 'dis_tutorial2'}
+[0.028289] (hwpub) JobStarted: {'identifier': 'hwpub'}
+[0.041108] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'cmake'}
+[0.042634] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'build'}
+[0.043552] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osboxes/ros2_ws/build/dis_tutorial1', '--', '-j4', '-l4'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b3e9c89_a14e_4d3c_aea5_7ce193fbe995'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098763] (-) TimerEvent: {}
+[0.192959] (dis_tutorial1) StdoutLine: {'line': b'[  1%] Built target dis_tutorial1__cpp\n'}
+[0.198895] (-) TimerEvent: {}
+[0.209983] (dis_tutorial1) StdoutLine: {'line': b'[  4%] Built target simple_publisher\n'}
+[0.229580] (dis_tutorial1) StdoutLine: {'line': b'[ 13%] Built target dis_tutorial1__rosidl_generator_c\n'}
+[0.239126] (dis_tutorial1) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_symlink_dis_tutorial1\n'}
+[0.290738] (dis_tutorial1) StdoutLine: {'line': b'[ 16%] Built target simple_subscriber\n'}
+[0.296714] (dis_tutorial1) StdoutLine: {'line': b'[ 19%] Built target simple_set_bool_server_node\n'}
+[0.299040] (-) TimerEvent: {}
+[0.304417] (dis_tutorial1) StdoutLine: {'line': b'[ 28%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c\n'}
+[0.307759] (dis_tutorial1) StdoutLine: {'line': b'[ 37%] Built target dis_tutorial1__rosidl_typesupport_cpp\n'}
+[0.358861] (dis_tutorial1) StdoutLine: {'line': b'[ 46%] Built target dis_tutorial1__rosidl_typesupport_introspection_cpp\n'}
+[0.375792] (dis_tutorial1) StdoutLine: {'line': b'[ 55%] Built target dis_tutorial1__rosidl_typesupport_c\n'}
+[0.376197] (dis_tutorial1) StdoutLine: {'line': b'[ 64%] Built target dis_tutorial1__rosidl_typesupport_introspection_c\n'}
+[0.392407] (dis_tutorial1) StdoutLine: {'line': b'[ 73%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_cpp\n'}
+[0.399152] (-) TimerEvent: {}
+[0.459286] (dis_tutorial1) StdoutLine: {'line': b'[ 76%] Built target simple_client_node\n'}
+[0.478201] (dis_tutorial1) StdoutLine: {'line': b'[ 79%] Built target simple_server_node\n'}
+[0.498474] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] Built target complete_node\n'}
+[0.499344] (-) TimerEvent: {}
+[0.520972] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] Built target dis_tutorial1\n'}
+[0.581966] (dis_tutorial1) StdoutLine: {'line': b'[ 83%] Built target dis_tutorial1__py\n'}
+[0.587572] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'cmake'}
+[0.591491] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '/home/osboxes/ros2_ws/src/hwpub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/hwpub'], 'cwd': '/home/osboxes/ros2_ws/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b3e9c89_a14e_4d3c_aea5_7ce193fbe995'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.599510] (-) TimerEvent: {}
+[0.682165] (dis_tutorial1) StdoutLine: {'line': b'[ 91%] Built target dis_tutorial1__rosidl_generator_py\n'}
+[0.699646] (-) TimerEvent: {}
+[0.784643] (dis_tutorial1) StdoutLine: {'line': b'[ 94%] Built target dis_tutorial1__rosidl_typesupport_c__pyext\n'}
+[0.796000] (dis_tutorial1) StdoutLine: {'line': b'[ 97%] Built target dis_tutorial1__rosidl_typesupport_introspection_c__pyext\n'}
+[0.798601] (dis_tutorial1) StdoutLine: {'line': b'[100%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.799762] (-) TimerEvent: {}
+[0.900169] (-) TimerEvent: {}
+[0.992791] (hwpub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.000295] (-) TimerEvent: {}
+[1.012216] (dis_tutorial1) StdoutLine: {'line': b'running egg_info\n'}
+[1.013544] (dis_tutorial1) StdoutLine: {'line': b'writing dis_tutorial1.egg-info/PKG-INFO\n'}
+[1.014308] (dis_tutorial1) StdoutLine: {'line': b'writing dependency_links to dis_tutorial1.egg-info/dependency_links.txt\n'}
+[1.015597] (dis_tutorial1) StdoutLine: {'line': b'writing top-level names to dis_tutorial1.egg-info/top_level.txt\n'}
+[1.023275] (dis_tutorial1) StdoutLine: {'line': b"reading manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[1.025361] (dis_tutorial1) StdoutLine: {'line': b"writing manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[1.070697] (dis_tutorial1) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_dis_tutorial1_egg\n'}
+[1.088696] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[1.090239] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'install'}
+[1.100464] (-) TimerEvent: {}
+[1.113273] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/osboxes/ros2_ws/build/dis_tutorial1'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b3e9c89_a14e_4d3c_aea5_7ce193fbe995'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.126263] (dis_tutorial1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.126941] (dis_tutorial1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.127412] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1\n'}
+[1.127752] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.h\n'}
+[1.127984] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.h\n'}
+[1.128266] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__functions.h\n'}
+[1.128641] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.h\n'}
+[1.128868] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.h\n'}
+[1.129174] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__functions.h\n'}
+[1.129386] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.h\n'}
+[1.129563] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.h\n'}
+[1.129737] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.129911] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.h\n'}
+[1.130082] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__functions.h\n'}
+[1.130465] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.h\n'}
+[1.130678] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.h\n'}
+[1.130940] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__functions.h\n'}
+[1.131244] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.h\n'}
+[1.132129] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.h\n'}
+[1.132263] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.h\n'}
+[1.132344] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.sh\n'}
+[1.132649] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.dsv\n'}
+[1.133237] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_c.h\n'}
+[1.133509] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_c.h\n'}
+[1.133721] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.133955] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[1.134198] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[1.135177] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.hpp\n'}
+[1.135558] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.hpp\n'}
+[1.135733] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__builder.hpp\n'}
+[1.135900] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.hpp\n'}
+[1.136003] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__traits.hpp\n'}
+[1.136162] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.hpp\n'}
+[1.136330] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__builder.hpp\n'}
+[1.136451] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.hpp\n'}
+[1.136617] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__traits.hpp\n'}
+[1.136791] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.hpp\n'}
+[1.136981] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.137034] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.hpp\n'}
+[1.137105] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__builder.hpp\n'}
+[1.137312] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.hpp\n'}
+[1.137514] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__traits.hpp\n'}
+[1.137713] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.hpp\n'}
+[1.137920] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__builder.hpp\n'}
+[1.138112] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.hpp\n'}
+[1.138347] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__traits.hpp\n'}
+[1.138492] (hwpub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.138619] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.hpp\n'}
+[1.138767] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.hpp\n'}
+[1.139939] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.140203] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.140375] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.140490] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.140602] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.141399] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_c.h\n'}
+[1.141803] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_c.h\n'}
+[1.142211] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.142743] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[1.143192] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_c.h\n'}
+[1.144610] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.145090] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.145530] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.145932] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.146485] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.sh\n'}
+[1.146842] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.dsv\n'}
+[1.147531] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[1.147719] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[1.147922] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[1.148064] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[1.149455] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py\n'}
+[1.149687] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c\n'}
+[1.149885] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.150015] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.150231] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.150505] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.150714] (hwpub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.150853] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.150994] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so\n'}
+[1.151191] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py\n'}
+[1.151582] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py\n'}
+[1.151932] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2.py\n'}
+[1.152445] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2_s.c\n'}
+[1.152647] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message_s.c\n'}
+[1.152769] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py\n'}
+[1.152858] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py\n'}
+[1.152933] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints_s.c\n'}
+[1.153047] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service.py\n'}
+[1.153554] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service_s.c\n'}
+[1.154307] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.154992] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.155677] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.156899] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.idl\n'}
+[1.157270] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.idl\n'}
+[1.157563] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.idl\n'}
+[1.158178] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.idl\n'}
+[1.159216] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.msg\n'}
+[1.159891] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.srv\n'}
+[1.160279] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Request.msg\n'}
+[1.160565] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Response.msg\n'}
+[1.160905] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.msg\n'}
+[1.161296] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.srv\n'}
+[1.161430] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Request.msg\n'}
+[1.161647] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Response.msg\n'}
+[1.161885] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_publisher\n'}
+[1.162026] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_subscriber\n'}
+[1.162162] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_client_node\n'}
+[1.162295] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_server_node\n'}
+[1.162424] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/complete_node\n'}
+[1.162573] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_set_bool_server_node\n'}
+[1.162837] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_publisher.py\n'}
+[1.163057] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_subscriber.py\n'}
+[1.163217] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_server_node.py\n'}
+[1.163358] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_client_node.py\n'}
+[1.163490] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_complete_node.py\n'}
+[1.163619] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_draw_square.py\n'}
+[1.163793] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/publisher_node.py\n'}
+[1.163940] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/subscriber_node.py\n'}
+[1.164060] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/service_node.py\n'}
+[1.164194] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/client_node.py\n'}
+[1.164322] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1\n'}
+[1.164449] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1\n'}
+[1.164580] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.sh\n'}
+[1.164982] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.dsv\n'}
+[1.165181] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/path.sh\n'}
+[1.165313] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/path.dsv\n'}
+[1.165448] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.bash\n'}
+[1.165612] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.sh\n'}
+[1.165786] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.zsh\n'}
+[1.166126] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.dsv\n'}
+[1.166304] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/package.dsv\n'}
+[1.183882] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/packages/dis_tutorial1\n'}
+[1.184818] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake-extras.cmake\n'}
+[1.185166] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.185428] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.185556] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.185805] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.185989] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.186151] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.186333] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config.cmake\n'}
+[1.186488] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config-version.cmake\n'}
+[1.186690] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/package.xml\n'}
+[1.187207] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so\n'}
+[1.188339] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so\n'}
+[1.189309] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.190170] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so\n'}
+[1.190977] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so\n'}
+[1.192074] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so\n'}
+[1.192458] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so\n'}
+[1.200623] (-) TimerEvent: {}
+[1.277088] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1'...\n"}
+[1.277407] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg'...\n"}
+[1.277547] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv'...\n"}
+[1.283728] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so\n'}
+[1.284211] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport.cmake\n'}
+[1.284483] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.284828] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.285182] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.285399] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cppExport.cmake\n'}
+[1.285592] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.285950] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.286171] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.286360] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.286557] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport.cmake\n'}
+[1.286743] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.286934] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.287262] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.287451] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport.cmake\n'}
+[1.287627] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.287793] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport.cmake\n'}
+[1.287973] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.290740] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[1.300781] (-) TimerEvent: {}
+[1.305813] (hwpub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.321346] (hwpub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.322968] (hwpub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.323566] (hwpub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.339309] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.355120] (dis_tutorial1) JobEnded: {'identifier': 'dis_tutorial1', 'rc': 0}
+[1.400942] (-) TimerEvent: {}
+[1.443268] (dis_tutorial2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/osboxes/ros2_ws/build/dis_tutorial2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'osboxes', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/osboxes', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1764', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'osboxes', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'osboxes', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3b3e9c89_a14e_4d3c_aea5_7ce193fbe995', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R6CE32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.228', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/osboxes/ros2_ws/build/dis_tutorial2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/osboxes/ros2_ws/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.501165] (-) TimerEvent: {}
+[1.521684] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.528091] (hwpub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.528430] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.528872] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.532421] (hwpub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.601363] (-) TimerEvent: {}
+[1.702293] (-) TimerEvent: {}
+[1.802849] (-) TimerEvent: {}
+[1.903679] (-) TimerEvent: {}
+[1.919912] (hwpub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.003987] (-) TimerEvent: {}
+[2.067746] (hwpub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.104070] (-) TimerEvent: {}
+[2.122774] (dis_tutorial2) StdoutLine: {'line': b'running develop\n'}
+[2.132648] (hwpub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.195710] (hwpub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.204315] (hwpub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.204738] (-) TimerEvent: {}
+[2.215944] (hwpub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.227348] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.305034] (-) TimerEvent: {}
+[2.305390] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.379335] (dis_tutorial2) StdoutLine: {'line': b'running egg_info\n'}
+[2.379831] (dis_tutorial2) StdoutLine: {'line': b'writing dis_tutorial2.egg-info/PKG-INFO\n'}
+[2.380974] (dis_tutorial2) StdoutLine: {'line': b'writing dependency_links to dis_tutorial2.egg-info/dependency_links.txt\n'}
+[2.381884] (dis_tutorial2) StdoutLine: {'line': b'writing entry points to dis_tutorial2.egg-info/entry_points.txt\n'}
+[2.382317] (dis_tutorial2) StdoutLine: {'line': b'writing requirements to dis_tutorial2.egg-info/requires.txt\n'}
+[2.382608] (dis_tutorial2) StdoutLine: {'line': b'writing top-level names to dis_tutorial2.egg-info/top_level.txt\n'}
+[2.386955] (dis_tutorial2) StdoutLine: {'line': b"reading manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[2.388396] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[2.391790] (dis_tutorial2) StdoutLine: {'line': b'running build_ext\n'}
+[2.392474] (dis_tutorial2) StdoutLine: {'line': b'Creating /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis-tutorial2.egg-link (link to .)\n'}
+[2.394480] (hwpub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.395196] (dis_tutorial2) StdoutLine: {'line': b'Installing achtung_die_turtle script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.395647] (dis_tutorial2) StdoutLine: {'line': b'Installing go_to_position script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.396002] (dis_tutorial2) StdoutLine: {'line': b'Installing intersection script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.396350] (dis_tutorial2) StdoutLine: {'line': b'Installing random_velocity_publisher script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.396690] (dis_tutorial2) StdoutLine: {'line': b'Installing turtle_move script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.397312] (dis_tutorial2) StdoutLine: {'line': b'\n'}
+[2.397676] (dis_tutorial2) StdoutLine: {'line': b'Installed /home/osboxes/ros2_ws/build/dis_tutorial2\n'}
+[2.397913] (dis_tutorial2) StdoutLine: {'line': b'running symlink_data\n'}
+[2.398715] (hwpub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.405254] (-) TimerEvent: {}
+[2.455955] (dis_tutorial2) CommandEnded: {'returncode': 0}
+[2.485859] (dis_tutorial2) JobEnded: {'identifier': 'dis_tutorial2', 'rc': 0}
+[2.505443] (-) TimerEvent: {}
+[2.605976] (-) TimerEvent: {}
+[2.614765] (hwpub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.648075] (hwpub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.706108] (-) TimerEvent: {}
+[2.708079] (hwpub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.717402] (hwpub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.806376] (-) TimerEvent: {}
+[2.856934] (hwpub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.858139] (hwpub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.906719] (-) TimerEvent: {}
+[3.007442] (-) TimerEvent: {}
+[3.022073] (hwpub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.025352] (hwpub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.101539] (hwpub) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.104806] (hwpub) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.107555] (-) TimerEvent: {}
+[3.126462] (hwpub) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.207710] (-) TimerEvent: {}
+[3.308370] (-) TimerEvent: {}
+[3.408870] (-) TimerEvent: {}
+[3.509447] (-) TimerEvent: {}
+[3.599258] (hwpub) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.609656] (-) TimerEvent: {}
+[3.710316] (-) TimerEvent: {}
+[3.811540] (-) TimerEvent: {}
+[3.912232] (-) TimerEvent: {}
+[4.013027] (-) TimerEvent: {}
+[4.113589] (-) TimerEvent: {}
+[4.214388] (-) TimerEvent: {}
+[4.289451] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.314793] (-) TimerEvent: {}
+[4.415336] (-) TimerEvent: {}
+[4.515946] (-) TimerEvent: {}
+[4.520327] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.560816] (hwpub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.562190] (hwpub) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.607847] (hwpub) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.608536] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.608831] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.609029] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.616174] (-) TimerEvent: {}
+[4.639680] (hwpub) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.716473] (-) TimerEvent: {}
+[4.736728] (hwpub) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.816710] (-) TimerEvent: {}
+[4.828233] (hwpub) StdoutLine: {'line': b'-- Generating done\n'}
+[4.842429] (hwpub) StdoutLine: {'line': b'-- Build files have been written to: /home/osboxes/ros2_ws/build/hwpub\n'}
+[4.853497] (hwpub) CommandEnded: {'returncode': 0}
+[4.854371] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'build'}
+[4.854738] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osboxes/ros2_ws/build/hwpub', '--', '-j4', '-l4'], 'cwd': '/home/osboxes/ros2_ws/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b3e9c89_a14e_4d3c_aea5_7ce193fbe995'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.916929] (-) TimerEvent: {}
+[4.920489] (hwpub) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.935038] (hwpub) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.955499] (hwpub) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_hwpub\n'}
+[5.017117] (-) TimerEvent: {}
+[5.117434] (-) TimerEvent: {}
+[5.217712] (-) TimerEvent: {}
+[5.318058] (-) TimerEvent: {}
+[5.341854] (hwpub) StdoutLine: {'line': b'running egg_info\n'}
+[5.342649] (hwpub) StdoutLine: {'line': b'creating hwpub.egg-info\n'}
+[5.342961] (hwpub) StdoutLine: {'line': b'writing hwpub.egg-info/PKG-INFO\n'}
+[5.343328] (hwpub) StdoutLine: {'line': b'writing dependency_links to hwpub.egg-info/dependency_links.txt\n'}
+[5.343640] (hwpub) StdoutLine: {'line': b'writing top-level names to hwpub.egg-info/top_level.txt\n'}
+[5.344069] (hwpub) StdoutLine: {'line': b"writing manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[5.345895] (hwpub) StdoutLine: {'line': b"reading manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[5.346770] (hwpub) StdoutLine: {'line': b"writing manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[5.406535] (hwpub) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_hwpub_egg\n'}
+[5.418232] (-) TimerEvent: {}
+[5.484655] (hwpub) StdoutLine: {'line': b'[  5%] Built target hwpub__cpp\n'}
+[5.489030] (hwpub) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_c.dir/rosidl_generator_c/hwpub/srv/detail/customserv__functions.c.o\x1b[0m\n'}
+[5.494116] (hwpub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_c.dir/rosidl_generator_c/hwpub/msg/detail/hwmsg__functions.c.o\x1b[0m\n'}
+[5.514869] (hwpub) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.517391] (hwpub) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.518567] (-) TimerEvent: {}
+[5.621455] (-) TimerEvent: {}
+[5.650134] (hwpub) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libhwpub__rosidl_generator_c.so\x1b[0m\n'}
+[5.696319] (hwpub) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.722025] (-) TimerEvent: {}
+[5.774514] (hwpub) StdoutLine: {'line': b'[ 20%] Built target hwpub__rosidl_generator_c\n'}
+[5.800499] (hwpub) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.822144] (-) TimerEvent: {}
+[5.922610] (-) TimerEvent: {}
+[6.023459] (-) TimerEvent: {}
+[6.123847] (-) TimerEvent: {}
+[6.131554] (hwpub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hwpub/msg/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[6.224020] (-) TimerEvent: {}
+[6.324497] (-) TimerEvent: {}
+[6.345079] (hwpub) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hwpub/msg/detail/dds_fastrtps/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[6.424853] (-) TimerEvent: {}
+[6.456000] (hwpub) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hwpub/msg/detail/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[6.525032] (-) TimerEvent: {}
+[6.532902] (hwpub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hwpub/msg/detail/hwmsg__type_support_c.cpp.o\x1b[0m\n'}
+[6.625276] (-) TimerEvent: {}
+[6.725782] (-) TimerEvent: {}
+[6.785664] (hwpub) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hwpub/srv/customserv__type_support.cpp.o\x1b[0m\n'}
+[6.825979] (-) TimerEvent: {}
+[6.926502] (-) TimerEvent: {}
+[7.026959] (-) TimerEvent: {}
+[7.127549] (-) TimerEvent: {}
+[7.198935] (hwpub) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hwpub/srv/detail/dds_fastrtps/customserv__type_support.cpp.o\x1b[0m\n'}
+[7.227690] (-) TimerEvent: {}
+[7.264885] (hwpub) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hwpub/srv/detail/customserv__type_support_c.cpp.o\x1b[0m\n'}
+[7.276156] (hwpub) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hwpub/srv/detail/customserv__type_support.cpp.o\x1b[0m\n'}
+[7.311370] (hwpub) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.327798] (-) TimerEvent: {}
+[7.367692] (hwpub) StdoutLine: {'line': b'[ 46%] Built target hwpub__rosidl_typesupport_cpp\n'}
+[7.389942] (hwpub) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.428139] (-) TimerEvent: {}
+[7.528700] (-) TimerEvent: {}
+[7.629007] (-) TimerEvent: {}
+[7.729465] (-) TimerEvent: {}
+[7.831243] (-) TimerEvent: {}
+[7.935219] (-) TimerEvent: {}
+[8.039221] (hwpub) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.039458] (-) TimerEvent: {}
+[8.127479] (hwpub) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.139823] (-) TimerEvent: {}
+[8.167241] (hwpub) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hwpub/msg/detail/hwmsg__type_support.c.o\x1b[0m\n'}
+[8.178549] (hwpub) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.240015] (-) TimerEvent: {}
+[8.287284] (hwpub) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hwpub/srv/detail/customserv__type_support.c.o\x1b[0m\n'}
+[8.287850] (hwpub) StdoutLine: {'line': b'[ 61%] Built target hwpub__rosidl_typesupport_introspection_cpp\n'}
+[8.343754] (-) TimerEvent: {}
+[8.377830] (hwpub) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.383168] (hwpub) StdoutLine: {'line': b'[ 64%] Built target hwpub__rosidl_typesupport_fastrtps_c\n'}
+[8.398789] (hwpub) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libhwpub__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.402706] (hwpub) StdoutLine: {'line': b'[ 66%] Built target hwpub__rosidl_typesupport_fastrtps_cpp\n'}
+[8.443865] (-) TimerEvent: {}
+[8.446544] (hwpub) StdoutLine: {'line': b'[ 66%] Built target hwpub__rosidl_typesupport_introspection_c\n'}
+[8.544032] (-) TimerEvent: {}
+[8.644687] (-) TimerEvent: {}
+[8.745394] (-) TimerEvent: {}
+[8.770987] (hwpub) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_c.dir/rosidl_typesupport_c/hwpub/msg/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[8.774974] (hwpub) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_c.dir/rosidl_typesupport_c/hwpub/srv/customserv__type_support.cpp.o\x1b[0m\n'}
+[8.831407] (hwpub) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.845612] (-) TimerEvent: {}
+[8.914383] (hwpub) StdoutLine: {'line': b'[ 74%] Built target hwpub__rosidl_typesupport_c\n'}
+[8.945785] (-) TimerEvent: {}
+[8.952206] (hwpub) StdoutLine: {'line': b'[ 74%] Built target hwpub\n'}
+[8.981811] (hwpub) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.045907] (-) TimerEvent: {}
+[9.146716] (-) TimerEvent: {}
+[9.247437] (-) TimerEvent: {}
+[9.348057] (-) TimerEvent: {}
+[9.449036] (-) TimerEvent: {}
+[9.549723] (-) TimerEvent: {}
+[9.650113] (-) TimerEvent: {}
+[9.663626] (hwpub) StdoutLine: {'line': b'[ 76%] Built target hwpub__py\n'}
+[9.696844] (hwpub) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_py.dir/rosidl_generator_py/hwpub/srv/_customserv_s.c.o\x1b[0m\n'}
+[9.697272] (hwpub) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_py.dir/rosidl_generator_py/hwpub/msg/_hwmsg_s.c.o\x1b[0m\n'}
+[9.750271] (-) TimerEvent: {}
+[9.850580] (-) TimerEvent: {}
+[9.930266] (hwpub) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/libhwpub__rosidl_generator_py.so\x1b[0m\n'}
+[9.950767] (-) TimerEvent: {}
+[10.003745] (hwpub) StdoutLine: {'line': b'[ 84%] Built target hwpub__rosidl_generator_py\n'}
+[10.040925] (hwpub) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.043716] (hwpub) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.044413] (hwpub) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.050919] (-) TimerEvent: {}
+[10.151391] (-) TimerEvent: {}
+[10.224188] (hwpub) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.224686] (hwpub) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.251635] (-) TimerEvent: {}
+[10.266140] (hwpub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.315207] (hwpub) StdoutLine: {'line': b'[100%] Built target hwpub__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.322506] (hwpub) StdoutLine: {'line': b'[100%] Built target hwpub__rosidl_typesupport_introspection_c__pyext\n'}
+[10.340562] (hwpub) StdoutLine: {'line': b'[100%] Built target hwpub__rosidl_typesupport_c__pyext\n'}
+[10.351797] (-) TimerEvent: {}
+[10.373413] (hwpub) CommandEnded: {'returncode': 0}
+[10.376265] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'install'}
+[10.379940] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/osboxes/ros2_ws/build/hwpub'], 'cwd': '/home/osboxes/ros2_ws/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b3e9c89_a14e_4d3c_aea5_7ce193fbe995'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.399085] (hwpub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.400602] (hwpub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.401276] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/rosidl_interfaces/hwpub\n'}
+[10.426714] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__functions.h\n'}
+[10.444953] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.h\n'}
+[10.451951] (-) TimerEvent: {}
+[10.455983] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.h\n'}
+[10.469158] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/hwmsg.h\n'}
+[10.481652] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.492993] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/customserv.h\n'}
+[10.504635] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__functions.h\n'}
+[10.519422] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.h\n'}
+[10.545302] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.h\n'}
+[10.552145] (-) TimerEvent: {}
+[10.562085] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/library_path.sh\n'}
+[10.573457] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/library_path.dsv\n'}
+[10.594457] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_c.h\n'}
+[10.623679] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.649535] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_c.h\n'}
+[10.652376] (-) TimerEvent: {}
+[10.669051] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__builder.hpp\n'}
+[10.691364] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.hpp\n'}
+[10.715947] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__traits.hpp\n'}
+[10.739472] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.hpp\n'}
+[10.752596] (-) TimerEvent: {}
+[10.757824] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/hwmsg.hpp\n'}
+[10.774326] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.788676] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/customserv.hpp\n'}
+[10.809261] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__builder.hpp\n'}
+[10.826191] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.hpp\n'}
+[10.841715] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__traits.hpp\n'}
+[10.852835] (-) TimerEvent: {}
+[10.857084] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.hpp\n'}
+[10.869412] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.880082] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.889239] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.899097] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_c.h\n'}
+[10.916406] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.937378] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_c.h\n'}
+[10.953284] (-) TimerEvent: {}
+[10.955208] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.970317] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.982069] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/pythonpath.sh\n'}
+[10.996535] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/pythonpath.dsv\n'}
+[11.012799] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[11.032471] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[11.053216] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[11.053731] (-) TimerEvent: {}
+[11.069742] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[11.085543] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py\n'}
+[11.099446] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c\n'}
+[11.117925] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.129562] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.142064] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.152020] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.153939] (-) TimerEvent: {}
+[11.167174] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.182684] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/libhwpub__rosidl_generator_py.so\n'}
+[11.196968] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py\n'}
+[11.208644] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py\n'}
+[11.226715] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg_s.c\n'}
+[11.243316] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py\n'}
+[11.254306] (-) TimerEvent: {}
+[11.262388] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py\n'}
+[11.280279] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv_s.c\n'}
+[11.296458] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.297683] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.298479] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.299042] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/msg/Hwmsg.idl\n'}
+[11.315682] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv.idl\n'}
+[11.336725] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/msg/Hwmsg.msg\n'}
+[11.354527] (-) TimerEvent: {}
+[11.359121] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv.srv\n'}
+[11.372840] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv_Request.msg\n'}
+[11.385803] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/srv/Customserv_Response.msg\n'}
+[11.407435] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/lib/hwpub/py_move_trajectory.py\n'}
+[11.420144] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/package_run_dependencies/hwpub\n'}
+[11.432961] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/parent_prefix_path/hwpub\n'}
+[11.444586] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/ament_prefix_path.sh\n'}
+[11.454781] (-) TimerEvent: {}
+[11.459107] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/ament_prefix_path.dsv\n'}
+[11.483006] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/path.sh\n'}
+[11.500861] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/environment/path.dsv\n'}
+[11.531014] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.bash\n'}
+[11.548972] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.sh\n'}
+[11.554965] (-) TimerEvent: {}
+[11.565547] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.zsh\n'}
+[11.584645] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/local_setup.dsv\n'}
+[11.596833] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/package.dsv\n'}
+[11.609828] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/ament_index/resource_index/packages/hwpub\n'}
+[11.626392] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake-extras.cmake\n'}
+[11.638791] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.649722] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.655256] (-) TimerEvent: {}
+[11.667360] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.685056] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.703947] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.720948] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.738784] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpubConfig.cmake\n'}
+[11.755477] (-) TimerEvent: {}
+[11.756837] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpubConfig-version.cmake\n'}
+[11.771949] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/package.xml\n'}
+[11.782313] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_generator_c.so\n'}
+[11.782750] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_generator_c.so" to ""\n'}
+[11.787236] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so\n'}
+[11.787410] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.787448] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.788779] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.789058] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so\n'}
+[11.790105] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.790387] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so\n'}
+[11.791398] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so" to ""\n'}
+[11.791503] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so\n'}
+[11.792739] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.792968] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so\n'}
+[11.793959] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so" to ""\n'}
+[11.855649] (-) TimerEvent: {}
+[11.862926] (hwpub) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub'...\n"}
+[11.863117] (hwpub) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py'...\n"}
+[11.863254] (hwpub) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg'...\n"}
+[11.863320] (hwpub) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py'...\n"}
+[11.863376] (hwpub) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py'...\n"}
+[11.863428] (hwpub) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv'...\n"}
+[11.863480] (hwpub) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py'...\n"}
+[11.863544] (hwpub) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py'...\n"}
+[11.869871] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_generator_py.so\n'}
+[11.870218] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/hwpub/lib/libhwpub__rosidl_generator_py.so" to ""\n'}
+[11.870398] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport.cmake\n'}
+[11.870600] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.870920] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.870966] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.871008] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cppExport.cmake\n'}
+[11.871046] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.871204] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.871461] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.871570] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.871674] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport.cmake\n'}
+[11.871778] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.871964] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.872288] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.872404] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport.cmake\n'}
+[11.872474] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.872682] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport.cmake\n'}
+[11.872926] (hwpub) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.877533] (hwpub) CommandEnded: {'returncode': 0}
+[11.929060] (hwpub) JobEnded: {'identifier': 'hwpub', 'rc': 0}
+[11.931256] (-) EventReactorShutdown: {}

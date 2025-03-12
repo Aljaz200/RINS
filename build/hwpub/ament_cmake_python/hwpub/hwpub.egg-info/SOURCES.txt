@@ -1,0 +1,10 @@
+setup.py
+hwpub/__init__.py
+hwpub.egg-info/PKG-INFO
+hwpub.egg-info/SOURCES.txt
+hwpub.egg-info/dependency_links.txt
+hwpub.egg-info/top_level.txt
+hwpub/msg/__init__.py
+hwpub/msg/_hwmsg.py
+hwpub/srv/__init__.py
+hwpub/srv/_customserv.py

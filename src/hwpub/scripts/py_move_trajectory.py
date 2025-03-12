@@ -9,7 +9,8 @@ from hwpub.srv import Customserv
 
 mynode = None
 
-def Movetriangle(g):
+# Move in a Triangle
+def MoveTriangle(g):
     rclpy.init(args=args)
     node = rclpy.create_node("py_move_turtle_triangle")
     
@@ -17,12 +18,12 @@ def Movetriangle(g):
     
     message = Twist()
     message_num = 0.0
-    message.linear.x = 1.0/2
-    message.linear.y = math.sqrt(3)/2
+    message.linear.x = 1.0 / 2
+    message.linear.y = math.sqrt(3) / 2
     first = True
     counter = 0
     while rclpy.ok():
-        if(first):
+        if first:
             first = False
             time.sleep(1)
         else:
@@ -36,7 +37,7 @@ def Movetriangle(g):
         
             slp = 1
             if g / 3.0 - message_num == 0:
-                #change direction
+                # change direction
                 if message.linear.y > 0.0:
                     message.linear.y *= -1
                 elif message.linear.x > 0.0:
@@ -47,7 +48,7 @@ def Movetriangle(g):
             elif g / 3.0 - message_num > 0.0 and g / 3.0 - message_num < 1.0:
                 slp = g / 3 - message_num
                 if (g / 3) >= 1.0:
-                    message_num = (g / 3.0) -1
+                    message_num = (g / 3.0) - 1
                 else:
                     message_num = (g / 3.0)
 
@@ -56,26 +57,84 @@ def Movetriangle(g):
     node.destroy_node()
     rclpy.shutdown()
 
+# Move in a Circle
+def MoveCircle(duration):
+    rclpy.init(args=args)
+    node = rclpy.create_node("py_move_turtle_circle")
+    
+    publisher = node.create_publisher(Twist, "/turtle1/cmd_vel", 10)
+    
+    message = Twist()
+    message.linear.x = 2.0  # Move forward
+    message.angular.z = 1.0  # Rotate in a circle
+    start_time = time.time()
+
+    while rclpy.ok():
+        if time.time() - start_time > duration:
+            break
+        publisher.publish(message)
+        time.sleep(0.1)
+
+    message.linear.x = 0.0
+    message.angular.z = 0.0
+    publisher.publish(message)
+    
+    node.destroy_node()
+    rclpy.shutdown()
+
+# Move Randomly
+def MoveRandom(duration):
+    rclpy.init(args=args)
+    node = rclpy.create_node("py_move_turtle_random")
+    
+    publisher = node.create_publisher(Twist, "/turtle1/cmd_vel", 10)
+    
+    message = Twist()
+    start_time = time.time()
+
+    while rclpy.ok():
+        if time.time() - start_time > duration:
+            break
+
+        message.linear.x = random.uniform(-2.0, 2.0)  # Random forward/backward speed
+        message.angular.z = random.uniform(-2.0, 2.0)  # Random rotation speed
+        
+        publisher.publish(message)
+        time.sleep(0.1)
+
+    message.linear.x = 0.0
+    message.angular.z = 0.0
+    publisher.publish(message)
+    
+    node.destroy_node()
+    rclpy.shutdown()
+
+
 def draw_trajectory_callback(request, response):
     global mynode
     if request.s == "Rectangle":
-
+        
+        pass
     elif request.s == "Triangle":
         MoveTriangle(request.time)
     elif request.s == "Circle":
-
+        MoveCircle(request.time)
+    elif request.s == "Random":
+        MoveRandom(request.time)
     else:
+        response.st = "Invalid request"
 
-    response.st = request.s
-    mynode.get_logger().info('Incoming requestna: ' + response.st)
+    response.st = request.s  
+    mynode.get_logger().info('Incoming request: ' + response.st)
     return response
+
 
 def main(args=None):
     global mynode
 
     rclpy.init(args=args)
 
-    mynode = rclpy.create_node("py_simple_server_node") 
+    mynode = rclpy.create_node("py_move_trajectory") 
     server = mynode.create_service(Customserv, 'customserv', draw_trajectory_callback)
 
     mynode.get_logger().info("Server is ready!")

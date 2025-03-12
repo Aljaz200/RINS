@@ -1,0 +1,6 @@
+Invoking command in '/home/osboxes/ros2_ws/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/osboxes/ros2_ws/src/hwpub -DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/hwpub
+Invoked command in '/home/osboxes/ros2_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/osboxes/ros2_ws/src/hwpub -DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/hwpub
+Invoking command in '/home/osboxes/ros2_ws/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/hwpub -- -j4 -l4
+Invoked command in '/home/osboxes/ros2_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/hwpub -- -j4 -l4
+Invoking command in '/home/osboxes/ros2_ws/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/hwpub
+Invoked command in '/home/osboxes/ros2_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/hwpub
