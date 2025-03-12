@@ -1,2 +1,1 @@
-
-int64 sum
+/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Response.msg

@@ -1,0 +1,861 @@
+[0.000000] (-) TimerEvent: {}
+[0.001120] (dis_tutorial1) JobQueued: {'identifier': 'dis_tutorial1', 'dependencies': OrderedDict()}
+[0.001191] (dis_tutorial2) JobQueued: {'identifier': 'dis_tutorial2', 'dependencies': OrderedDict()}
+[0.001233] (dis_tutorial1) JobStarted: {'identifier': 'dis_tutorial1'}
+[0.016258] (dis_tutorial2) JobStarted: {'identifier': 'dis_tutorial2'}
+[0.030183] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'cmake'}
+[0.031757] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '/home/osboxes/ros2_ws/src/dis_tutorial1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/dis_tutorial1'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osboxes/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bddb8b64_119f_4ce8_b99f_0f015b1efed5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osboxes/ros2_ws/build/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial1:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble')]), 'shell': False}
+[0.094938] (-) TimerEvent: {}
+[0.131288] (dis_tutorial1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.195080] (-) TimerEvent: {}
+[0.225952] (dis_tutorial1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.237222] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.295256] (-) TimerEvent: {}
+[0.385259] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.395487] (-) TimerEvent: {}
+[0.413669] (dis_tutorial1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.414058] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.415401] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.424605] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.495828] (-) TimerEvent: {}
+[0.596297] (-) TimerEvent: {}
+[0.663992] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.671646] (dis_tutorial1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.671949] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.672439] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.676147] (dis_tutorial1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.696415] (-) TimerEvent: {}
+[0.796758] (-) TimerEvent: {}
+[0.875239] (dis_tutorial1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.896906] (-) TimerEvent: {}
+[0.960095] (dis_tutorial1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.982197] (dis_tutorial1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.997159] (-) TimerEvent: {}
+[1.035579] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.048879] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.049207] (dis_tutorial2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/osboxes/ros2_ws/build/dis_tutorial2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'osboxes', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/osboxes/ros2_ws/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/osboxes', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1764', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/osboxes/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'osboxes', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'osboxes', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bddb8b64_119f_4ce8_b99f_0f015b1efed5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R6CE32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/osboxes/ros2_ws/install/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial1:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/osboxes/ros2_ws/build/dis_tutorial2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/osboxes/ros2_ws/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:/home/osboxes/ros2_ws/build/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/osboxes/ros2_ws/install/dis_tutorial1'}, 'shell': False}
+[1.056584] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.079995] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.097284] (-) TimerEvent: {}
+[1.106001] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.156720] (dis_tutorial1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.159895] (dis_tutorial1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.197462] (-) TimerEvent: {}
+[1.297812] (-) TimerEvent: {}
+[1.306982] (dis_tutorial1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.345025] (dis_tutorial1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.371927] (dis_tutorial2) StdoutLine: {'line': b'running develop\n'}
+[1.390910] (dis_tutorial1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.397967] (-) TimerEvent: {}
+[1.400819] (dis_tutorial1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.498123] (-) TimerEvent: {}
+[1.502762] (dis_tutorial1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.503159] (dis_tutorial1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.598333] (-) TimerEvent: {}
+[1.636112] (dis_tutorial1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.637629] (dis_tutorial1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.649059] (dis_tutorial2) StdoutLine: {'line': b'running egg_info\n'}
+[1.649304] (dis_tutorial2) StdoutLine: {'line': b'creating dis_tutorial2.egg-info\n'}
+[1.649508] (dis_tutorial2) StdoutLine: {'line': b'writing dis_tutorial2.egg-info/PKG-INFO\n'}
+[1.649715] (dis_tutorial2) StdoutLine: {'line': b'writing dependency_links to dis_tutorial2.egg-info/dependency_links.txt\n'}
+[1.649915] (dis_tutorial2) StdoutLine: {'line': b'writing entry points to dis_tutorial2.egg-info/entry_points.txt\n'}
+[1.650107] (dis_tutorial2) StdoutLine: {'line': b'writing requirements to dis_tutorial2.egg-info/requires.txt\n'}
+[1.650269] (dis_tutorial2) StdoutLine: {'line': b'writing top-level names to dis_tutorial2.egg-info/top_level.txt\n'}
+[1.650464] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[1.652859] (dis_tutorial2) StdoutLine: {'line': b"reading manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[1.653771] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[1.657027] (dis_tutorial2) StdoutLine: {'line': b'running build_ext\n'}
+[1.657395] (dis_tutorial2) StdoutLine: {'line': b'Creating /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis-tutorial2.egg-link (link to .)\n'}
+[1.659124] (dis_tutorial2) StdoutLine: {'line': b'Installing achtung_die_turtle script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.659459] (dis_tutorial2) StdoutLine: {'line': b'Installing go_to_position script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.659708] (dis_tutorial2) StdoutLine: {'line': b'Installing intersection script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.659948] (dis_tutorial2) StdoutLine: {'line': b'Installing random_velocity_publisher script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.660370] (dis_tutorial2) StdoutLine: {'line': b'Installing turtle_move script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.660915] (dis_tutorial2) StdoutLine: {'line': b'\n'}
+[1.661101] (dis_tutorial2) StdoutLine: {'line': b'Installed /home/osboxes/ros2_ws/build/dis_tutorial2\n'}
+[1.661289] (dis_tutorial2) StdoutLine: {'line': b'running symlink_data\n'}
+[1.661403] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index\n'}
+[1.661474] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index\n'}
+[1.661540] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index/packages\n'}
+[1.661626] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/resource/dis_tutorial2 -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index/packages\n'}
+[1.661879] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/package.xml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2\n'}
+[1.662216] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.662502] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/example_launch.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.662899] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/example_launch.xml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.663092] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/go_to_position_launch.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.663271] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/example_launch.yaml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.663449] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/srv\n'}
+[1.663626] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/srv/MoveTurtle.srv -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/srv\n'}
+[1.696578] (dis_tutorial2) CommandEnded: {'returncode': 0}
+[1.698711] (-) TimerEvent: {}
+[1.703446] (dis_tutorial1) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.705417] (dis_tutorial1) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.716262] (dis_tutorial2) JobEnded: {'identifier': 'dis_tutorial2', 'rc': 0}
+[1.722825] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.798828] (-) TimerEvent: {}
+[1.899297] (-) TimerEvent: {}
+[1.999874] (-) TimerEvent: {}
+[2.100725] (-) TimerEvent: {}
+[2.201342] (-) TimerEvent: {}
+[2.205376] (dis_tutorial1) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.301441] (-) TimerEvent: {}
+[2.401778] (-) TimerEvent: {}
+[2.502305] (-) TimerEvent: {}
+[2.602975] (-) TimerEvent: {}
+[2.703753] (-) TimerEvent: {}
+[2.763051] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.804135] (-) TimerEvent: {}
+[2.904918] (-) TimerEvent: {}
+[3.005385] (-) TimerEvent: {}
+[3.068171] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.105611] (-) TimerEvent: {}
+[3.107010] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.109436] (dis_tutorial1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.157849] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.158018] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.158077] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.158116] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.189654] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.205854] (-) TimerEvent: {}
+[3.306671] (-) TimerEvent: {}
+[3.336190] (dis_tutorial1) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.407056] (-) TimerEvent: {}
+[3.481710] (dis_tutorial1) StdoutLine: {'line': b'-- Generating done\n'}
+[3.507443] (-) TimerEvent: {}
+[3.515877] (dis_tutorial1) StdoutLine: {'line': b'-- Build files have been written to: /home/osboxes/ros2_ws/build/dis_tutorial1\n'}
+[3.540992] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[3.543789] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'build'}
+[3.543809] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osboxes/ros2_ws/build/dis_tutorial1', '--', '-j4', '-l4'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osboxes/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bddb8b64_119f_4ce8_b99f_0f015b1efed5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osboxes/ros2_ws/build/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial1:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble')]), 'shell': False}
+[3.607601] (-) TimerEvent: {}
+[3.632329] (dis_tutorial1) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.671033] (dis_tutorial1) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_dis_tutorial1\n'}
+[3.676522] (dis_tutorial1) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[3.695504] (dis_tutorial1) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.707763] (-) TimerEvent: {}
+[3.716710] (dis_tutorial1) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[3.807893] (-) TimerEvent: {}
+[3.908760] (-) TimerEvent: {}
+[4.009375] (-) TimerEvent: {}
+[4.109877] (-) TimerEvent: {}
+[4.210477] (-) TimerEvent: {}
+[4.310952] (-) TimerEvent: {}
+[4.411426] (-) TimerEvent: {}
+[4.511981] (-) TimerEvent: {}
+[4.612546] (-) TimerEvent: {}
+[4.712928] (-) TimerEvent: {}
+[4.816156] (-) TimerEvent: {}
+[4.924267] (-) TimerEvent: {}
+[5.028222] (-) TimerEvent: {}
+[5.136354] (-) TimerEvent: {}
+[5.237014] (-) TimerEvent: {}
+[5.288170] (dis_tutorial1) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/msg/detail/custom_message__functions.c.o\x1b[0m\n'}
+[5.337363] (-) TimerEvent: {}
+[5.389658] (dis_tutorial1) StdoutLine: {'line': b'[  7%] Built target dis_tutorial1__cpp\n'}
+[5.437490] (-) TimerEvent: {}
+[5.457937] (dis_tutorial1) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[5.458212] (dis_tutorial1) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/simple_set_bool_server_node.dir/src/simple_set_bool_server_node.cpp.o\x1b[0m\n'}
+[5.537618] (-) TimerEvent: {}
+[5.638119] (-) TimerEvent: {}
+[5.639431] (dis_tutorial1) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/msg/detail/custom_message2__functions.c.o\x1b[0m\n'}
+[5.738268] (-) TimerEvent: {}
+[5.838968] (-) TimerEvent: {}
+[5.885131] (dis_tutorial1) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/srv/detail/sum_service__functions.c.o\x1b[0m\n'}
+[5.939185] (-) TimerEvent: {}
+[6.039924] (-) TimerEvent: {}
+[6.140460] (-) TimerEvent: {}
+[6.157309] (dis_tutorial1) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libdis_tutorial1__rosidl_generator_c.so\x1b[0m\n'}
+[6.240632] (-) TimerEvent: {}
+[6.272957] (dis_tutorial1) StdoutLine: {'line': b'[ 14%] Built target dis_tutorial1__rosidl_generator_c\n'}
+[6.319806] (dis_tutorial1) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.340758] (-) TimerEvent: {}
+[6.441275] (-) TimerEvent: {}
+[6.542038] (-) TimerEvent: {}
+[6.642670] (-) TimerEvent: {}
+[6.743120] (-) TimerEvent: {}
+[6.843756] (-) TimerEvent: {}
+[6.944309] (-) TimerEvent: {}
+[7.044799] (-) TimerEvent: {}
+[7.146884] (-) TimerEvent: {}
+[7.248224] (-) TimerEvent: {}
+[7.349094] (-) TimerEvent: {}
+[7.450090] (-) TimerEvent: {}
+[7.564189] (-) TimerEvent: {}
+[7.664784] (-) TimerEvent: {}
+[7.765559] (-) TimerEvent: {}
+[7.840481] (dis_tutorial1) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o\x1b[0m\n'}
+[7.865714] (-) TimerEvent: {}
+[7.966231] (-) TimerEvent: {}
+[8.066826] (-) TimerEvent: {}
+[8.167566] (-) TimerEvent: {}
+[8.268610] (-) TimerEvent: {}
+[8.369407] (-) TimerEvent: {}
+[8.469883] (-) TimerEvent: {}
+[8.570303] (-) TimerEvent: {}
+[8.671041] (-) TimerEvent: {}
+[8.771673] (-) TimerEvent: {}
+[8.813164] (dis_tutorial1) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[8.871804] (-) TimerEvent: {}
+[8.972248] (-) TimerEvent: {}
+[9.072637] (-) TimerEvent: {}
+[9.173090] (-) TimerEvent: {}
+[9.273676] (-) TimerEvent: {}
+[9.374257] (-) TimerEvent: {}
+[9.395137] (dis_tutorial1) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[9.474428] (-) TimerEvent: {}
+[9.574999] (-) TimerEvent: {}
+[9.675513] (-) TimerEvent: {}
+[9.776208] (-) TimerEvent: {}
+[9.876849] (-) TimerEvent: {}
+[9.977361] (-) TimerEvent: {}
+[10.077982] (-) TimerEvent: {}
+[10.178463] (-) TimerEvent: {}
+[10.202876] (dis_tutorial1) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o\x1b[0m\n'}
+[10.278631] (-) TimerEvent: {}
+[10.379170] (-) TimerEvent: {}
+[10.479872] (-) TimerEvent: {}
+[10.601547] (-) TimerEvent: {}
+[10.702149] (-) TimerEvent: {}
+[10.802725] (-) TimerEvent: {}
+[10.903263] (-) TimerEvent: {}
+[11.003658] (-) TimerEvent: {}
+[11.104389] (-) TimerEvent: {}
+[11.205443] (-) TimerEvent: {}
+[11.302746] (dis_tutorial1) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.305547] (-) TimerEvent: {}
+[11.406056] (-) TimerEvent: {}
+[11.506667] (-) TimerEvent: {}
+[11.511583] (dis_tutorial1) StdoutLine: {'line': b'[ 23%] Built target dis_tutorial1__rosidl_typesupport_cpp\n'}
+[11.583975] (dis_tutorial1) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.606827] (-) TimerEvent: {}
+[11.707392] (-) TimerEvent: {}
+[11.808179] (-) TimerEvent: {}
+[11.908728] (-) TimerEvent: {}
+[12.009325] (-) TimerEvent: {}
+[12.109758] (-) TimerEvent: {}
+[12.210363] (-) TimerEvent: {}
+[12.311162] (-) TimerEvent: {}
+[12.411617] (-) TimerEvent: {}
+[12.512192] (-) TimerEvent: {}
+[12.612757] (-) TimerEvent: {}
+[12.720287] (-) TimerEvent: {}
+[12.821014] (-) TimerEvent: {}
+[12.921639] (-) TimerEvent: {}
+[13.004612] (dis_tutorial1) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/msg/detail/custom_message__type_support_c.cpp.o\x1b[0m\n'}
+[13.021788] (-) TimerEvent: {}
+[13.122289] (-) TimerEvent: {}
+[13.222856] (-) TimerEvent: {}
+[13.323320] (-) TimerEvent: {}
+[13.423896] (-) TimerEvent: {}
+[13.524664] (-) TimerEvent: {}
+[13.625517] (-) TimerEvent: {}
+[13.725900] (-) TimerEvent: {}
+[13.826490] (-) TimerEvent: {}
+[13.927002] (-) TimerEvent: {}
+[14.027619] (-) TimerEvent: {}
+[14.128328] (-) TimerEvent: {}
+[14.229145] (-) TimerEvent: {}
+[14.329886] (-) TimerEvent: {}
+[14.382635] (dis_tutorial1) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[14.430037] (-) TimerEvent: {}
+[14.530528] (-) TimerEvent: {}
+[14.631223] (-) TimerEvent: {}
+[14.731712] (-) TimerEvent: {}
+[14.832455] (-) TimerEvent: {}
+[14.933105] (-) TimerEvent: {}
+[15.033704] (-) TimerEvent: {}
+[15.099931] (dis_tutorial1) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX executable simple_set_bool_server_node\x1b[0m\n'}
+[15.133903] (-) TimerEvent: {}
+[15.234399] (-) TimerEvent: {}
+[15.290951] (dis_tutorial1) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/msg/detail/custom_message2__type_support_c.cpp.o\x1b[0m\n'}
+[15.334534] (-) TimerEvent: {}
+[15.377375] (dis_tutorial1) StdoutLine: {'line': b'[ 31%] Built target simple_set_bool_server_node\n'}
+[15.434675] (-) TimerEvent: {}
+[15.442386] (dis_tutorial1) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.536784] (-) TimerEvent: {}
+[15.637567] (-) TimerEvent: {}
+[15.738107] (-) TimerEvent: {}
+[15.838558] (-) TimerEvent: {}
+[15.938985] (-) TimerEvent: {}
+[16.039640] (-) TimerEvent: {}
+[16.140550] (-) TimerEvent: {}
+[16.231763] (dis_tutorial1) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[16.240673] (-) TimerEvent: {}
+[16.341183] (-) TimerEvent: {}
+[16.441632] (-) TimerEvent: {}
+[16.442114] (dis_tutorial1) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/srv/detail/sum_service__type_support_c.cpp.o\x1b[0m\n'}
+[16.541877] (-) TimerEvent: {}
+[16.642777] (-) TimerEvent: {}
+[16.731607] (dis_tutorial1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o\x1b[0m\n'}
+[16.742896] (-) TimerEvent: {}
+[16.746255] (dis_tutorial1) StdoutLine: {'line': b'[ 37%] Built target simple_publisher\n'}
+[16.809959] (dis_tutorial1) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[16.843016] (-) TimerEvent: {}
+[16.943392] (-) TimerEvent: {}
+[17.043891] (-) TimerEvent: {}
+[17.144726] (-) TimerEvent: {}
+[17.245226] (-) TimerEvent: {}
+[17.345738] (-) TimerEvent: {}
+[17.397546] (dis_tutorial1) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.445888] (-) TimerEvent: {}
+[17.546355] (-) TimerEvent: {}
+[17.582261] (dis_tutorial1) StdoutLine: {'line': b'[ 40%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c\n'}
+[17.614905] (dis_tutorial1) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[17.623110] (dis_tutorial1) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.646483] (-) TimerEvent: {}
+[17.746877] (-) TimerEvent: {}
+[17.847340] (-) TimerEvent: {}
+[17.947782] (-) TimerEvent: {}
+[18.048178] (-) TimerEvent: {}
+[18.148729] (-) TimerEvent: {}
+[18.226214] (dis_tutorial1) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/msg/detail/custom_message__type_support.c.o\x1b[0m\n'}
+[18.248960] (-) TimerEvent: {}
+[18.352164] (-) TimerEvent: {}
+[18.364311] (dis_tutorial1) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[18.385380] (dis_tutorial1) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/msg/detail/dds_fastrtps/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[18.443408] (dis_tutorial1) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/msg/detail/custom_message2__type_support.c.o\x1b[0m\n'}
+[18.452288] (-) TimerEvent: {}
+[18.457614] (dis_tutorial1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/msg/custom_message__type_support.cpp.o\x1b[0m\n'}
+[18.525339] (dis_tutorial1) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/srv/detail/sum_service__type_support.c.o\x1b[0m\n'}
+[18.550997] (dis_tutorial1) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[18.552405] (-) TimerEvent: {}
+[18.614701] (dis_tutorial1) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libdis_tutorial1__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.652622] (-) TimerEvent: {}
+[18.674872] (dis_tutorial1) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/msg/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[18.752879] (-) TimerEvent: {}
+[18.816226] (dis_tutorial1) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/srv/sum_service__type_support.cpp.o\x1b[0m\n'}
+[18.852995] (-) TimerEvent: {}
+[18.853682] (dis_tutorial1) StdoutLine: {'line': b'[ 58%] Built target dis_tutorial1__rosidl_typesupport_introspection_c\n'}
+[18.926230] (dis_tutorial1) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.942388] (dis_tutorial1) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.953119] (-) TimerEvent: {}
+[19.053759] (-) TimerEvent: {}
+[19.081376] (dis_tutorial1) StdoutLine: {'line': b'[ 61%] Built target dis_tutorial1__rosidl_typesupport_c\n'}
+[19.153849] (-) TimerEvent: {}
+[19.254491] (-) TimerEvent: {}
+[19.355056] (-) TimerEvent: {}
+[19.455594] (-) TimerEvent: {}
+[19.467346] (dis_tutorial1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/srv/detail/dds_fastrtps/sum_service__type_support.cpp.o\x1b[0m\n'}
+[19.555712] (-) TimerEvent: {}
+[19.656254] (-) TimerEvent: {}
+[19.684120] (dis_tutorial1) StdoutLine: {'line': b'running egg_info\n'}
+[19.685024] (dis_tutorial1) StdoutLine: {'line': b'creating dis_tutorial1.egg-info\n'}
+[19.685383] (dis_tutorial1) StdoutLine: {'line': b'writing dis_tutorial1.egg-info/PKG-INFO\n'}
+[19.685698] (dis_tutorial1) StdoutLine: {'line': b'writing dependency_links to dis_tutorial1.egg-info/dependency_links.txt\n'}
+[19.687160] (dis_tutorial1) StdoutLine: {'line': b'writing top-level names to dis_tutorial1.egg-info/top_level.txt\n'}
+[19.687502] (dis_tutorial1) StdoutLine: {'line': b"writing manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[19.689608] (dis_tutorial1) StdoutLine: {'line': b"reading manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[19.693332] (dis_tutorial1) StdoutLine: {'line': b"writing manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[19.756604] (-) TimerEvent: {}
+[19.759607] (dis_tutorial1) StdoutLine: {'line': b'[ 62%] Built target ament_cmake_python_build_dis_tutorial1_egg\n'}
+[19.845960] (dis_tutorial1) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/simple_client_node.dir/src/simple_client_node.cpp.o\x1b[0m\n'}
+[19.856788] (-) TimerEvent: {}
+[19.957465] (-) TimerEvent: {}
+[20.006667] (dis_tutorial1) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message__type_support.cpp.o\x1b[0m\n'}
+[20.057579] (-) TimerEvent: {}
+[20.158103] (-) TimerEvent: {}
+[20.259106] (-) TimerEvent: {}
+[20.359855] (-) TimerEvent: {}
+[20.460781] (-) TimerEvent: {}
+[20.561556] (-) TimerEvent: {}
+[20.662492] (-) TimerEvent: {}
+[20.717399] (dis_tutorial1) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.762714] (-) TimerEvent: {}
+[20.863383] (-) TimerEvent: {}
+[20.963936] (-) TimerEvent: {}
+[21.064697] (-) TimerEvent: {}
+[21.077341] (dis_tutorial1) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[21.081527] (dis_tutorial1) StdoutLine: {'line': b'[ 68%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_cpp\n'}
+[21.164857] (-) TimerEvent: {}
+[21.252345] (dis_tutorial1) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/simple_server_node.dir/src/simple_server_node.cpp.o\x1b[0m\n'}
+[21.265001] (-) TimerEvent: {}
+[21.365477] (-) TimerEvent: {}
+[21.465802] (-) TimerEvent: {}
+[21.566152] (-) TimerEvent: {}
+[21.666539] (-) TimerEvent: {}
+[21.767080] (-) TimerEvent: {}
+[21.819328] (dis_tutorial1) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[21.867218] (-) TimerEvent: {}
+[21.967675] (-) TimerEvent: {}
+[22.068269] (-) TimerEvent: {}
+[22.168702] (-) TimerEvent: {}
+[22.269139] (-) TimerEvent: {}
+[22.369736] (-) TimerEvent: {}
+[22.470227] (-) TimerEvent: {}
+[22.570653] (-) TimerEvent: {}
+[22.671364] (-) TimerEvent: {}
+[22.771707] (-) TimerEvent: {}
+[22.872252] (-) TimerEvent: {}
+[22.926460] (dis_tutorial1) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/sum_service__type_support.cpp.o\x1b[0m\n'}
+[22.972433] (-) TimerEvent: {}
+[23.073086] (-) TimerEvent: {}
+[23.173551] (-) TimerEvent: {}
+[23.274134] (-) TimerEvent: {}
+[23.374632] (-) TimerEvent: {}
+[23.475113] (-) TimerEvent: {}
+[23.575590] (-) TimerEvent: {}
+[23.676232] (-) TimerEvent: {}
+[23.777098] (-) TimerEvent: {}
+[23.877693] (-) TimerEvent: {}
+[23.978422] (-) TimerEvent: {}
+[24.079095] (-) TimerEvent: {}
+[24.179494] (-) TimerEvent: {}
+[24.197859] (dis_tutorial1) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[24.279720] (-) TimerEvent: {}
+[24.380551] (-) TimerEvent: {}
+[24.481135] (-) TimerEvent: {}
+[24.532818] (dis_tutorial1) StdoutLine: {'line': b'[ 74%] Built target dis_tutorial1__rosidl_typesupport_introspection_cpp\n'}
+[24.581333] (-) TimerEvent: {}
+[24.617524] (dis_tutorial1) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/complete_node.dir/src/complete_node.cpp.o\x1b[0m\n'}
+[24.681471] (-) TimerEvent: {}
+[24.782034] (-) TimerEvent: {}
+[24.882856] (-) TimerEvent: {}
+[24.979757] (dis_tutorial1) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[24.983085] (-) TimerEvent: {}
+[25.084360] (-) TimerEvent: {}
+[25.185014] (-) TimerEvent: {}
+[25.285649] (-) TimerEvent: {}
+[25.386105] (-) TimerEvent: {}
+[25.486566] (-) TimerEvent: {}
+[25.587032] (-) TimerEvent: {}
+[25.687962] (-) TimerEvent: {}
+[25.788652] (-) TimerEvent: {}
+[25.889256] (-) TimerEvent: {}
+[25.990118] (-) TimerEvent: {}
+[26.090911] (-) TimerEvent: {}
+[26.191781] (-) TimerEvent: {}
+[26.206105] (dis_tutorial1) StdoutLine: {'line': b'[ 77%] Built target simple_subscriber\n'}
+[26.291904] (-) TimerEvent: {}
+[26.372722] (dis_tutorial1) StdoutLine: {'line': b'[ 77%] Built target dis_tutorial1\n'}
+[26.392131] (-) TimerEvent: {}
+[26.492950] (-) TimerEvent: {}
+[26.562986] (dis_tutorial1) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[26.593069] (-) TimerEvent: {}
+[26.693608] (-) TimerEvent: {}
+[26.794378] (-) TimerEvent: {}
+[26.894991] (-) TimerEvent: {}
+[26.995593] (-) TimerEvent: {}
+[27.096195] (-) TimerEvent: {}
+[27.196822] (-) TimerEvent: {}
+[27.297391] (-) TimerEvent: {}
+[27.397917] (-) TimerEvent: {}
+[27.498729] (-) TimerEvent: {}
+[27.599243] (-) TimerEvent: {}
+[27.699895] (-) TimerEvent: {}
+[27.800748] (-) TimerEvent: {}
+[27.901531] (-) TimerEvent: {}
+[28.002305] (-) TimerEvent: {}
+[28.102691] (-) TimerEvent: {}
+[28.203326] (-) TimerEvent: {}
+[28.303923] (-) TimerEvent: {}
+[28.404430] (-) TimerEvent: {}
+[28.505004] (-) TimerEvent: {}
+[28.605536] (-) TimerEvent: {}
+[28.706040] (-) TimerEvent: {}
+[28.806754] (-) TimerEvent: {}
+[28.907382] (-) TimerEvent: {}
+[29.007854] (-) TimerEvent: {}
+[29.011365] (dis_tutorial1) StdoutLine: {'line': b'[ 79%] Built target dis_tutorial1__py\n'}
+[29.108548] (-) TimerEvent: {}
+[29.209378] (-) TimerEvent: {}
+[29.240463] (dis_tutorial1) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/msg/_custom_message_s.c.o\x1b[0m\n'}
+[29.309512] (-) TimerEvent: {}
+[29.390028] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable simple_client_node\x1b[0m\n'}
+[29.409702] (-) TimerEvent: {}
+[29.502552] (dis_tutorial1) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[29.509923] (-) TimerEvent: {}
+[29.610504] (-) TimerEvent: {}
+[29.711178] (-) TimerEvent: {}
+[29.786420] (dis_tutorial1) StdoutLine: {'line': b'[ 83%] Built target simple_client_node\n'}
+[29.811548] (-) TimerEvent: {}
+[29.831896] (dis_tutorial1) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/msg/_custom_message2_s.c.o\x1b[0m\n'}
+[29.911612] (-) TimerEvent: {}
+[29.955046] (dis_tutorial1) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/srv/_sum_service_s.c.o\x1b[0m\n'}
+[30.011819] (-) TimerEvent: {}
+[30.112318] (-) TimerEvent: {}
+[30.212921] (-) TimerEvent: {}
+[30.273204] (dis_tutorial1) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so\x1b[0m\n'}
+[30.313071] (-) TimerEvent: {}
+[30.381437] (dis_tutorial1) StdoutLine: {'line': b'[ 88%] Built target dis_tutorial1__rosidl_generator_py\n'}
+[30.413178] (-) TimerEvent: {}
+[30.416617] (dis_tutorial1) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[30.497180] (dis_tutorial1) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[30.499736] (dis_tutorial1) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable simple_server_node\x1b[0m\n'}
+[30.513326] (-) TimerEvent: {}
+[30.613793] (-) TimerEvent: {}
+[30.714283] (-) TimerEvent: {}
+[30.742273] (dis_tutorial1) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.752218] (dis_tutorial1) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.814424] (-) TimerEvent: {}
+[30.868007] (dis_tutorial1) StdoutLine: {'line': b'[ 95%] Built target dis_tutorial1__rosidl_typesupport_introspection_c__pyext\n'}
+[30.896867] (dis_tutorial1) StdoutLine: {'line': b'[ 95%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[30.908165] (dis_tutorial1) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[30.909636] (dis_tutorial1) StdoutLine: {'line': b'[ 97%] Built target simple_server_node\n'}
+[30.914716] (-) TimerEvent: {}
+[31.015275] (-) TimerEvent: {}
+[31.083724] (dis_tutorial1) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.115406] (-) TimerEvent: {}
+[31.128946] (dis_tutorial1) StdoutLine: {'line': b'[ 98%] Built target dis_tutorial1__rosidl_typesupport_c__pyext\n'}
+[31.215613] (-) TimerEvent: {}
+[31.316783] (-) TimerEvent: {}
+[31.417351] (-) TimerEvent: {}
+[31.518007] (-) TimerEvent: {}
+[31.618561] (-) TimerEvent: {}
+[31.719147] (-) TimerEvent: {}
+[31.819866] (-) TimerEvent: {}
+[31.920490] (-) TimerEvent: {}
+[32.021253] (-) TimerEvent: {}
+[32.121844] (-) TimerEvent: {}
+[32.222341] (-) TimerEvent: {}
+[32.322932] (-) TimerEvent: {}
+[32.423400] (-) TimerEvent: {}
+[32.524264] (-) TimerEvent: {}
+[32.624968] (-) TimerEvent: {}
+[32.725429] (-) TimerEvent: {}
+[32.825978] (-) TimerEvent: {}
+[32.926756] (-) TimerEvent: {}
+[33.027670] (-) TimerEvent: {}
+[33.128325] (-) TimerEvent: {}
+[33.229116] (-) TimerEvent: {}
+[33.329889] (-) TimerEvent: {}
+[33.430764] (-) TimerEvent: {}
+[33.531504] (-) TimerEvent: {}
+[33.632302] (-) TimerEvent: {}
+[33.732839] (-) TimerEvent: {}
+[33.833417] (-) TimerEvent: {}
+[33.934185] (-) TimerEvent: {}
+[34.035150] (-) TimerEvent: {}
+[34.135955] (-) TimerEvent: {}
+[34.236473] (-) TimerEvent: {}
+[34.337378] (-) TimerEvent: {}
+[34.438473] (-) TimerEvent: {}
+[34.539692] (-) TimerEvent: {}
+[34.640540] (-) TimerEvent: {}
+[34.741388] (-) TimerEvent: {}
+[34.842266] (-) TimerEvent: {}
+[34.942986] (-) TimerEvent: {}
+[35.043640] (-) TimerEvent: {}
+[35.144093] (-) TimerEvent: {}
+[35.244692] (-) TimerEvent: {}
+[35.345419] (-) TimerEvent: {}
+[35.446110] (-) TimerEvent: {}
+[35.546769] (-) TimerEvent: {}
+[35.647553] (-) TimerEvent: {}
+[35.748118] (-) TimerEvent: {}
+[35.848625] (-) TimerEvent: {}
+[35.949615] (-) TimerEvent: {}
+[36.050215] (-) TimerEvent: {}
+[36.150876] (-) TimerEvent: {}
+[36.251380] (-) TimerEvent: {}
+[36.352163] (-) TimerEvent: {}
+[36.452918] (-) TimerEvent: {}
+[36.553550] (-) TimerEvent: {}
+[36.654185] (-) TimerEvent: {}
+[36.754896] (-) TimerEvent: {}
+[36.855701] (-) TimerEvent: {}
+[36.956583] (-) TimerEvent: {}
+[37.057288] (-) TimerEvent: {}
+[37.158009] (-) TimerEvent: {}
+[37.258782] (-) TimerEvent: {}
+[37.361469] (-) TimerEvent: {}
+[37.461904] (-) TimerEvent: {}
+[37.562566] (-) TimerEvent: {}
+[37.663302] (-) TimerEvent: {}
+[37.764218] (-) TimerEvent: {}
+[37.864965] (-) TimerEvent: {}
+[37.965593] (-) TimerEvent: {}
+[38.066185] (-) TimerEvent: {}
+[38.166741] (-) TimerEvent: {}
+[38.267345] (-) TimerEvent: {}
+[38.367965] (-) TimerEvent: {}
+[38.468672] (-) TimerEvent: {}
+[38.569603] (-) TimerEvent: {}
+[38.670073] (-) TimerEvent: {}
+[38.770745] (-) TimerEvent: {}
+[38.871257] (-) TimerEvent: {}
+[38.971842] (-) TimerEvent: {}
+[39.072523] (-) TimerEvent: {}
+[39.173327] (-) TimerEvent: {}
+[39.273741] (-) TimerEvent: {}
+[39.374343] (-) TimerEvent: {}
+[39.475090] (-) TimerEvent: {}
+[39.575619] (-) TimerEvent: {}
+[39.676321] (-) TimerEvent: {}
+[39.777034] (-) TimerEvent: {}
+[39.877934] (-) TimerEvent: {}
+[39.978439] (-) TimerEvent: {}
+[40.079062] (-) TimerEvent: {}
+[40.179689] (-) TimerEvent: {}
+[40.280262] (-) TimerEvent: {}
+[40.380880] (-) TimerEvent: {}
+[40.481683] (-) TimerEvent: {}
+[40.582168] (-) TimerEvent: {}
+[40.682884] (-) TimerEvent: {}
+[40.783553] (-) TimerEvent: {}
+[40.884156] (-) TimerEvent: {}
+[40.984674] (-) TimerEvent: {}
+[41.085222] (-) TimerEvent: {}
+[41.185667] (-) TimerEvent: {}
+[41.286198] (-) TimerEvent: {}
+[41.387033] (-) TimerEvent: {}
+[41.487754] (-) TimerEvent: {}
+[41.588549] (-) TimerEvent: {}
+[41.689487] (-) TimerEvent: {}
+[41.790243] (-) TimerEvent: {}
+[41.890804] (-) TimerEvent: {}
+[41.991464] (-) TimerEvent: {}
+[42.091971] (-) TimerEvent: {}
+[42.192518] (-) TimerEvent: {}
+[42.292917] (-) TimerEvent: {}
+[42.393559] (-) TimerEvent: {}
+[42.494245] (-) TimerEvent: {}
+[42.594887] (-) TimerEvent: {}
+[42.695368] (-) TimerEvent: {}
+[42.795891] (-) TimerEvent: {}
+[42.896614] (-) TimerEvent: {}
+[42.997398] (-) TimerEvent: {}
+[43.097967] (-) TimerEvent: {}
+[43.198734] (-) TimerEvent: {}
+[43.299441] (-) TimerEvent: {}
+[43.399946] (-) TimerEvent: {}
+[43.500521] (-) TimerEvent: {}
+[43.601015] (-) TimerEvent: {}
+[43.701581] (-) TimerEvent: {}
+[43.802425] (-) TimerEvent: {}
+[43.902917] (-) TimerEvent: {}
+[44.003550] (-) TimerEvent: {}
+[44.104184] (-) TimerEvent: {}
+[44.204750] (-) TimerEvent: {}
+[44.305650] (-) TimerEvent: {}
+[44.406296] (-) TimerEvent: {}
+[44.507101] (-) TimerEvent: {}
+[44.607698] (-) TimerEvent: {}
+[44.708226] (-) TimerEvent: {}
+[44.808683] (-) TimerEvent: {}
+[44.909311] (-) TimerEvent: {}
+[45.009771] (-) TimerEvent: {}
+[45.110749] (-) TimerEvent: {}
+[45.211670] (-) TimerEvent: {}
+[45.291370] (dis_tutorial1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable complete_node\x1b[0m\n'}
+[45.311885] (-) TimerEvent: {}
+[45.412535] (-) TimerEvent: {}
+[45.513177] (-) TimerEvent: {}
+[45.613767] (-) TimerEvent: {}
+[45.714313] (-) TimerEvent: {}
+[45.814781] (-) TimerEvent: {}
+[45.915360] (-) TimerEvent: {}
+[46.015981] (-) TimerEvent: {}
+[46.020337] (dis_tutorial1) StdoutLine: {'line': b'[100%] Built target complete_node\n'}
+[46.056551] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[46.058848] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'install'}
+[46.084397] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/osboxes/ros2_ws/build/dis_tutorial1'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osboxes/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1764,unix/osboxes:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bddb8b64_119f_4ce8_b99f_0f015b1efed5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R6CE32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=85a6889d242cef32af02cfeb67d19a3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osboxes/ros2_ws/build/dis_tutorial2:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osboxes/ros2_ws/install/dis_tutorial1:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble')]), 'shell': False}
+[46.097705] (dis_tutorial1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.098469] (dis_tutorial1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[46.098839] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1\n'}
+[46.107897] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.h\n'}
+[46.116185] (-) TimerEvent: {}
+[46.133356] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.h\n'}
+[46.155822] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__functions.h\n'}
+[46.167354] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.h\n'}
+[46.179188] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.h\n'}
+[46.199669] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__functions.h\n'}
+[46.216363] (-) TimerEvent: {}
+[46.218155] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.h\n'}
+[46.231341] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.h\n'}
+[46.260012] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_c__visibility_control.h\n'}
+[46.273800] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.h\n'}
+[46.284229] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__functions.h\n'}
+[46.300619] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.h\n'}
+[46.316539] (-) TimerEvent: {}
+[46.322699] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.h\n'}
+[46.339829] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__functions.h\n'}
+[46.351967] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.h\n'}
+[46.360964] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.h\n'}
+[46.369268] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.h\n'}
+[46.380112] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.sh\n'}
+[46.419041] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.dsv\n'}
+[46.419394] (-) TimerEvent: {}
+[46.430107] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_c.h\n'}
+[46.444855] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_c.h\n'}
+[46.456453] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[46.469916] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[46.479571] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[46.489336] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.hpp\n'}
+[46.505215] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.hpp\n'}
+[46.519403] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__builder.hpp\n'}
+[46.519674] (-) TimerEvent: {}
+[46.529494] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.hpp\n'}
+[46.547178] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__traits.hpp\n'}
+[46.558519] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.hpp\n'}
+[46.570532] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__builder.hpp\n'}
+[46.581670] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.hpp\n'}
+[46.592659] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__traits.hpp\n'}
+[46.602372] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.hpp\n'}
+[46.613398] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[46.619856] (-) TimerEvent: {}
+[46.627166] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.hpp\n'}
+[46.638014] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__builder.hpp\n'}
+[46.653425] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.hpp\n'}
+[46.668830] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__traits.hpp\n'}
+[46.683179] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.hpp\n'}
+[46.702485] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__builder.hpp\n'}
+[46.720179] (-) TimerEvent: {}
+[46.729224] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.hpp\n'}
+[46.745071] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__traits.hpp\n'}
+[46.761567] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.hpp\n'}
+[46.774128] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.hpp\n'}
+[46.799401] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.815880] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.820345] (-) TimerEvent: {}
+[46.826598] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[46.837461] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.850005] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.870107] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_c.h\n'}
+[46.883590] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_c.h\n'}
+[46.901729] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[46.912954] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[46.920539] (-) TimerEvent: {}
+[46.921816] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_c.h\n'}
+[46.932476] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.941410] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.953167] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.963674] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.975135] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.sh\n'}
+[46.993621] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.dsv\n'}
+[47.018597] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[47.020754] (-) TimerEvent: {}
+[47.037143] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[47.059293] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[47.076188] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[47.086167] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py\n'}
+[47.099539] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c\n'}
+[47.113104] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[47.120907] (-) TimerEvent: {}
+[47.124424] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[47.142460] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.159491] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.171953] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.185887] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so\n'}
+[47.199094] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py\n'}
+[47.217674] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py\n'}
+[47.221124] (-) TimerEvent: {}
+[47.234551] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2.py\n'}
+[47.254900] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2_s.c\n'}
+[47.284501] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message_s.c\n'}
+[47.302657] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py\n'}
+[47.321034] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py\n'}
+[47.321168] (-) TimerEvent: {}
+[47.335939] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints_s.c\n'}
+[47.349629] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service.py\n'}
+[47.367887] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service_s.c\n'}
+[47.384393] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.385685] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.386814] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.387737] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.idl\n'}
+[47.406526] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.idl\n'}
+[47.421404] (-) TimerEvent: {}
+[47.422829] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.idl\n'}
+[47.447023] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.idl\n'}
+[47.469639] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.msg\n'}
+[47.487903] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.srv\n'}
+[47.517446] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Request.msg\n'}
+[47.521639] (-) TimerEvent: {}
+[47.544821] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Response.msg\n'}
+[47.568418] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.msg\n'}
+[47.593266] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.srv\n'}
+[47.612852] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Request.msg\n'}
+[47.621941] (-) TimerEvent: {}
+[47.643433] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Response.msg\n'}
+[47.672459] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_publisher\n'}
+[47.697130] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_subscriber\n'}
+[47.722168] (-) TimerEvent: {}
+[47.722639] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_client_node\n'}
+[47.736425] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_server_node\n'}
+[47.758170] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/complete_node\n'}
+[47.781985] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_set_bool_server_node\n'}
+[47.797362] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_publisher.py\n'}
+[47.810180] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_subscriber.py\n'}
+[47.822332] (-) TimerEvent: {}
+[47.825201] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_server_node.py\n'}
+[47.839450] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_client_node.py\n'}
+[47.854603] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_complete_node.py\n'}
+[47.874370] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/py_draw_square.py\n'}
+[47.891164] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/publisher_node.py\n'}
+[47.914392] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/subscriber_node.py\n'}
+[47.922587] (-) TimerEvent: {}
+[47.947998] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/service_node.py\n'}
+[47.973728] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/dis_tutorial1/client_node.py\n'}
+[47.992535] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1\n'}
+[48.006836] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1\n'}
+[48.020011] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.sh\n'}
+[48.022750] (-) TimerEvent: {}
+[48.041431] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.dsv\n'}
+[48.073112] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/path.sh\n'}
+[48.104783] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/environment/path.dsv\n'}
+[48.123007] (-) TimerEvent: {}
+[48.136205] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.bash\n'}
+[48.156655] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.sh\n'}
+[48.179074] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.zsh\n'}
+[48.208226] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.dsv\n'}
+[48.223287] (-) TimerEvent: {}
+[48.238745] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/package.dsv\n'}
+[48.258345] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/ament_index/resource_index/packages/dis_tutorial1\n'}
+[48.283113] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake-extras.cmake\n'}
+[48.307324] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[48.323370] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[48.323695] (-) TimerEvent: {}
+[48.339844] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[48.371804] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[48.397352] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[48.423994] (-) TimerEvent: {}
+[48.429855] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[48.457120] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config.cmake\n'}
+[48.486302] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config-version.cmake\n'}
+[48.508910] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/package.xml\n'}
+[48.524308] (-) TimerEvent: {}
+[48.534181] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so\n'}
+[48.534666] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so" to ""\n'}
+[48.534873] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so\n'}
+[48.535121] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[48.535362] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[48.535972] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[48.536146] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so\n'}
+[48.537475] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so" to ""\n'}
+[48.537792] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so\n'}
+[48.538802] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so" to ""\n'}
+[48.539126] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so\n'}
+[48.540706] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[48.541017] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so\n'}
+[48.542141] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so" to ""\n'}
+[48.619774] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1'...\n"}
+[48.620031] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py'...\n"}
+[48.620244] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg'...\n"}
+[48.620383] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py'...\n"}
+[48.620486] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py'...\n"}
+[48.620588] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2.py'...\n"}
+[48.620687] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv'...\n"}
+[48.620789] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py'...\n"}
+[48.620891] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py'...\n"}
+[48.621005] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/osboxes/ros2_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service.py'...\n"}
+[48.624460] (-) TimerEvent: {}
+[48.625125] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so\n'}
+[48.625843] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/osboxes/ros2_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so" to ""\n'}
+[48.626008] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport.cmake\n'}
+[48.626209] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport-noconfig.cmake\n'}
+[48.626431] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[48.626692] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[48.627085] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cppExport.cmake\n'}
+[48.627456] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[48.627783] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[48.628128] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[48.629705] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[48.630041] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport.cmake\n'}
+[48.630338] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[48.630812] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[48.631235] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[48.631369] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport.cmake\n'}
+[48.631552] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[48.631912] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport.cmake\n'}
+[48.632745] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/osboxes/ros2_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[48.639070] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[48.682600] (dis_tutorial1) JobEnded: {'identifier': 'dis_tutorial1', 'rc': 0}
+[48.685888] (-) EventReactorShutdown: {}

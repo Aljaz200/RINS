@@ -1,3 +1,1 @@
-string text
-int32 number
-bool flag
+/home/osboxes/ros2_ws/src/dis_tutorial1/msg/CustomMessage2.msg

@@ -1,5 +1,1 @@
-string request_text
-int32[] numbers
----
-string response_text
-int32 sum
+/home/osboxes/ros2_ws/src/dis_tutorial1/srv/SumService.srv

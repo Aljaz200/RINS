@@ -1,3 +1,1 @@
-
-string response_text
-int32 sum
+/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/SumService_Response.msg

@@ -1,0 +1,4 @@
+Invoking command in '/home/osboxes/ros2_ws/build/dis_tutorial1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/dis_tutorial1 -- -j4 -l4
+Invoked command in '/home/osboxes/ros2_ws/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/dis_tutorial1 -- -j4 -l4
+Invoking command in '/home/osboxes/ros2_ws/build/dis_tutorial1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/dis_tutorial1
+Invoked command in '/home/osboxes/ros2_ws/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osboxes/ros2_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/dis_tutorial1

@@ -1,2 +1,1 @@
-from dis_tutorial1.msg._custom_message import CustomMessage  # noqa: F401
-from dis_tutorial1.msg._custom_message2 import CustomMessage2  # noqa: F401
+/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1/msg/__init__.py

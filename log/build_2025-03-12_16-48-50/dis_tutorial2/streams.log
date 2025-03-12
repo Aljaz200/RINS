@@ -1,0 +1,35 @@
+[1.034s] Invoking command in '/home/osboxes/ros2_ws/build/dis_tutorial2': PYTHONPATH=/home/osboxes/ros2_ws/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/osboxes/ros2_ws/build/dis_tutorial2/build --no-deps symlink_data
+[1.356s] running develop
+[1.633s] running egg_info
+[1.633s] creating dis_tutorial2.egg-info
+[1.633s] writing dis_tutorial2.egg-info/PKG-INFO
+[1.634s] writing dependency_links to dis_tutorial2.egg-info/dependency_links.txt
+[1.634s] writing entry points to dis_tutorial2.egg-info/entry_points.txt
+[1.634s] writing requirements to dis_tutorial2.egg-info/requires.txt
+[1.634s] writing top-level names to dis_tutorial2.egg-info/top_level.txt
+[1.634s] writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'
+[1.637s] reading manifest file 'dis_tutorial2.egg-info/SOURCES.txt'
+[1.638s] writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'
+[1.641s] running build_ext
+[1.641s] Creating /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis-tutorial2.egg-link (link to .)
+[1.643s] Installing achtung_die_turtle script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[1.643s] Installing go_to_position script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[1.644s] Installing intersection script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[1.644s] Installing random_velocity_publisher script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[1.644s] Installing turtle_move script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[1.645s] 
+[1.645s] Installed /home/osboxes/ros2_ws/build/dis_tutorial2
+[1.645s] running symlink_data
+[1.645s] creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index
+[1.645s] creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index
+[1.645s] creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index/packages
+[1.645s] symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/resource/dis_tutorial2 -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index/packages
+[1.646s] symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/package.xml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2
+[1.646s] creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch
+[1.646s] symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/example_launch.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch
+[1.647s] symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/example_launch.xml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch
+[1.647s] symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/go_to_position_launch.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch
+[1.647s] symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/launch/example_launch.yaml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch
+[1.647s] creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/srv
+[1.647s] symbolically linking /home/osboxes/ros2_ws/build/dis_tutorial2/srv/MoveTurtle.srv -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/srv
+[1.681s] Invoked command in '/home/osboxes/ros2_ws/build/dis_tutorial2' returned '0': PYTHONPATH=/home/osboxes/ros2_ws/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/osboxes/ros2_ws/build/dis_tutorial2/build --no-deps symlink_data

@@ -1,2 +1,1 @@
-string request_text
-int32[] numbers
+/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/SumService_Request.msg

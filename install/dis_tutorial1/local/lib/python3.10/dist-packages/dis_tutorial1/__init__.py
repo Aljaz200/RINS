@@ -1,0 +1,1 @@
+/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1/__init__.py

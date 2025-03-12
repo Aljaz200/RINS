@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages
+/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.dsv
