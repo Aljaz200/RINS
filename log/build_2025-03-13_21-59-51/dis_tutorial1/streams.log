@@ -1,0 +1,33 @@
+[0.029s] Invoking command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1': /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.277s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.450s] -- Detecting C compile features
+[0.450s] -- Detecting C compile features - done
+[0.454s] -- Detecting CXX compiler ABI info
+[0.627s] -- Detecting CXX compiler ABI info - done
+[0.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.645s] -- Detecting CXX compile features - done
+[0.660s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.660s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.660s]   has asked CMake to find a package configuration file provided by
+[0.660s]   "ament_cmake", but CMake did not find one.
+[0.660s] 
+[0.661s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.661s]   any of the following names:
+[0.661s] 
+[0.664s]     ament_cmakeConfig.cmake
+[0.664s] -- Configuring incomplete, errors occurred!
+[0.664s] See also "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles/CMakeOutput.log".
+[0.665s]     ament_cmake-config.cmake
+[0.665s] 
+[0.665s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.665s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.665s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.665s]   has been installed.
+[0.665s] 
+[0.665s] [0m
+[0.669s] Invoked command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1' returned '1': /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1

@@ -1,1 +1,1 @@
-/home/osboxes/ros2_ws/build/hwpub/ament_cmake_python/hwpub/hwpub.egg-info/SOURCES.txt
+/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_python/hwpub/hwpub.egg-info/SOURCES.txt

@@ -1,8 +1,8 @@
-# Install script for directory: /home/osboxes/ros2_ws/build/dis_tutorial1/dis_tutorial1__py
+# Install script for directory: /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/dis_tutorial1__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/osboxes/ros2_ws/install/dis_tutorial1")
+  set(CMAKE_INSTALL_PREFIX "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

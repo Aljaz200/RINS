@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/osboxes/ros2_ws/install/hwpub/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ilija/ros2_ws/src/RINS/install/hwpub/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/osboxes/ros2_ws/install/hwpub/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ilija/ros2_ws/src/RINS/install/hwpub/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/osboxes/ros2_ws/install/hwpub/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ilija/ros2_ws/src/RINS/install/hwpub/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/osboxes/ros2_ws/install/hwpub/${destination}")
+      set(destination "/home/ilija/ros2_ws/src/RINS/install/hwpub/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,134 +310,134 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/hwpub" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/hwpub" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/hwpub" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/hwpub" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_generator_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_generator_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/hwpub/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/hwpub/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/hwpub/environment")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_fastrtps_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_fastrtps_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_fastrtps_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_fastrtps_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_generator_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_generator_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_fastrtps_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_fastrtps_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_fastrtps_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_fastrtps_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_introspection_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_introspection_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_introspection_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_introspection_c/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_introspection_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_introspection_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_introspection_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_introspection_cpp/hwpub/" "DESTINATION" "include/hwpub/hwpub" "PATTERN" "*.hpp")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/hwpub/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/hwpub/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/hwpub/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/hwpub/environment")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_python/hwpub/hwpub.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_python/hwpub/hwpub.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_python/hwpub/hwpub.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_python/hwpub/hwpub.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_generator_py/hwpub/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/hwpub" DIRECTORY "/home/osboxes/ros2_ws/build/hwpub/rosidl_generator_py/hwpub/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_py/hwpub/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/hwpub" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_py/hwpub/" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "hwpub__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub")
-include("/home/osboxes/ros2_ws/build/hwpub/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "hwpub__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub")
-include("/home/osboxes/ros2_ws/build/hwpub/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "hwpub__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/hwpub")
-include("/home/osboxes/ros2_ws/build/hwpub/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl" "DESTINATION" "share/hwpub/msg")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl" "DESTINATION" "share/hwpub/msg")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl" "DESTINATION" "share/hwpub/msg")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl" "DESTINATION" "share/hwpub/msg")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl" "DESTINATION" "share/hwpub/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl" "DESTINATION" "share/hwpub/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl" "DESTINATION" "share/hwpub/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl" "DESTINATION" "share/hwpub/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/src/hwpub/msg/Hwmsg.msg" "DESTINATION" "share/hwpub/msg")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/src/hwpub/msg/Hwmsg.msg" "DESTINATION" "share/hwpub/msg")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/hwpub/msg/Hwmsg.msg" "DESTINATION" "share/hwpub/msg")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/src/hwpub/msg/Hwmsg.msg" "DESTINATION" "share/hwpub/msg")
 
-# install(FILES "/home/osboxes/ros2_ws/src/hwpub/srv/Customserv.srv" "DESTINATION" "share/hwpub/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/src/hwpub/srv/Customserv.srv" "DESTINATION" "share/hwpub/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/hwpub/srv/Customserv.srv" "DESTINATION" "share/hwpub/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/src/hwpub/srv/Customserv.srv" "DESTINATION" "share/hwpub/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/srv/Customserv_Request.msg" "DESTINATION" "share/hwpub/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/srv/Customserv_Request.msg" "DESTINATION" "share/hwpub/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/srv/Customserv_Request.msg" "DESTINATION" "share/hwpub/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/srv/Customserv_Request.msg" "DESTINATION" "share/hwpub/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/srv/Customserv_Response.msg" "DESTINATION" "share/hwpub/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/srv/Customserv_Response.msg" "DESTINATION" "share/hwpub/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/srv/Customserv_Response.msg" "DESTINATION" "share/hwpub/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/srv/Customserv_Response.msg" "DESTINATION" "share/hwpub/srv")
 
 # install(PROGRAMS "scripts/py_move_trajectory.py" "DESTINATION" "lib/hwpub")
-ament_cmake_symlink_install_programs("/home/osboxes/ros2_ws/src/hwpub" PROGRAMS "scripts/py_move_trajectory.py" "DESTINATION" "lib/hwpub")
+ament_cmake_symlink_install_programs("/home/ilija/ros2_ws/src/RINS/src/hwpub" PROGRAMS "scripts/py_move_trajectory.py" "DESTINATION" "lib/hwpub")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hwpub" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hwpub" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hwpub" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hwpub" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hwpub" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hwpub" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hwpub" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hwpub" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/hwpub/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/hwpub/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/hwpub/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/hwpub/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/hwpub/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/hwpub/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/hwpub/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/hwpub/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/hwpub")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/hwpub")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/hwpub")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/hwpub")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/hwpub")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/hwpub")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/hwpub")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/hwpub")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/hwpub")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/hwpub")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/hwpub")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/hwpub")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/hwpub")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/hwpub")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/hwpub")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/hwpub")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/hwpub")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/hwpub")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/hwpub")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/hwpub")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/packages/hwpub" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_index/share/ament_index/resource_index/packages/hwpub" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/packages/hwpub" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/packages/hwpub" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_core/hwpubConfig.cmake" "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_core/hwpubConfig-version.cmake" "DESTINATION" "share/hwpub/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_core/hwpubConfig.cmake" "/home/osboxes/ros2_ws/build/hwpub/ament_cmake_core/hwpubConfig-version.cmake" "DESTINATION" "share/hwpub/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_core/hwpubConfig.cmake" "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_core/hwpubConfig-version.cmake" "DESTINATION" "share/hwpub/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_core/hwpubConfig.cmake" "/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_core/hwpubConfig-version.cmake" "DESTINATION" "share/hwpub/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/src/hwpub/package.xml" "DESTINATION" "share/hwpub")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/hwpub" FILES "/home/osboxes/ros2_ws/src/hwpub/package.xml" "DESTINATION" "share/hwpub")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/hwpub/package.xml" "DESTINATION" "share/hwpub")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/hwpub" FILES "/home/ilija/ros2_ws/src/RINS/src/hwpub/package.xml" "DESTINATION" "share/hwpub")

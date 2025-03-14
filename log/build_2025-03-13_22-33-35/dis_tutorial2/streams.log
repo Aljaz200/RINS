@@ -1,0 +1,21 @@
+[1.568s] Invoking command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2': PYTHONPATH=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/build --no-deps symlink_data
+[2.147s] running develop
+[2.529s] running egg_info
+[2.530s] writing dis_tutorial2.egg-info/PKG-INFO
+[2.530s] writing dependency_links to dis_tutorial2.egg-info/dependency_links.txt
+[2.537s] writing entry points to dis_tutorial2.egg-info/entry_points.txt
+[2.537s] writing requirements to dis_tutorial2.egg-info/requires.txt
+[2.537s] writing top-level names to dis_tutorial2.egg-info/top_level.txt
+[2.540s] reading manifest file 'dis_tutorial2.egg-info/SOURCES.txt'
+[2.541s] writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'
+[2.544s] running build_ext
+[2.547s] Creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages/dis-tutorial2.egg-link (link to .)
+[2.551s] Installing achtung_die_turtle script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2
+[2.551s] Installing go_to_position script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2
+[2.551s] Installing intersection script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2
+[2.551s] Installing random_velocity_publisher script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2
+[2.551s] Installing turtle_move script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2
+[2.551s] 
+[2.551s] Installed /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2
+[2.551s] running symlink_data
+[2.630s] Invoked command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2' returned '0': PYTHONPATH=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/build --no-deps symlink_data

@@ -1,8 +1,8 @@
-# Install script for directory: /home/osboxes/ros2_ws/build/hwpub/hwpub__py
+# Install script for directory: /home/ilija/ros2_ws/src/RINS/build/hwpub/hwpub__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/osboxes/ros2_ws/install/hwpub")
+  set(CMAKE_INSTALL_PREFIX "/home/ilija/ros2_ws/src/RINS/install/hwpub")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

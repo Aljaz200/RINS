@@ -1,1 +1,1 @@
-/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.bash
+/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.bash

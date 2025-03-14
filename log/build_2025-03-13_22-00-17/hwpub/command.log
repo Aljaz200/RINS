@@ -1,0 +1,6 @@
+Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/hwpub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/hwpub
+Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/hwpub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/hwpub
+Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/hwpub -- -j2 -l2
+Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/hwpub -- -j2 -l2
+Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/hwpub
+Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/hwpub

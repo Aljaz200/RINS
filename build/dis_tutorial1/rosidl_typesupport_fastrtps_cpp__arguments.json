@@ -1,12 +1,12 @@
 {
   "package_name": "dis_tutorial1",
-  "output_dir": "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_fastrtps_cpp/dis_tutorial1",
+  "output_dir": "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_fastrtps_cpp/dis_tutorial1",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:msg/CustomMessage.idl",
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:srv/AddTwoInts.idl",
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:msg/CustomMessage2.idl",
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:srv/SumService.idl"
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:msg/CustomMessage.idl",
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:srv/AddTwoInts.idl",
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:msg/CustomMessage2.idl",
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:srv/SumService.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -51,10 +51,10 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage.idl",
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/AddTwoInts.idl",
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage2.idl",
-    "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/SumService.idl",
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage.idl",
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/AddTwoInts.idl",
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage2.idl",
+    "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/SumService.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

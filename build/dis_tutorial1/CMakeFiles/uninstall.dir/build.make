@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/dis_tutorial1
+CMAKE_SOURCE_DIR = /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/dis_tutorial1
+CMAKE_BINARY_DIR = /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/osboxes/ros2_ws/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/osboxes/ros2_ws/install/dis_tutorial1/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/osboxes/ros2_ws/install/dis_tutorial1/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/osboxes/ros2_ws/install/dis_tutorial1/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/osboxes/ros2_ws/install/dis_tutorial1/${destination}")
+      set(destination "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,155 +310,155 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_generator_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_generator_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dis_tutorial1/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_fastrtps_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_fastrtps_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_fastrtps_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_fastrtps_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_generator_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_generator_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_introspection_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_introspection_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_introspection_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_introspection_c/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_introspection_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_introspection_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_introspection_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_introspection_cpp/dis_tutorial1/" "DESTINATION" "include/dis_tutorial1/dis_tutorial1" "PATTERN" "*.hpp")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/dis_tutorial1/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/dis_tutorial1/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dis_tutorial1/environment")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_python/dis_tutorial1/dis_tutorial1.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_python/dis_tutorial1/dis_tutorial1.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_python/dis_tutorial1/dis_tutorial1.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_python/dis_tutorial1/dis_tutorial1.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info")
 
-# install(DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/osboxes/ros2_ws/src/dis_tutorial1" DIRECTORY "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" DIRECTORY "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1/" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1")
-include("/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "dis_tutorial1__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1")
-include("/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "dis_tutorial1__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/dis_tutorial1")
-include("/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage.idl" "DESTINATION" "share/dis_tutorial1/msg")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage.idl" "DESTINATION" "share/dis_tutorial1/msg")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage.idl" "DESTINATION" "share/dis_tutorial1/msg")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage.idl" "DESTINATION" "share/dis_tutorial1/msg")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/AddTwoInts.idl" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/AddTwoInts.idl" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/AddTwoInts.idl" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/AddTwoInts.idl" "DESTINATION" "share/dis_tutorial1/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage2.idl" "DESTINATION" "share/dis_tutorial1/msg")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage2.idl" "DESTINATION" "share/dis_tutorial1/msg")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage2.idl" "DESTINATION" "share/dis_tutorial1/msg")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/msg/CustomMessage2.idl" "DESTINATION" "share/dis_tutorial1/msg")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/SumService.idl" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/SumService.idl" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/SumService.idl" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1/srv/SumService.idl" "DESTINATION" "share/dis_tutorial1/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/msg/CustomMessage.msg" "DESTINATION" "share/dis_tutorial1/msg")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/msg/CustomMessage.msg" "DESTINATION" "share/dis_tutorial1/msg")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/msg/CustomMessage.msg" "DESTINATION" "share/dis_tutorial1/msg")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/msg/CustomMessage.msg" "DESTINATION" "share/dis_tutorial1/msg")
 
-# install(FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/srv/AddTwoInts.srv" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/srv/AddTwoInts.srv" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/srv/AddTwoInts.srv" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/srv/AddTwoInts.srv" "DESTINATION" "share/dis_tutorial1/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/AddTwoInts_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/msg/CustomMessage2.msg" "DESTINATION" "share/dis_tutorial1/msg")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/msg/CustomMessage2.msg" "DESTINATION" "share/dis_tutorial1/msg")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/msg/CustomMessage2.msg" "DESTINATION" "share/dis_tutorial1/msg")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/msg/CustomMessage2.msg" "DESTINATION" "share/dis_tutorial1/msg")
 
-# install(FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/srv/SumService.srv" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/srv/SumService.srv" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/srv/SumService.srv" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/srv/SumService.srv" "DESTINATION" "share/dis_tutorial1/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/SumService_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/SumService_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/SumService_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/SumService_Request.msg" "DESTINATION" "share/dis_tutorial1/srv")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/SumService_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/srv/SumService_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/SumService_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/srv/SumService_Response.msg" "DESTINATION" "share/dis_tutorial1/srv")
 
 # install("TARGETS" "simple_publisher" "simple_subscriber" "simple_client_node" "simple_server_node" "complete_node" "simple_set_bool_server_node" "DESTINATION" "lib/dis_tutorial1")
-include("/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(PROGRAMS "scripts/py_simple_publisher.py" "scripts/py_simple_subscriber.py" "scripts/py_simple_server_node.py" "scripts/py_simple_client_node.py" "scripts/py_complete_node.py" "scripts/py_draw_square.py" "scripts/publisher_node.py" "scripts/subscriber_node.py" "scripts/service_node.py" "scripts/client_node.py" "DESTINATION" "lib/dis_tutorial1")
-ament_cmake_symlink_install_programs("/home/osboxes/ros2_ws/src/dis_tutorial1" PROGRAMS "scripts/py_simple_publisher.py" "scripts/py_simple_subscriber.py" "scripts/py_simple_server_node.py" "scripts/py_simple_client_node.py" "scripts/py_complete_node.py" "scripts/py_draw_square.py" "scripts/publisher_node.py" "scripts/subscriber_node.py" "scripts/service_node.py" "scripts/client_node.py" "DESTINATION" "lib/dis_tutorial1")
+ament_cmake_symlink_install_programs("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" PROGRAMS "scripts/py_simple_publisher.py" "scripts/py_simple_subscriber.py" "scripts/py_simple_server_node.py" "scripts/py_simple_client_node.py" "scripts/py_complete_node.py" "scripts/py_draw_square.py" "scripts/publisher_node.py" "scripts/subscriber_node.py" "scripts/service_node.py" "scripts/client_node.py" "DESTINATION" "lib/dis_tutorial1")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dis_tutorial1/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dis_tutorial1/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dis_tutorial1/environment")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dis_tutorial1")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dis_tutorial1")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dis_tutorial1")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dis_tutorial1")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dis_tutorial1")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dis_tutorial1")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dis_tutorial1")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dis_tutorial1")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dis_tutorial1")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dis_tutorial1")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dis_tutorial1")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dis_tutorial1")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dis_tutorial1")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dis_tutorial1")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dis_tutorial1")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dis_tutorial1")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dis_tutorial1")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dis_tutorial1")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dis_tutorial1")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dis_tutorial1")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/packages/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/packages/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/packages/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_index/share/ament_index/resource_index/packages/dis_tutorial1" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config.cmake" "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config-version.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config.cmake" "/home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config-version.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config.cmake" "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config-version.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config.cmake" "/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config-version.cmake" "DESTINATION" "share/dis_tutorial1/cmake")
 
-# install(FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/package.xml" "DESTINATION" "share/dis_tutorial1")
-ament_cmake_symlink_install_files("/home/osboxes/ros2_ws/src/dis_tutorial1" FILES "/home/osboxes/ros2_ws/src/dis_tutorial1/package.xml" "DESTINATION" "share/dis_tutorial1")
+# install(FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/package.xml" "DESTINATION" "share/dis_tutorial1")
+ament_cmake_symlink_install_files("/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1" FILES "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1/package.xml" "DESTINATION" "share/dis_tutorial1")

@@ -1,1 +1,1 @@
-/home/osboxes/ros2_ws/src/hwpub/scripts/py_move_trajectory.py
+/home/ilija/ros2_ws/src/RINS/src/hwpub/scripts/py_move_trajectory.py

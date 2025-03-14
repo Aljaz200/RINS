@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/dis_tutorial1
+CMAKE_SOURCE_DIR = /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/dis_tutorial1
+CMAKE_BINARY_DIR = /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1
 
 # Utility rule file for ament_cmake_python_symlink_dis_tutorial1.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/compiler_depend.
 include CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_dis_tutorial1:
-	/usr/bin/cmake -E create_symlink /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_python/dis_tutorial1/dis_tutorial1
+	/usr/bin/cmake -E create_symlink /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_generator_py/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_python/dis_tutorial1/dis_tutorial1
 
 ament_cmake_python_symlink_dis_tutorial1: CMakeFiles/ament_cmake_python_symlink_dis_tutorial1
 ament_cmake_python_symlink_dis_tutorial1: CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/depend:
-	cd /home/osboxes/ros2_ws/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_dis_tutorial1.dir/depend
 

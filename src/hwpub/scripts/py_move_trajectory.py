@@ -11,7 +11,6 @@ mynode = None
 
 # Move in a Triangle
 def MoveTriangle(g):
-    rclpy.init(args=args)
     node = rclpy.create_node("py_move_turtle_triangle")
     
     publisher = node.create_publisher(Twist, "/turtle1/cmd_vel", 10)
@@ -59,7 +58,6 @@ def MoveTriangle(g):
 
 # Move in a Circle
 def MoveCircle(duration):
-    rclpy.init(args=args)
     node = rclpy.create_node("py_move_turtle_circle")
     
     publisher = node.create_publisher(Twist, "/turtle1/cmd_vel", 10)
@@ -84,7 +82,6 @@ def MoveCircle(duration):
 
 # Move Randomly
 def MoveRandom(duration):
-    rclpy.init(args=args)
     node = rclpy.create_node("py_move_turtle_random")
     
     publisher = node.create_publisher(Twist, "/turtle1/cmd_vel", 10)
@@ -110,11 +107,65 @@ def MoveRandom(duration):
     rclpy.shutdown()
 
 
+def MoveRectangle(duration):
+    node = rclpy.create_node("py_move_turtle_rectangle")
+    
+    publisher = node.create_publisher(Twist, "/turtle1/cmd_vel", 10)
+    
+    message = Twist()
+    message_num = 0.0
+    message.linear.x = 1.0
+    message.linear.y = 0.0
+    first = True
+    counter = 0
+    
+    strana = duration / 4
+    
+    while rclpy.ok():
+        if first:
+            first = False
+            time.sleep(1)
+        
+        if counter < 4:
+            publisher.publish(message)
+        
+        if strana - message_num >= 1.0:
+            message_num += 1.0
+            
+        slp = 1
+        
+        if strana - message_num == 0:
+            if counter == 0:
+                message.linear.x = 0.0
+                message.linear.y = 1.0
+            if counter == 1:
+                message.linear.x = -1.0
+                message.linear.y = 0.0
+            if counter == 2:
+                message.linear.x = 0.0
+                message.linear.y = -1.0
+            
+            message_num = 0.0
+            counter += 1
+        
+        if strana - message_num > 0.0 and strana - message_num < 1.0:
+            slp = strana - message_num
+            if strana >= 1.0:
+                message_num = strana - 1
+            else:
+                message_num = strana
+        
+        time.sleep(slp)
+
+    node.destroy_node()
+    rclpy.shutdown()
+
+
 def draw_trajectory_callback(request, response):
     global mynode
     if request.s == "Rectangle":
         
-        pass
+        MoveRectangle(request.time)
     elif request.s == "Triangle":
         MoveTriangle(request.time)
     elif request.s == "Circle":

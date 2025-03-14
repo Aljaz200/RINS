@@ -1,0 +1,457 @@
+[0.000000] (-) TimerEvent: {}
+[0.000538] (dis_tutorial1) JobQueued: {'identifier': 'dis_tutorial1', 'dependencies': OrderedDict()}
+[0.000603] (dis_tutorial2) JobQueued: {'identifier': 'dis_tutorial2', 'dependencies': OrderedDict()}
+[0.000633] (hwpub) JobQueued: {'identifier': 'hwpub', 'dependencies': OrderedDict()}
+[0.000727] (dis_tutorial1) JobStarted: {'identifier': 'dis_tutorial1'}
+[0.040714] (dis_tutorial2) JobStarted: {'identifier': 'dis_tutorial2'}
+[0.092821] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'cmake'}
+[0.096697] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'build'}
+[0.096973] (-) TimerEvent: {}
+[0.102665] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', '--', '-j2', '-l2'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1204,unix/ilija-virtual-machine:/tmp/.ICE-unix/1204'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc2f6ed5_5839_48a9_a1fe_3693bd4a61bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QAC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages:/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble')]), 'shell': False}
+[0.198819] (-) TimerEvent: {}
+[0.307251] (-) TimerEvent: {}
+[0.410792] (-) TimerEvent: {}
+[0.512671] (-) TimerEvent: {}
+[0.616297] (-) TimerEvent: {}
+[0.729717] (-) TimerEvent: {}
+[0.830875] (-) TimerEvent: {}
+[0.936010] (-) TimerEvent: {}
+[0.966972] (dis_tutorial1) StdoutLine: {'line': b'[  1%] Built target dis_tutorial1__cpp\n'}
+[1.000983] (dis_tutorial1) StdoutLine: {'line': b'[ 10%] Built target dis_tutorial1__rosidl_generator_c\n'}
+[1.036800] (-) TimerEvent: {}
+[1.146947] (-) TimerEvent: {}
+[1.249609] (-) TimerEvent: {}
+[1.266981] (dis_tutorial1) StdoutLine: {'line': b'[ 13%] Built target simple_publisher\n'}
+[1.347666] (dis_tutorial1) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_symlink_dis_tutorial1\n'}
+[1.350506] (-) TimerEvent: {}
+[1.453822] (-) TimerEvent: {}
+[1.524108] (dis_tutorial1) StdoutLine: {'line': b'[ 16%] Built target simple_subscriber\n'}
+[1.554785] (-) TimerEvent: {}
+[1.590689] (dis_tutorial1) StdoutLine: {'line': b'[ 19%] Built target simple_set_bool_server_node\n'}
+[1.656976] (-) TimerEvent: {}
+[1.705277] (dis_tutorial1) StdoutLine: {'line': b'[ 28%] Built target dis_tutorial1__rosidl_typesupport_cpp\n'}
+[1.758644] (-) TimerEvent: {}
+[1.838949] (dis_tutorial1) StdoutLine: {'line': b'[ 37%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_cpp\n'}
+[1.859478] (-) TimerEvent: {}
+[1.866436] (dis_tutorial1) StdoutLine: {'line': b'[ 46%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c\n'}
+[1.962821] (-) TimerEvent: {}
+[2.071063] (-) TimerEvent: {}
+[2.124833] (dis_tutorial1) StdoutLine: {'line': b'[ 55%] Built target dis_tutorial1__rosidl_typesupport_introspection_c\n'}
+[2.154292] (dis_tutorial1) StdoutLine: {'line': b'[ 64%] Built target dis_tutorial1__rosidl_typesupport_c\n'}
+[2.177795] (-) TimerEvent: {}
+[2.280285] (-) TimerEvent: {}
+[2.405003] (-) TimerEvent: {}
+[2.460760] (dis_tutorial1) StdoutLine: {'line': b'[ 73%] Built target dis_tutorial1__rosidl_typesupport_introspection_cpp\n'}
+[2.509199] (-) TimerEvent: {}
+[2.610588] (-) TimerEvent: {}
+[2.712361] (-) TimerEvent: {}
+[2.820148] (-) TimerEvent: {}
+[2.866451] (dis_tutorial1) StdoutLine: {'line': b'[ 76%] Built target simple_client_node\n'}
+[2.920634] (-) TimerEvent: {}
+[3.021621] (-) TimerEvent: {}
+[3.122958] (-) TimerEvent: {}
+[3.172996] (dis_tutorial1) StdoutLine: {'line': b'[ 79%] Built target simple_server_node\n'}
+[3.225176] (-) TimerEvent: {}
+[3.330638] (-) TimerEvent: {}
+[3.432814] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] Built target complete_node\n'}
+[3.433179] (-) TimerEvent: {}
+[3.535886] (-) TimerEvent: {}
+[3.637306] (-) TimerEvent: {}
+[3.651191] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] Built target dis_tutorial1\n'}
+[3.738051] (-) TimerEvent: {}
+[3.773006] (dis_tutorial1) StdoutLine: {'line': b'running egg_info\n'}
+[3.783800] (dis_tutorial1) StdoutLine: {'line': b'writing dis_tutorial1.egg-info/PKG-INFO\n'}
+[3.786403] (dis_tutorial1) StdoutLine: {'line': b'writing dependency_links to dis_tutorial1.egg-info/dependency_links.txt\n'}
+[3.790737] (dis_tutorial1) StdoutLine: {'line': b'writing top-level names to dis_tutorial1.egg-info/top_level.txt\n'}
+[3.813608] (dis_tutorial1) StdoutLine: {'line': b"reading manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[3.817571] (dis_tutorial1) StdoutLine: {'line': b"writing manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[3.838785] (-) TimerEvent: {}
+[3.892785] (dis_tutorial1) StdoutLine: {'line': b'[ 83%] Built target dis_tutorial1__py\n'}
+[3.939449] (-) TimerEvent: {}
+[4.040427] (-) TimerEvent: {}
+[4.046933] (dis_tutorial1) StdoutLine: {'line': b'[ 83%] Built target ament_cmake_python_build_dis_tutorial1_egg\n'}
+[4.084468] (dis_tutorial1) StdoutLine: {'line': b'[ 91%] Built target dis_tutorial1__rosidl_generator_py\n'}
+[4.142133] (-) TimerEvent: {}
+[4.233453] (dis_tutorial1) StdoutLine: {'line': b'[ 94%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.242673] (-) TimerEvent: {}
+[4.301681] (dis_tutorial1) StdoutLine: {'line': b'[ 97%] Built target dis_tutorial1__rosidl_typesupport_introspection_c__pyext\n'}
+[4.344857] (-) TimerEvent: {}
+[4.394173] (dis_tutorial1) StdoutLine: {'line': b'[100%] Built target dis_tutorial1__rosidl_typesupport_c__pyext\n'}
+[4.446480] (-) TimerEvent: {}
+[4.449390] (dis_tutorial2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'ilija', 'LC_TIME': 'sl_SI.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ilija', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sl_SI.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1204', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ilija/ros2_ws/src/RINS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ilija', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ilija', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1204,unix/ilija-virtual-machine:/tmp/.ICE-unix/1204', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sl_SI.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dc2f6ed5_5839_48a9_a1fe_3693bd4a61bd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sl_SI.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7QAC32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'sl_SI.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sl_SI.UTF-8', 'LC_IDENTIFICATION': 'sl_SI.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages:/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'sl_SI.UTF-8', 'LC_PAPER': 'sl_SI.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1'}, 'shell': False}
+[4.461509] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[4.466563] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'install'}
+[4.518037] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1204,unix/ilija-virtual-machine:/tmp/.ICE-unix/1204'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc2f6ed5_5839_48a9_a1fe_3693bd4a61bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QAC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages:/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble')]), 'shell': False}
+[4.547523] (-) TimerEvent: {}
+[4.558119] (dis_tutorial1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.564950] (dis_tutorial1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.565518] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1\n'}
+[4.566660] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.h\n'}
+[4.567483] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.h\n'}
+[4.568776] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__functions.h\n'}
+[4.570950] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.h\n'}
+[4.571252] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.h\n'}
+[4.573470] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__functions.h\n'}
+[4.574107] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.h\n'}
+[4.576682] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.h\n'}
+[4.583774] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.584153] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.h\n'}
+[4.584591] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__functions.h\n'}
+[4.584954] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.h\n'}
+[4.587120] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.h\n'}
+[4.590854] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__functions.h\n'}
+[4.591206] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.h\n'}
+[4.592178] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.h\n'}
+[4.594314] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.h\n'}
+[4.597834] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.sh\n'}
+[4.598853] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.dsv\n'}
+[4.601060] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_c.h\n'}
+[4.601827] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_c.h\n'}
+[4.602292] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.604670] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[4.605279] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[4.606049] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.hpp\n'}
+[4.608458] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.hpp\n'}
+[4.609042] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__builder.hpp\n'}
+[4.609215] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.hpp\n'}
+[4.611665] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__traits.hpp\n'}
+[4.611983] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.hpp\n'}
+[4.612674] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__builder.hpp\n'}
+[4.614640] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.hpp\n'}
+[4.614955] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__traits.hpp\n'}
+[4.615118] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.hpp\n'}
+[4.615802] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.616088] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.hpp\n'}
+[4.618488] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__builder.hpp\n'}
+[4.619155] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.hpp\n'}
+[4.619581] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__traits.hpp\n'}
+[4.622389] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.hpp\n'}
+[4.622945] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__builder.hpp\n'}
+[4.623116] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.hpp\n'}
+[4.623735] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__traits.hpp\n'}
+[4.623981] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.hpp\n'}
+[4.625880] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.hpp\n'}
+[4.627889] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.630555] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.630908] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.631082] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.631951] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.638008] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_c.h\n'}
+[4.638337] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_c.h\n'}
+[4.638497] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.638982] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[4.639164] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_c.h\n'}
+[4.640274] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.643740] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.643995] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.644103] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.644222] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.sh\n'}
+[4.645264] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.dsv\n'}
+[4.645847] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[4.646710] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[4.649600] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[4.649916] (-) TimerEvent: {}
+[4.650481] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[4.652712] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py\n'}
+[4.655553] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c\n'}
+[4.655886] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.656425] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.657444] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.659936] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.660612] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.663972] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so\n'}
+[4.664190] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py\n'}
+[4.664623] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py\n'}
+[4.665434] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2.py\n'}
+[4.666639] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2_s.c\n'}
+[4.669672] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message_s.c\n'}
+[4.670009] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py\n'}
+[4.670732] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py\n'}
+[4.670911] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints_s.c\n'}
+[4.671055] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service.py\n'}
+[4.673895] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service_s.c\n'}
+[4.674318] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.677645] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.678311] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.681892] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.idl\n'}
+[4.684291] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.idl\n'}
+[4.685446] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.idl\n'}
+[4.685751] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.idl\n'}
+[4.688062] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.msg\n'}
+[4.690554] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.srv\n'}
+[4.693055] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Request.msg\n'}
+[4.695831] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Response.msg\n'}
+[4.696158] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.msg\n'}
+[4.698292] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.srv\n'}
+[4.698983] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Request.msg\n'}
+[4.701952] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Response.msg\n'}
+[4.702936] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_publisher\n'}
+[4.705204] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_subscriber\n'}
+[4.707237] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_client_node\n'}
+[4.707611] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_server_node\n'}
+[4.708456] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/complete_node\n'}
+[4.711832] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_set_bool_server_node\n'}
+[4.713082] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_publisher.py\n'}
+[4.716516] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_subscriber.py\n'}
+[4.717082] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_server_node.py\n'}
+[4.717285] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_client_node.py\n'}
+[4.719600] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_complete_node.py\n'}
+[4.719909] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_draw_square.py\n'}
+[4.720487] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/publisher_node.py\n'}
+[4.720908] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/subscriber_node.py\n'}
+[4.723299] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/service_node.py\n'}
+[4.723463] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/client_node.py\n'}
+[4.723854] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1\n'}
+[4.726828] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1\n'}
+[4.727151] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.sh\n'}
+[4.727313] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.dsv\n'}
+[4.727986] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/path.sh\n'}
+[4.728928] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/path.dsv\n'}
+[4.729232] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.bash\n'}
+[4.732436] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.sh\n'}
+[4.732993] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.zsh\n'}
+[4.733166] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.dsv\n'}
+[4.735080] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.dsv\n'}
+[4.751061] (-) TimerEvent: {}
+[4.776757] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/packages/dis_tutorial1\n'}
+[4.785741] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake-extras.cmake\n'}
+[4.786323] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.786485] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.786589] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.787568] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.787785] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.787923] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.791772] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config.cmake\n'}
+[4.792144] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config-version.cmake\n'}
+[4.792834] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.xml\n'}
+[4.794370] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so\n'}
+[4.796897] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so\n'}
+[4.797346] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.799560] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so\n'}
+[4.799823] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so\n'}
+[4.800588] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so\n'}
+[4.802705] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so\n'}
+[4.851669] (-) TimerEvent: {}
+[4.947062] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1'...\n"}
+[4.947626] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg'...\n"}
+[4.947950] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv'...\n"}
+[4.953904] (-) TimerEvent: {}
+[4.965393] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so\n'}
+[4.969622] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport.cmake\n'}
+[4.969928] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.970041] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.972661] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.973393] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cppExport.cmake\n'}
+[4.973862] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.974006] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.974464] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.974892] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.975109] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport.cmake\n'}
+[4.976979] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.978073] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.980610] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.980961] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport.cmake\n'}
+[4.981106] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.981278] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport.cmake\n'}
+[4.981436] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.994036] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[5.054469] (-) TimerEvent: {}
+[5.104486] (dis_tutorial1) JobEnded: {'identifier': 'dis_tutorial1', 'rc': 0}
+[5.108707] (hwpub) JobStarted: {'identifier': 'hwpub'}
+[5.153764] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'cmake'}
+[5.154886] (-) TimerEvent: {}
+[5.157003] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'build'}
+[5.158070] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ilija/ros2_ws/src/RINS/build/hwpub', '--', '-j2', '-l2'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1204,unix/ilija-virtual-machine:/tmp/.ICE-unix/1204'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc2f6ed5_5839_48a9_a1fe_3693bd4a61bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QAC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages:/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble')]), 'shell': False}
+[5.257781] (-) TimerEvent: {}
+[5.359424] (-) TimerEvent: {}
+[5.462787] (-) TimerEvent: {}
+[5.476984] (hwpub) StdoutLine: {'line': b'[  2%] Built target hwpub__cpp\n'}
+[5.565052] (-) TimerEvent: {}
+[5.595796] (hwpub) StdoutLine: {'line': b'[ 12%] Built target hwpub__rosidl_generator_c\n'}
+[5.656812] (hwpub) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_hwpub\n'}
+[5.666372] (-) TimerEvent: {}
+[5.767562] (-) TimerEvent: {}
+[5.791660] (hwpub) StdoutLine: {'line': b'[ 23%] Built target hwpub__rosidl_typesupport_cpp\n'}
+[5.828033] (hwpub) StdoutLine: {'line': b'[ 33%] Built target hwpub__rosidl_typesupport_fastrtps_c\n'}
+[5.867823] (-) TimerEvent: {}
+[5.877015] (dis_tutorial2) StdoutLine: {'line': b'running develop\n'}
+[5.968274] (-) TimerEvent: {}
+[5.987812] (hwpub) StdoutLine: {'line': b'[ 43%] Built target hwpub__rosidl_typesupport_fastrtps_cpp\n'}
+[5.988218] (hwpub) StdoutLine: {'line': b'[ 53%] Built target hwpub__rosidl_typesupport_introspection_c\n'}
+[6.068713] (-) TimerEvent: {}
+[6.164367] (hwpub) StdoutLine: {'line': b'[ 64%] Built target hwpub__rosidl_typesupport_introspection_cpp\n'}
+[6.171670] (-) TimerEvent: {}
+[6.177893] (hwpub) StdoutLine: {'line': b'[ 74%] Built target hwpub__rosidl_typesupport_c\n'}
+[6.273868] (-) TimerEvent: {}
+[6.375919] (-) TimerEvent: {}
+[6.397171] (hwpub) StdoutLine: {'line': b'[ 74%] Built target hwpub\n'}
+[6.477040] (-) TimerEvent: {}
+[6.579220] (-) TimerEvent: {}
+[6.640468] (hwpub) StdoutLine: {'line': b'[ 76%] Built target hwpub__py\n'}
+[6.679633] (-) TimerEvent: {}
+[6.783476] (-) TimerEvent: {}
+[6.884570] (-) TimerEvent: {}
+[6.892119] (hwpub) StdoutLine: {'line': b'[ 84%] Built target hwpub__rosidl_generator_py\n'}
+[6.986566] (-) TimerEvent: {}
+[7.059344] (dis_tutorial2) StdoutLine: {'line': b'running egg_info\n'}
+[7.062513] (dis_tutorial2) StdoutLine: {'line': b'writing dis_tutorial2.egg-info/PKG-INFO\n'}
+[7.063231] (dis_tutorial2) StdoutLine: {'line': b'writing dependency_links to dis_tutorial2.egg-info/dependency_links.txt\n'}
+[7.065927] (dis_tutorial2) StdoutLine: {'line': b'writing entry points to dis_tutorial2.egg-info/entry_points.txt\n'}
+[7.068298] (dis_tutorial2) StdoutLine: {'line': b'writing requirements to dis_tutorial2.egg-info/requires.txt\n'}
+[7.071089] (dis_tutorial2) StdoutLine: {'line': b'writing top-level names to dis_tutorial2.egg-info/top_level.txt\n'}
+[7.080565] (dis_tutorial2) StdoutLine: {'line': b"reading manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[7.085047] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[7.089837] (-) TimerEvent: {}
+[7.093225] (dis_tutorial2) StdoutLine: {'line': b'running build_ext\n'}
+[7.096815] (dis_tutorial2) StdoutLine: {'line': b'Creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages/dis-tutorial2.egg-link (link to .)\n'}
+[7.100890] (dis_tutorial2) StdoutLine: {'line': b'Installing achtung_die_turtle script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[7.105440] (dis_tutorial2) StdoutLine: {'line': b'Installing go_to_position script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[7.106425] (dis_tutorial2) StdoutLine: {'line': b'Installing intersection script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[7.106581] (dis_tutorial2) StdoutLine: {'line': b'Installing random_velocity_publisher script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[7.106691] (dis_tutorial2) StdoutLine: {'line': b'Installing turtle_move script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[7.110015] (dis_tutorial2) StdoutLine: {'line': b'\n'}
+[7.110279] (dis_tutorial2) StdoutLine: {'line': b'Installed /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2\n'}
+[7.110392] (dis_tutorial2) StdoutLine: {'line': b'running symlink_data\n'}
+[7.149841] (hwpub) StdoutLine: {'line': b'[ 89%] Built target hwpub__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.190764] (-) TimerEvent: {}
+[7.276782] (dis_tutorial2) CommandEnded: {'returncode': 0}
+[7.295304] (-) TimerEvent: {}
+[7.332743] (dis_tutorial2) JobEnded: {'identifier': 'dis_tutorial2', 'rc': 0}
+[7.374437] (hwpub) StdoutLine: {'line': b'[ 94%] Built target hwpub__rosidl_typesupport_introspection_c__pyext\n'}
+[7.396763] (-) TimerEvent: {}
+[7.497987] (-) TimerEvent: {}
+[7.503207] (hwpub) StdoutLine: {'line': b'[100%] Built target hwpub__rosidl_typesupport_c__pyext\n'}
+[7.510706] (hwpub) StdoutLine: {'line': b'running egg_info\n'}
+[7.513305] (hwpub) StdoutLine: {'line': b'writing hwpub.egg-info/PKG-INFO\n'}
+[7.515104] (hwpub) StdoutLine: {'line': b'writing dependency_links to hwpub.egg-info/dependency_links.txt\n'}
+[7.516828] (hwpub) StdoutLine: {'line': b'writing top-level names to hwpub.egg-info/top_level.txt\n'}
+[7.523664] (hwpub) StdoutLine: {'line': b"reading manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[7.527256] (hwpub) StdoutLine: {'line': b"writing manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[7.598913] (-) TimerEvent: {}
+[7.618019] (hwpub) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_hwpub_egg\n'}
+[7.664394] (hwpub) CommandEnded: {'returncode': 0}
+[7.676746] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'install'}
+[7.676906] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ilija/ros2_ws/src/RINS/build/hwpub'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1204,unix/ilija-virtual-machine:/tmp/.ICE-unix/1204'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc2f6ed5_5839_48a9_a1fe_3693bd4a61bd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QAC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68f04fe103b71b91a76840f067d3e525'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages:/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ilija/ros2_ws/src/RINS/install/hwpub:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble')]), 'shell': False}
+[7.699878] (-) TimerEvent: {}
+[7.709444] (hwpub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.713196] (hwpub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.715460] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/rosidl_interfaces/hwpub\n'}
+[7.717705] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__functions.h\n'}
+[7.718141] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.h\n'}
+[7.718507] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.h\n'}
+[7.719265] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/hwmsg.h\n'}
+[7.720124] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.720968] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/customserv.h\n'}
+[7.721778] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__functions.h\n'}
+[7.723617] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.h\n'}
+[7.724069] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.h\n'}
+[7.724335] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/library_path.sh\n'}
+[7.725235] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/library_path.dsv\n'}
+[7.727284] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_c.h\n'}
+[7.728104] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.730925] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_c.h\n'}
+[7.731648] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__builder.hpp\n'}
+[7.734054] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.hpp\n'}
+[7.734824] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__traits.hpp\n'}
+[7.735861] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.hpp\n'}
+[7.737270] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/hwmsg.hpp\n'}
+[7.738057] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.738259] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/customserv.hpp\n'}
+[7.738409] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__builder.hpp\n'}
+[7.741240] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.hpp\n'}
+[7.742863] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__traits.hpp\n'}
+[7.743147] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.hpp\n'}
+[7.743704] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.743901] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.744260] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.744573] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_c.h\n'}
+[7.745574] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.746284] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_c.h\n'}
+[7.747872] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.748376] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.749314] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/pythonpath.sh\n'}
+[7.750091] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/pythonpath.dsv\n'}
+[7.751355] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[7.752144] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[7.753010] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[7.754022] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[7.756461] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py\n'}
+[7.757087] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c\n'}
+[7.757746] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.758190] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.758610] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.759483] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.760574] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.761169] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/libhwpub__rosidl_generator_py.so\n'}
+[7.762008] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py\n'}
+[7.762416] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py\n'}
+[7.763670] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg_s.c\n'}
+[7.764454] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py\n'}
+[7.764927] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py\n'}
+[7.765847] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv_s.c\n'}
+[7.767900] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.768302] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.768870] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.769889] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/msg/Hwmsg.idl\n'}
+[7.770842] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv.idl\n'}
+[7.771811] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/msg/Hwmsg.msg\n'}
+[7.772320] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv.srv\n'}
+[7.773210] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv_Request.msg\n'}
+[7.774117] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv_Response.msg\n'}
+[7.775078] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/hwpub/py_move_trajectory.py\n'}
+[7.776132] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/package_run_dependencies/hwpub\n'}
+[7.777666] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/parent_prefix_path/hwpub\n'}
+[7.778252] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/ament_prefix_path.sh\n'}
+[7.779025] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/ament_prefix_path.dsv\n'}
+[7.779847] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/path.sh\n'}
+[7.780699] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/path.dsv\n'}
+[7.781560] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.bash\n'}
+[7.782939] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.sh\n'}
+[7.783710] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.zsh\n'}
+[7.784131] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.dsv\n'}
+[7.784840] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.dsv\n'}
+[7.800583] (-) TimerEvent: {}
+[7.820340] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/packages/hwpub\n'}
+[7.821128] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake-extras.cmake\n'}
+[7.822054] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.823013] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.824112] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.825054] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.825544] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.826693] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.827087] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpubConfig.cmake\n'}
+[7.827587] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpubConfig-version.cmake\n'}
+[7.831630] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.xml\n'}
+[7.831942] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_c.so\n'}
+[7.832100] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so\n'}
+[7.832241] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.834922] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so\n'}
+[7.835488] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so\n'}
+[7.835722] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so\n'}
+[7.836364] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so\n'}
+[7.901823] (-) TimerEvent: {}
+[7.932985] (hwpub) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub'...\n"}
+[7.933267] (hwpub) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg'...\n"}
+[7.933374] (hwpub) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv'...\n"}
+[7.948644] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_py.so\n'}
+[7.949446] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport.cmake\n'}
+[7.949988] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.950633] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.950882] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.951010] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cppExport.cmake\n'}
+[7.951349] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.952564] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.952830] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.953097] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.953868] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport.cmake\n'}
+[7.954593] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.954773] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.955665] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.956155] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport.cmake\n'}
+[7.956317] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.956774] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport.cmake\n'}
+[7.956955] (hwpub) StdoutLine: {'line': b'-- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.967086] (hwpub) CommandEnded: {'returncode': 0}
+[8.002730] (-) TimerEvent: {}
+[8.034090] (hwpub) JobEnded: {'identifier': 'hwpub', 'rc': 0}
+[8.037304] (-) EventReactorShutdown: {}
