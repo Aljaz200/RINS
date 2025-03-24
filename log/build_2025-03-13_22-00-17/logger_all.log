@@ -1,0 +1,278 @@
+[0.131s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.131s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7268e36484c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7268e3761330>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7268e3761330>>, mixin_verb=('build',))
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ilija/ros2_ws/src/RINS'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial1) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dis_tutorial1' with type 'ros.ament_cmake' and name 'dis_tutorial1'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/dis_tutorial2) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dis_tutorial2' with type 'ros.ament_python' and name 'dis_tutorial2'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hwpub) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hwpub' with type 'ros.ament_cmake' and name 'hwpub'
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'dis_tutorial1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1', 'merge_install': False, 'path': '/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1', 'symlink_install': True, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'dis_tutorial2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2', 'merge_install': False, 'path': '/home/ilija/ros2_ws/src/RINS/src/dis_tutorial2', 'symlink_install': True, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'hwpub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ilija/ros2_ws/src/RINS/build/hwpub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ilija/ros2_ws/src/RINS/install/hwpub', 'merge_install': False, 'path': '/home/ilija/ros2_ws/src/RINS/src/hwpub', 'symlink_install': True, 'test_result_base': None}
+[0.409s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1'
+[0.415s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ilija/ros2_ws/src/RINS/src/dis_tutorial2' with build type 'ament_python'
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial2', 'ament_prefix_path')
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/hook/ament_prefix_path.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/hook/ament_prefix_path.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/hook/ament_prefix_path.sh'
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1
+[0.893s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ilija/ros2_ws/src/RINS/src/dis_tutorial2'
+[0.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2': PYTHONPATH=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/build --no-deps symlink_data
+[2.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial2', 'pythonpath_develop')
+[2.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/share/dis_tutorial2/hook/pythonpath_develop.ps1'
+[2.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2' returned '0': PYTHONPATH=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/build --no-deps symlink_data
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/share/dis_tutorial2/hook/pythonpath_develop.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/share/dis_tutorial2/hook/pythonpath_develop.sh'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2' for CMake module files
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2' for CMake config files
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/bin'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/pkgconfig/dis_tutorial2.pc'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages'
+[2.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial2', 'pythonpath')
+[2.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/hook/pythonpath.ps1'
+[2.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/hook/pythonpath.dsv'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/hook/pythonpath.sh'
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/bin'
+[2.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial2)
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/package.ps1'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/package.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/package.sh'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/package.bash'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/package.zsh'
+[2.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/colcon-core/packages/dis_tutorial2)
+[2.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ilija/ros2_ws/src/RINS/src/hwpub' with build type 'ament_cmake'
+[2.200s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ilija/ros2_ws/src/RINS/src/hwpub'
+[2.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/hwpub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/hwpub
+[4.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1
+[4.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 -- -j2 -l2
+[7.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ilija/ros2_ws/src/RINS/src/hwpub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/hwpub
+[7.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/hwpub -- -j2 -l2
+[30.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/hwpub -- -j2 -l2
+[30.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/hwpub
+[34.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hwpub)
+[34.326s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub' for CMake module files
+[34.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/hwpub
+[34.331s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub' for CMake config files
+[34.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'cmake_prefix_path')
+[34.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/cmake_prefix_path.ps1'
+[34.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/cmake_prefix_path.dsv'
+[34.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/cmake_prefix_path.sh'
+[34.343s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib'
+[34.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'ld_library_path_lib')
+[34.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/ld_library_path_lib.ps1'
+[34.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/ld_library_path_lib.dsv'
+[34.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/ld_library_path_lib.sh'
+[34.348s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/bin'
+[34.351s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/pkgconfig/hwpub.pc'
+[34.351s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/python3.10/site-packages'
+[34.352s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/bin'
+[34.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.ps1'
+[34.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.dsv'
+[34.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.sh'
+[34.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.bash'
+[34.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.zsh'
+[34.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilija/ros2_ws/src/RINS/install/hwpub/share/colcon-core/packages/hwpub)
+[34.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hwpub)
+[34.366s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub' for CMake module files
+[34.367s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub' for CMake config files
+[34.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'cmake_prefix_path')
+[34.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/cmake_prefix_path.ps1'
+[34.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/cmake_prefix_path.dsv'
+[34.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/cmake_prefix_path.sh'
+[34.387s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib'
+[34.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'ld_library_path_lib')
+[34.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/ld_library_path_lib.ps1'
+[34.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/ld_library_path_lib.dsv'
+[34.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/hook/ld_library_path_lib.sh'
+[34.392s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/bin'
+[34.392s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/pkgconfig/hwpub.pc'
+[34.393s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/python3.10/site-packages'
+[34.393s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/hwpub/bin'
+[34.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.ps1'
+[34.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.dsv'
+[34.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.sh'
+[34.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.bash'
+[34.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.zsh'
+[34.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilija/ros2_ws/src/RINS/install/hwpub/share/colcon-core/packages/hwpub)
+[74.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 -- -j2 -l2
+[74.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1
+[76.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial1)
+[76.678s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1' for CMake module files
+[76.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1
+[76.680s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1' for CMake config files
+[76.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'cmake_prefix_path')
+[76.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.ps1'
+[76.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.dsv'
+[76.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.sh'
+[76.684s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib'
+[76.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'ld_library_path_lib')
+[76.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.ps1'
+[76.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.dsv'
+[76.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.sh'
+[76.685s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/bin'
+[76.685s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/pkgconfig/dis_tutorial1.pc'
+[76.687s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/python3.10/site-packages'
+[76.687s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/bin'
+[76.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.ps1'
+[76.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.dsv'
+[76.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.sh'
+[76.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.bash'
+[76.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.zsh'
+[76.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/colcon-core/packages/dis_tutorial1)
+[76.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial1)
+[76.694s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1' for CMake module files
+[76.695s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1' for CMake config files
+[76.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'cmake_prefix_path')
+[76.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.ps1'
+[76.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.dsv'
+[76.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.sh'
+[76.700s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib'
+[76.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'ld_library_path_lib')
+[76.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.ps1'
+[76.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.dsv'
+[76.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.sh'
+[76.703s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/bin'
+[76.703s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/pkgconfig/dis_tutorial1.pc'
+[76.704s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/python3.10/site-packages'
+[76.704s] Level 1:colcon.colcon_core.environment:checking '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/bin'
+[76.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.ps1'
+[76.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.dsv'
+[76.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.sh'
+[76.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.bash'
+[76.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.zsh'
+[76.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/colcon-core/packages/dis_tutorial1)
+[76.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[76.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[76.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[76.711s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[76.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[76.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[76.755s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[76.927s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[76.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilija/ros2_ws/src/RINS/install/local_setup.ps1'
+[76.930s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ilija/ros2_ws/src/RINS/install/_local_setup_util_ps1.py'
+[76.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilija/ros2_ws/src/RINS/install/setup.ps1'
+[76.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilija/ros2_ws/src/RINS/install/local_setup.sh'
+[76.940s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ilija/ros2_ws/src/RINS/install/_local_setup_util_sh.py'
+[76.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilija/ros2_ws/src/RINS/install/setup.sh'
+[76.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilija/ros2_ws/src/RINS/install/local_setup.bash'
+[76.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilija/ros2_ws/src/RINS/install/setup.bash'
+[76.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilija/ros2_ws/src/RINS/install/local_setup.zsh'
+[76.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilija/ros2_ws/src/RINS/install/setup.zsh'

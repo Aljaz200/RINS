@@ -1,0 +1,1370 @@
+[0.000000] (-) TimerEvent: {}
+[0.002778] (dis_tutorial1) JobQueued: {'identifier': 'dis_tutorial1', 'dependencies': OrderedDict()}
+[0.002889] (dis_tutorial2) JobQueued: {'identifier': 'dis_tutorial2', 'dependencies': OrderedDict()}
+[0.002930] (hwpub) JobQueued: {'identifier': 'hwpub', 'dependencies': OrderedDict()}
+[0.003001] (dis_tutorial1) JobStarted: {'identifier': 'dis_tutorial1'}
+[0.012827] (dis_tutorial2) JobStarted: {'identifier': 'dis_tutorial2'}
+[0.035023] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'cmake'}
+[0.037335] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('OLDPWD', '/home/ilija/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1271,unix/ilija-virtual-machine:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/096e4dd6_9afa_4c97_866f_57fe2c7c1a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3ARS32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.083401] (dis_tutorial1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.101341] (-) TimerEvent: {}
+[0.202000] (-) TimerEvent: {}
+[0.302928] (-) TimerEvent: {}
+[0.373690] (dis_tutorial1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.405416] (-) TimerEvent: {}
+[0.506825] (-) TimerEvent: {}
+[0.509919] (dis_tutorial1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.582191] (dis_tutorial1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.607045] (-) TimerEvent: {}
+[0.679777] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.692318] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.707371] (-) TimerEvent: {}
+[0.716550] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.748686] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.787582] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.809296] (-) TimerEvent: {}
+[0.892097] (dis_tutorial1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.898280] (dis_tutorial1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.909940] (-) TimerEvent: {}
+[1.013336] (-) TimerEvent: {}
+[1.037432] (dis_tutorial2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'ilija', 'LC_TIME': 'sl_SI.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ilija', 'OLDPWD': '/home/ilija/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sl_SI.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1271', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ilija', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ilija', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1271,unix/ilija-virtual-machine:/tmp/.ICE-unix/1271', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sl_SI.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/096e4dd6_9afa_4c97_866f_57fe2c7c1a5e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sl_SI.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3ARS32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.156', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'sl_SI.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sl_SI.UTF-8', 'LC_IDENTIFICATION': 'sl_SI.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'sl_SI.UTF-8', 'LC_PAPER': 'sl_SI.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.114075] (-) TimerEvent: {}
+[1.123578] (dis_tutorial1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.175179] (dis_tutorial1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.214615] (-) TimerEvent: {}
+[1.238344] (dis_tutorial1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.259300] (dis_tutorial1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.315352] (-) TimerEvent: {}
+[1.416281] (-) TimerEvent: {}
+[1.419679] (dis_tutorial2) StdoutLine: {'line': b'running develop\n'}
+[1.423298] (dis_tutorial1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.425634] (dis_tutorial1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.516449] (-) TimerEvent: {}
+[1.607922] (dis_tutorial1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.614308] (dis_tutorial1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.616671] (-) TimerEvent: {}
+[1.678652] (dis_tutorial2) StdoutLine: {'line': b'running egg_info\n'}
+[1.678928] (dis_tutorial2) StdoutLine: {'line': b'creating dis_tutorial2.egg-info\n'}
+[1.680740] (dis_tutorial2) StdoutLine: {'line': b'writing dis_tutorial2.egg-info/PKG-INFO\n'}
+[1.681157] (dis_tutorial2) StdoutLine: {'line': b'writing dependency_links to dis_tutorial2.egg-info/dependency_links.txt\n'}
+[1.681248] (dis_tutorial2) StdoutLine: {'line': b'writing entry points to dis_tutorial2.egg-info/entry_points.txt\n'}
+[1.681386] (dis_tutorial2) StdoutLine: {'line': b'writing requirements to dis_tutorial2.egg-info/requires.txt\n'}
+[1.681616] (dis_tutorial2) StdoutLine: {'line': b'writing top-level names to dis_tutorial2.egg-info/top_level.txt\n'}
+[1.681703] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[1.685140] (dis_tutorial2) StdoutLine: {'line': b"reading manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[1.686387] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file 'dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[1.690027] (dis_tutorial2) StdoutLine: {'line': b'running build_ext\n'}
+[1.690388] (dis_tutorial2) StdoutLine: {'line': b'Creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/python3.10/site-packages/dis-tutorial2.egg-link (link to .)\n'}
+[1.692208] (dis_tutorial2) StdoutLine: {'line': b'Installing achtung_die_turtle script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.692609] (dis_tutorial2) StdoutLine: {'line': b'Installing go_to_position script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.692705] (dis_tutorial2) StdoutLine: {'line': b'Installing intersection script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.692781] (dis_tutorial2) StdoutLine: {'line': b'Installing random_velocity_publisher script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.694698] (dis_tutorial2) StdoutLine: {'line': b'Installing turtle_move script to /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[1.695046] (dis_tutorial2) StdoutLine: {'line': b'\n'}
+[1.695163] (dis_tutorial2) StdoutLine: {'line': b'Installed /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2\n'}
+[1.695393] (dis_tutorial2) StdoutLine: {'line': b'running symlink_data\n'}
+[1.695503] (dis_tutorial2) StdoutLine: {'line': b'creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/ament_index\n'}
+[1.698389] (dis_tutorial2) StdoutLine: {'line': b'creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/ament_index/resource_index\n'}
+[1.698509] (dis_tutorial2) StdoutLine: {'line': b'creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/ament_index/resource_index/packages\n'}
+[1.698580] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/resource/dis_tutorial2 -> /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/ament_index/resource_index/packages\n'}
+[1.698650] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/package.xml -> /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2\n'}
+[1.698719] (dis_tutorial2) StdoutLine: {'line': b'creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.698785] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/launch/go_to_position_launch.py -> /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.698880] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/launch/example_launch.yaml -> /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.698947] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/launch/example_launch.xml -> /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.699016] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/launch/example_launch.py -> /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[1.699425] (dis_tutorial2) StdoutLine: {'line': b'creating /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/srv\n'}
+[1.699595] (dis_tutorial2) StdoutLine: {'line': b'symbolically linking /home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/srv/MoveTurtle.srv -> /home/ilija/ros2_ws/src/RINS/install/dis_tutorial2/share/dis_tutorial2/srv\n'}
+[1.717473] (-) TimerEvent: {}
+[1.764088] (dis_tutorial2) CommandEnded: {'returncode': 0}
+[1.774606] (dis_tutorial1) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.774985] (dis_tutorial1) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.788918] (dis_tutorial2) JobEnded: {'identifier': 'dis_tutorial2', 'rc': 0}
+[1.791362] (hwpub) JobStarted: {'identifier': 'hwpub'}
+[1.799713] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.812410] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'cmake'}
+[1.812500] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '/home/ilija/ros2_ws/src/RINS/src/hwpub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ilija/ros2_ws/src/RINS/install/hwpub'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('OLDPWD', '/home/ilija/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1271,unix/ilija-virtual-machine:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/096e4dd6_9afa_4c97_866f_57fe2c7c1a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3ARS32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.818213] (-) TimerEvent: {}
+[1.920975] (-) TimerEvent: {}
+[1.939382] (hwpub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.021314] (-) TimerEvent: {}
+[2.061014] (hwpub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.077705] (hwpub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.122106] (-) TimerEvent: {}
+[2.226118] (-) TimerEvent: {}
+[2.230178] (hwpub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.246140] (hwpub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.248104] (hwpub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.249296] (hwpub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.253575] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.326396] (-) TimerEvent: {}
+[2.359844] (dis_tutorial1) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.427247] (-) TimerEvent: {}
+[2.438683] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.449480] (hwpub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.450000] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.450738] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.458820] (hwpub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.528106] (-) TimerEvent: {}
+[2.628899] (-) TimerEvent: {}
+[2.732025] (-) TimerEvent: {}
+[2.737581] (hwpub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.832306] (-) TimerEvent: {}
+[2.852639] (hwpub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.896340] (hwpub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.932749] (-) TimerEvent: {}
+[2.941717] (hwpub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.947636] (hwpub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.956963] (hwpub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.978711] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.999065] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.009372] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.032913] (-) TimerEvent: {}
+[3.094254] (hwpub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.096463] (hwpub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.134033] (-) TimerEvent: {}
+[3.236412] (-) TimerEvent: {}
+[3.257062] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.304713] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.305007] (hwpub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.307114] (dis_tutorial1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.338216] (-) TimerEvent: {}
+[3.350828] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.351486] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.351617] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.351683] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.354549] (hwpub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.397760] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.432357] (hwpub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.438521] (-) TimerEvent: {}
+[3.445651] (hwpub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.539271] (-) TimerEvent: {}
+[3.545331] (dis_tutorial1) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.614191] (hwpub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.615478] (hwpub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.642353] (-) TimerEvent: {}
+[3.737895] (dis_tutorial1) StdoutLine: {'line': b'-- Generating done\n'}
+[3.743005] (-) TimerEvent: {}
+[3.775634] (hwpub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.778273] (hwpub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.792035] (dis_tutorial1) StdoutLine: {'line': b'-- Build files have been written to: /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1\n'}
+[3.817009] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[3.821890] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'build'}
+[3.822093] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', '--', '-j2', '-l2'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('OLDPWD', '/home/ilija/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1271,unix/ilija-virtual-machine:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/096e4dd6_9afa_4c97_866f_57fe2c7c1a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3ARS32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.845603] (-) TimerEvent: {}
+[3.866565] (hwpub) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.869636] (hwpub) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.892633] (hwpub) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.938345] (dis_tutorial1) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.938593] (dis_tutorial1) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.945717] (-) TimerEvent: {}
+[4.046342] (-) TimerEvent: {}
+[4.149174] (-) TimerEvent: {}
+[4.250316] (-) TimerEvent: {}
+[4.351056] (-) TimerEvent: {}
+[4.452095] (-) TimerEvent: {}
+[4.553370] (-) TimerEvent: {}
+[4.655459] (-) TimerEvent: {}
+[4.738634] (hwpub) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.758056] (-) TimerEvent: {}
+[4.858408] (-) TimerEvent: {}
+[4.961301] (-) TimerEvent: {}
+[5.063042] (-) TimerEvent: {}
+[5.163857] (-) TimerEvent: {}
+[5.264607] (-) TimerEvent: {}
+[5.365388] (-) TimerEvent: {}
+[5.466211] (-) TimerEvent: {}
+[5.485590] (dis_tutorial1) StdoutLine: {'line': b'[  2%] Built target dis_tutorial1__cpp\n'}
+[5.556113] (dis_tutorial1) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_dis_tutorial1\n'}
+[5.568888] (-) TimerEvent: {}
+[5.608474] (dis_tutorial1) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[5.669586] (-) TimerEvent: {}
+[5.677925] (dis_tutorial1) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/msg/detail/custom_message__functions.c.o\x1b[0m\n'}
+[5.770456] (-) TimerEvent: {}
+[5.827761] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.870937] (-) TimerEvent: {}
+[5.894396] (dis_tutorial1) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[5.972380] (-) TimerEvent: {}
+[6.063919] (dis_tutorial1) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/msg/detail/custom_message2__functions.c.o\x1b[0m\n'}
+[6.073241] (-) TimerEvent: {}
+[6.159331] (dis_tutorial1) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/srv/detail/sum_service__functions.c.o\x1b[0m\n'}
+[6.175389] (-) TimerEvent: {}
+[6.269036] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.276752] (-) TimerEvent: {}
+[6.286699] (dis_tutorial1) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking C shared library libdis_tutorial1__rosidl_generator_c.so\x1b[0m\n'}
+[6.355033] (hwpub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.360269] (hwpub) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.377952] (-) TimerEvent: {}
+[6.413340] (dis_tutorial1) StdoutLine: {'line': b'[ 11%] Built target dis_tutorial1__rosidl_generator_c\n'}
+[6.445489] (hwpub) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.445802] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.446164] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.446267] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.479185] (-) TimerEvent: {}
+[6.531545] (hwpub) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.539495] (dis_tutorial1) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[6.583229] (-) TimerEvent: {}
+[6.684499] (-) TimerEvent: {}
+[6.762027] (hwpub) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.785195] (-) TimerEvent: {}
+[6.880251] (hwpub) StdoutLine: {'line': b'-- Generating done\n'}
+[6.886409] (-) TimerEvent: {}
+[6.929997] (hwpub) StdoutLine: {'line': b'-- Build files have been written to: /home/ilija/ros2_ws/src/RINS/build/hwpub\n'}
+[6.981461] (hwpub) CommandEnded: {'returncode': 0}
+[6.982239] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'build'}
+[6.982277] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ilija/ros2_ws/src/RINS/build/hwpub', '--', '-j2', '-l2'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('OLDPWD', '/home/ilija/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1271,unix/ilija-virtual-machine:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/096e4dd6_9afa_4c97_866f_57fe2c7c1a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3ARS32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.987413] (-) TimerEvent: {}
+[7.089284] (-) TimerEvent: {}
+[7.175297] (hwpub) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.191140] (-) TimerEvent: {}
+[7.283677] (hwpub) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.291480] (-) TimerEvent: {}
+[7.394126] (-) TimerEvent: {}
+[7.499259] (-) TimerEvent: {}
+[7.600390] (-) TimerEvent: {}
+[7.701376] (-) TimerEvent: {}
+[7.802648] (-) TimerEvent: {}
+[7.906258] (-) TimerEvent: {}
+[8.009143] (-) TimerEvent: {}
+[8.110026] (-) TimerEvent: {}
+[8.210798] (-) TimerEvent: {}
+[8.313022] (-) TimerEvent: {}
+[8.413921] (-) TimerEvent: {}
+[8.517364] (-) TimerEvent: {}
+[8.618461] (-) TimerEvent: {}
+[8.720495] (-) TimerEvent: {}
+[8.821890] (-) TimerEvent: {}
+[8.926290] (-) TimerEvent: {}
+[9.027426] (-) TimerEvent: {}
+[9.051160] (hwpub) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_c.dir/rosidl_generator_c/hwpub/msg/detail/hwmsg__functions.c.o\x1b[0m\n'}
+[9.128235] (-) TimerEvent: {}
+[9.229346] (-) TimerEvent: {}
+[9.264946] (hwpub) StdoutLine: {'line': b'[  7%] Built target hwpub__cpp\n'}
+[9.321143] (hwpub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_c.dir/rosidl_generator_c/hwpub/srv/detail/customserv__functions.c.o\x1b[0m\n'}
+[9.330136] (-) TimerEvent: {}
+[9.432598] (-) TimerEvent: {}
+[9.443242] (hwpub) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_symlink_hwpub\n'}
+[9.474868] (hwpub) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.535130] (-) TimerEvent: {}
+[9.636166] (-) TimerEvent: {}
+[9.711172] (hwpub) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libhwpub__rosidl_generator_c.so\x1b[0m\n'}
+[9.736361] (-) TimerEvent: {}
+[9.839638] (-) TimerEvent: {}
+[9.941219] (-) TimerEvent: {}
+[9.984255] (hwpub) StdoutLine: {'line': b'[ 15%] Built target hwpub__rosidl_generator_c\n'}
+[10.043011] (-) TimerEvent: {}
+[10.057084] (hwpub) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.144178] (-) TimerEvent: {}
+[10.246445] (-) TimerEvent: {}
+[10.346985] (-) TimerEvent: {}
+[10.448143] (-) TimerEvent: {}
+[10.549313] (hwpub) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hwpub/msg/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[10.549550] (-) TimerEvent: {}
+[10.651160] (-) TimerEvent: {}
+[10.752035] (-) TimerEvent: {}
+[10.855287] (-) TimerEvent: {}
+[10.958502] (-) TimerEvent: {}
+[11.059507] (-) TimerEvent: {}
+[11.162531] (-) TimerEvent: {}
+[11.264385] (-) TimerEvent: {}
+[11.365121] (-) TimerEvent: {}
+[11.439083] (hwpub) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hwpub/msg/detail/dds_fastrtps/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[11.467888] (-) TimerEvent: {}
+[11.568827] (-) TimerEvent: {}
+[11.669500] (-) TimerEvent: {}
+[11.772393] (-) TimerEvent: {}
+[11.873528] (-) TimerEvent: {}
+[11.976677] (-) TimerEvent: {}
+[12.079497] (-) TimerEvent: {}
+[12.180574] (-) TimerEvent: {}
+[12.197174] (hwpub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hwpub/srv/customserv__type_support.cpp.o\x1b[0m\n'}
+[12.282464] (-) TimerEvent: {}
+[12.383092] (-) TimerEvent: {}
+[12.486429] (-) TimerEvent: {}
+[12.588101] (-) TimerEvent: {}
+[12.689212] (-) TimerEvent: {}
+[12.792057] (-) TimerEvent: {}
+[12.892848] (-) TimerEvent: {}
+[12.994280] (-) TimerEvent: {}
+[13.099398] (-) TimerEvent: {}
+[13.200056] (-) TimerEvent: {}
+[13.303420] (-) TimerEvent: {}
+[13.404133] (-) TimerEvent: {}
+[13.505238] (-) TimerEvent: {}
+[13.609360] (-) TimerEvent: {}
+[13.710102] (-) TimerEvent: {}
+[13.811303] (-) TimerEvent: {}
+[13.914425] (-) TimerEvent: {}
+[14.015372] (-) TimerEvent: {}
+[14.117422] (-) TimerEvent: {}
+[14.124407] (hwpub) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.207282] (hwpub) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hwpub/srv/detail/dds_fastrtps/customserv__type_support.cpp.o\x1b[0m\n'}
+[14.219481] (-) TimerEvent: {}
+[14.320535] (-) TimerEvent: {}
+[14.361950] (hwpub) StdoutLine: {'line': b'[ 30%] Built target hwpub__rosidl_typesupport_cpp\n'}
+[14.408113] (hwpub) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.422881] (-) TimerEvent: {}
+[14.525352] (-) TimerEvent: {}
+[14.626149] (-) TimerEvent: {}
+[14.727191] (-) TimerEvent: {}
+[14.830445] (-) TimerEvent: {}
+[14.931203] (-) TimerEvent: {}
+[15.032027] (-) TimerEvent: {}
+[15.134175] (-) TimerEvent: {}
+[15.237315] (-) TimerEvent: {}
+[15.338102] (-) TimerEvent: {}
+[15.438998] (-) TimerEvent: {}
+[15.541124] (-) TimerEvent: {}
+[15.624920] (hwpub) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hwpub/msg/detail/hwmsg__type_support.c.o\x1b[0m\n'}
+[15.641925] (-) TimerEvent: {}
+[15.745433] (-) TimerEvent: {}
+[15.755365] (hwpub) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hwpub/srv/detail/customserv__type_support.c.o\x1b[0m\n'}
+[15.845683] (-) TimerEvent: {}
+[15.909182] (hwpub) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libhwpub__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.946459] (-) TimerEvent: {}
+[16.050040] (hwpub) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.050305] (-) TimerEvent: {}
+[16.072338] (hwpub) StdoutLine: {'line': b'[ 43%] Built target hwpub__rosidl_typesupport_introspection_c\n'}
+[16.119773] (hwpub) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.151462] (-) TimerEvent: {}
+[16.254345] (-) TimerEvent: {}
+[16.355875] (-) TimerEvent: {}
+[16.459339] (-) TimerEvent: {}
+[16.471214] (hwpub) StdoutLine: {'line': b'[ 46%] Built target hwpub__rosidl_typesupport_fastrtps_cpp\n'}
+[16.558234] (hwpub) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.559814] (-) TimerEvent: {}
+[16.662553] (-) TimerEvent: {}
+[16.763650] (-) TimerEvent: {}
+[16.866310] (-) TimerEvent: {}
+[16.967616] (-) TimerEvent: {}
+[17.068860] (-) TimerEvent: {}
+[17.173014] (-) TimerEvent: {}
+[17.274078] (-) TimerEvent: {}
+[17.293410] (hwpub) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_c.dir/rosidl_typesupport_c/hwpub/msg/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[17.376062] (-) TimerEvent: {}
+[17.476720] (-) TimerEvent: {}
+[17.577438] (-) TimerEvent: {}
+[17.611367] (hwpub) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_c.dir/rosidl_typesupport_c/hwpub/srv/customserv__type_support.cpp.o\x1b[0m\n'}
+[17.679105] (-) TimerEvent: {}
+[17.781281] (-) TimerEvent: {}
+[17.787532] (hwpub) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.836244] (hwpub) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hwpub/msg/detail/hwmsg__type_support.cpp.o\x1b[0m\n'}
+[17.881442] (-) TimerEvent: {}
+[17.982091] (-) TimerEvent: {}
+[18.085393] (-) TimerEvent: {}
+[18.189245] (-) TimerEvent: {}
+[18.294267] (-) TimerEvent: {}
+[18.364127] (hwpub) StdoutLine: {'line': b'[ 58%] Built target hwpub__rosidl_typesupport_c\n'}
+[18.395107] (-) TimerEvent: {}
+[18.496007] (-) TimerEvent: {}
+[18.596921] (-) TimerEvent: {}
+[18.699052] (-) TimerEvent: {}
+[18.802230] (-) TimerEvent: {}
+[18.903097] (-) TimerEvent: {}
+[19.004236] (-) TimerEvent: {}
+[19.105493] (-) TimerEvent: {}
+[19.207971] (-) TimerEvent: {}
+[19.312408] (-) TimerEvent: {}
+[19.413627] (-) TimerEvent: {}
+[19.517298] (-) TimerEvent: {}
+[19.618258] (-) TimerEvent: {}
+[19.719056] (-) TimerEvent: {}
+[19.826905] (-) TimerEvent: {}
+[19.927821] (-) TimerEvent: {}
+[19.975383] (hwpub) StdoutLine: {'line': b'running egg_info\n'}
+[19.981164] (hwpub) StdoutLine: {'line': b'creating hwpub.egg-info\n'}
+[19.981441] (hwpub) StdoutLine: {'line': b'writing hwpub.egg-info/PKG-INFO\n'}
+[19.984322] (hwpub) StdoutLine: {'line': b'writing dependency_links to hwpub.egg-info/dependency_links.txt\n'}
+[19.984532] (hwpub) StdoutLine: {'line': b'writing top-level names to hwpub.egg-info/top_level.txt\n'}
+[19.989831] (hwpub) StdoutLine: {'line': b"writing manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[19.998036] (hwpub) StdoutLine: {'line': b"reading manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[19.999616] (hwpub) StdoutLine: {'line': b"writing manifest file 'hwpub.egg-info/SOURCES.txt'\n"}
+[20.028509] (-) TimerEvent: {}
+[20.085314] (hwpub) StdoutLine: {'line': b'[ 58%] Built target ament_cmake_python_build_hwpub_egg\n'}
+[20.113674] (hwpub) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.130081] (-) TimerEvent: {}
+[20.232028] (-) TimerEvent: {}
+[20.333187] (-) TimerEvent: {}
+[20.435324] (-) TimerEvent: {}
+[20.536194] (-) TimerEvent: {}
+[20.639035] (-) TimerEvent: {}
+[20.741195] (-) TimerEvent: {}
+[20.843056] (-) TimerEvent: {}
+[20.944995] (-) TimerEvent: {}
+[21.045984] (-) TimerEvent: {}
+[21.146844] (-) TimerEvent: {}
+[21.249083] (-) TimerEvent: {}
+[21.352469] (-) TimerEvent: {}
+[21.455216] (-) TimerEvent: {}
+[21.546245] (hwpub) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hwpub/msg/detail/hwmsg__type_support_c.cpp.o\x1b[0m\n'}
+[21.556689] (-) TimerEvent: {}
+[21.583979] (hwpub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hwpub/srv/detail/customserv__type_support.cpp.o\x1b[0m\n'}
+[21.658301] (-) TimerEvent: {}
+[21.761924] (-) TimerEvent: {}
+[21.862896] (-) TimerEvent: {}
+[21.963653] (-) TimerEvent: {}
+[22.065467] (-) TimerEvent: {}
+[22.166368] (-) TimerEvent: {}
+[22.269433] (-) TimerEvent: {}
+[22.372371] (-) TimerEvent: {}
+[22.473482] (-) TimerEvent: {}
+[22.576266] (-) TimerEvent: {}
+[22.677180] (-) TimerEvent: {}
+[22.777944] (-) TimerEvent: {}
+[22.878611] (-) TimerEvent: {}
+[22.980663] (-) TimerEvent: {}
+[23.084281] (-) TimerEvent: {}
+[23.186456] (-) TimerEvent: {}
+[23.289341] (-) TimerEvent: {}
+[23.390269] (-) TimerEvent: {}
+[23.493102] (-) TimerEvent: {}
+[23.594012] (-) TimerEvent: {}
+[23.694701] (-) TimerEvent: {}
+[23.798445] (-) TimerEvent: {}
+[23.837569] (hwpub) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hwpub/srv/detail/customserv__type_support_c.cpp.o\x1b[0m\n'}
+[23.900464] (-) TimerEvent: {}
+[24.001242] (-) TimerEvent: {}
+[24.102407] (-) TimerEvent: {}
+[24.205418] (-) TimerEvent: {}
+[24.306313] (-) TimerEvent: {}
+[24.407294] (-) TimerEvent: {}
+[24.508156] (-) TimerEvent: {}
+[24.611212] (-) TimerEvent: {}
+[24.712152] (-) TimerEvent: {}
+[24.813239] (-) TimerEvent: {}
+[24.915090] (-) TimerEvent: {}
+[24.993211] (hwpub) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.016262] (-) TimerEvent: {}
+[25.119469] (-) TimerEvent: {}
+[25.220326] (-) TimerEvent: {}
+[25.321290] (-) TimerEvent: {}
+[25.422356] (hwpub) StdoutLine: {'line': b'[ 71%] Built target hwpub__rosidl_typesupport_introspection_cpp\n'}
+[25.422610] (-) TimerEvent: {}
+[25.523125] (-) TimerEvent: {}
+[25.624138] (-) TimerEvent: {}
+[25.710518] (hwpub) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libhwpub__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[25.724344] (-) TimerEvent: {}
+[25.827261] (-) TimerEvent: {}
+[25.928080] (-) TimerEvent: {}
+[26.029094] (-) TimerEvent: {}
+[26.130197] (-) TimerEvent: {}
+[26.223969] (hwpub) StdoutLine: {'line': b'[ 74%] Built target hwpub__rosidl_typesupport_fastrtps_c\n'}
+[26.233611] (-) TimerEvent: {}
+[26.327970] (hwpub) StdoutLine: {'line': b'[ 74%] Built target hwpub\n'}
+[26.334390] (-) TimerEvent: {}
+[26.418573] (hwpub) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[26.439080] (-) TimerEvent: {}
+[26.540379] (-) TimerEvent: {}
+[26.641535] (-) TimerEvent: {}
+[26.742165] (-) TimerEvent: {}
+[26.843399] (-) TimerEvent: {}
+[26.944170] (-) TimerEvent: {}
+[27.046135] (-) TimerEvent: {}
+[27.147020] (-) TimerEvent: {}
+[27.250364] (-) TimerEvent: {}
+[27.351401] (-) TimerEvent: {}
+[27.452403] (-) TimerEvent: {}
+[27.553270] (-) TimerEvent: {}
+[27.655513] (-) TimerEvent: {}
+[27.756091] (-) TimerEvent: {}
+[27.844614] (hwpub) StdoutLine: {'line': b'[ 76%] Built target hwpub__py\n'}
+[27.857003] (-) TimerEvent: {}
+[27.940442] (hwpub) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_py.dir/rosidl_generator_py/hwpub/msg/_hwmsg_s.c.o\x1b[0m\n'}
+[27.946288] (hwpub) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_generator_py.dir/rosidl_generator_py/hwpub/srv/_customserv_s.c.o\x1b[0m\n'}
+[27.957294] (-) TimerEvent: {}
+[28.058428] (-) TimerEvent: {}
+[28.162427] (-) TimerEvent: {}
+[28.263981] (-) TimerEvent: {}
+[28.366165] (-) TimerEvent: {}
+[28.467107] (-) TimerEvent: {}
+[28.571267] (-) TimerEvent: {}
+[28.673098] (-) TimerEvent: {}
+[28.773803] (-) TimerEvent: {}
+[28.874833] (-) TimerEvent: {}
+[28.975473] (-) TimerEvent: {}
+[29.055734] (hwpub) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/libhwpub__rosidl_generator_py.so\x1b[0m\n'}
+[29.077392] (-) TimerEvent: {}
+[29.158831] (hwpub) StdoutLine: {'line': b'[ 84%] Built target hwpub__rosidl_generator_py\n'}
+[29.178046] (-) TimerEvent: {}
+[29.246179] (hwpub) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.261643] (hwpub) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[29.278724] (-) TimerEvent: {}
+[29.380555] (-) TimerEvent: {}
+[29.482978] (-) TimerEvent: {}
+[29.583911] (-) TimerEvent: {}
+[29.686436] (-) TimerEvent: {}
+[29.705586] (hwpub) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.788175] (-) TimerEvent: {}
+[29.846576] (hwpub) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.882428] (hwpub) StdoutLine: {'line': b'[ 94%] Built target hwpub__rosidl_typesupport_introspection_c__pyext\n'}
+[29.889471] (-) TimerEvent: {}
+[29.990138] (-) TimerEvent: {}
+[29.997355] (hwpub) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[30.029390] (hwpub) StdoutLine: {'line': b'[ 97%] Built target hwpub__rosidl_typesupport_fastrtps_c__pyext\n'}
+[30.090505] (-) TimerEvent: {}
+[30.192212] (-) TimerEvent: {}
+[30.288151] (hwpub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.294238] (-) TimerEvent: {}
+[30.379202] (hwpub) StdoutLine: {'line': b'[100%] Built target hwpub__rosidl_typesupport_c__pyext\n'}
+[30.395340] (-) TimerEvent: {}
+[30.472424] (hwpub) CommandEnded: {'returncode': 0}
+[30.473222] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'install'}
+[30.496092] (-) TimerEvent: {}
+[30.516631] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ilija/ros2_ws/src/RINS/build/hwpub'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('OLDPWD', '/home/ilija/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1271,unix/ilija-virtual-machine:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/096e4dd6_9afa_4c97_866f_57fe2c7c1a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3ARS32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.560041] (hwpub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.561799] (hwpub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.565700] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/rosidl_interfaces/hwpub\n'}
+[30.596385] (-) TimerEvent: {}
+[30.646306] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__functions.h\n'}
+[30.688203] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.h\n'}
+[30.696656] (-) TimerEvent: {}
+[30.750107] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.h\n'}
+[30.797188] (-) TimerEvent: {}
+[30.830326] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/hwmsg.h\n'}
+[30.885424] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.897340] (-) TimerEvent: {}
+[30.941351] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/customserv.h\n'}
+[30.994199] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__functions.h\n'}
+[30.998066] (-) TimerEvent: {}
+[31.064373] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.h\n'}
+[31.099318] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.h\n'}
+[31.099528] (-) TimerEvent: {}
+[31.137298] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/library_path.sh\n'}
+[31.183146] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/library_path.dsv\n'}
+[31.200969] (-) TimerEvent: {}
+[31.219044] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_c.h\n'}
+[31.262193] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[31.301028] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_c.h\n'}
+[31.301280] (-) TimerEvent: {}
+[31.353528] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__builder.hpp\n'}
+[31.392127] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.hpp\n'}
+[31.402302] (-) TimerEvent: {}
+[31.438955] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__traits.hpp\n'}
+[31.480079] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.hpp\n'}
+[31.502733] (-) TimerEvent: {}
+[31.524356] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/hwmsg.hpp\n'}
+[31.564364] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[31.603096] (-) TimerEvent: {}
+[31.620473] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/customserv.hpp\n'}
+[31.663991] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__builder.hpp\n'}
+[31.684717] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.hpp\n'}
+[31.704177] (-) TimerEvent: {}
+[31.706208] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__traits.hpp\n'}
+[31.729124] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.hpp\n'}
+[31.772444] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.805509] (-) TimerEvent: {}
+[31.835464] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[31.873579] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.908250] (-) TimerEvent: {}
+[31.911150] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_c.h\n'}
+[31.955662] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[31.992070] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_c.h\n'}
+[32.011187] (-) TimerEvent: {}
+[32.031692] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.075376] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.111949] (-) TimerEvent: {}
+[32.117694] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/pythonpath.sh\n'}
+[32.159714] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/pythonpath.dsv\n'}
+[32.210605] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[32.212696] (-) TimerEvent: {}
+[32.245841] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[32.290130] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[32.313128] (-) TimerEvent: {}
+[32.328554] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[32.354385] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py\n'}
+[32.374558] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c\n'}
+[32.397178] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[32.414017] (-) TimerEvent: {}
+[32.434582] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[32.435759] (dis_tutorial1) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[32.477688] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.503502] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.514635] (-) TimerEvent: {}
+[32.524257] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.546053] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/libhwpub__rosidl_generator_py.so\n'}
+[32.564805] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py\n'}
+[32.603118] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py\n'}
+[32.616056] (-) TimerEvent: {}
+[32.649436] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg_s.c\n'}
+[32.699449] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py\n'}
+[32.716817] (-) TimerEvent: {}
+[32.734605] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py\n'}
+[32.785688] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv_s.c\n'}
+[32.818348] (-) TimerEvent: {}
+[32.827293] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.831322] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.831570] (hwpub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.831643] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/msg/Hwmsg.idl\n'}
+[32.876254] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv.idl\n'}
+[32.912920] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/msg/Hwmsg.msg\n'}
+[32.918948] (-) TimerEvent: {}
+[32.961954] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv.srv\n'}
+[33.003228] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv_Request.msg\n'}
+[33.019632] (-) TimerEvent: {}
+[33.048688] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv_Response.msg\n'}
+[33.094780] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/hwpub/py_move_trajectory.py\n'}
+[33.122712] (-) TimerEvent: {}
+[33.135225] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/package_run_dependencies/hwpub\n'}
+[33.179710] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/parent_prefix_path/hwpub\n'}
+[33.222260] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/ament_prefix_path.sh\n'}
+[33.224388] (-) TimerEvent: {}
+[33.241963] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/ament_prefix_path.dsv\n'}
+[33.283233] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/path.sh\n'}
+[33.321484] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/path.dsv\n'}
+[33.326340] (-) TimerEvent: {}
+[33.358918] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.bash\n'}
+[33.382178] (dis_tutorial1) StdoutLine: {'line': b'[ 14%] Built target simple_publisher\n'}
+[33.398159] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.sh\n'}
+[33.410835] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.zsh\n'}
+[33.427127] (-) TimerEvent: {}
+[33.436359] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.dsv\n'}
+[33.472041] (dis_tutorial1) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/simple_set_bool_server_node.dir/src/simple_set_bool_server_node.cpp.o\x1b[0m\n'}
+[33.472585] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.dsv\n'}
+[33.508203] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/packages/hwpub\n'}
+[33.527512] (-) TimerEvent: {}
+[33.536757] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake-extras.cmake\n'}
+[33.576335] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.613814] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.631321] (-) TimerEvent: {}
+[33.631683] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.645742] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.666560] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.685239] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.701500] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpubConfig.cmake\n'}
+[33.720127] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpubConfig-version.cmake\n'}
+[33.732554] (-) TimerEvent: {}
+[33.740230] (hwpub) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.xml\n'}
+[33.760965] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_c.so\n'}
+[33.762169] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_c.so" to ""\n'}
+[33.762397] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so\n'}
+[33.766340] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.766681] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.767119] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[33.767218] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so\n'}
+[33.768792] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.769427] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so\n'}
+[33.772302] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so" to ""\n'}
+[33.772548] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so\n'}
+[33.774608] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[33.777312] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so\n'}
+[33.777684] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so" to ""\n'}
+[33.833993] (-) TimerEvent: {}
+[33.875473] (hwpub) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub'...\n"}
+[33.875697] (hwpub) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py'...\n"}
+[33.875752] (hwpub) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg'...\n"}
+[33.875798] (hwpub) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py'...\n"}
+[33.875844] (hwpub) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py'...\n"}
+[33.875888] (hwpub) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv'...\n"}
+[33.875950] (hwpub) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py'...\n"}
+[33.875994] (hwpub) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py'...\n"}
+[33.891396] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_py.so\n'}
+[33.894371] (hwpub) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_py.so" to ""\n'}
+[33.894578] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport.cmake\n'}
+[33.895406] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport-noconfig.cmake\n'}
+[33.897082] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[33.898248] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[33.898663] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cppExport.cmake\n'}
+[33.899003] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[33.899528] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[33.901252] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport.cmake\n'}
+[33.901541] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[33.903180] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport.cmake\n'}
+[33.903569] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[33.904067] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[33.904404] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[33.906506] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport.cmake\n'}
+[33.906704] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[33.906775] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport.cmake\n'}
+[33.908329] (hwpub) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport-noconfig.cmake\n'}
+[33.918407] (hwpub) CommandEnded: {'returncode': 0}
+[33.934352] (-) TimerEvent: {}
+[34.001341] (hwpub) JobEnded: {'identifier': 'hwpub', 'rc': 0}
+[34.035523] (-) TimerEvent: {}
+[34.136433] (-) TimerEvent: {}
+[34.238879] (-) TimerEvent: {}
+[34.340205] (-) TimerEvent: {}
+[34.441379] (-) TimerEvent: {}
+[34.542139] (-) TimerEvent: {}
+[34.645137] (-) TimerEvent: {}
+[34.746240] (-) TimerEvent: {}
+[34.847263] (-) TimerEvent: {}
+[34.948194] (-) TimerEvent: {}
+[35.049406] (-) TimerEvent: {}
+[35.151382] (-) TimerEvent: {}
+[35.252369] (-) TimerEvent: {}
+[35.353361] (-) TimerEvent: {}
+[35.455287] (-) TimerEvent: {}
+[35.556742] (-) TimerEvent: {}
+[35.658849] (-) TimerEvent: {}
+[35.760338] (-) TimerEvent: {}
+[35.861265] (-) TimerEvent: {}
+[35.962964] (-) TimerEvent: {}
+[36.065526] (-) TimerEvent: {}
+[36.166489] (-) TimerEvent: {}
+[36.267205] (-) TimerEvent: {}
+[36.368122] (-) TimerEvent: {}
+[36.469401] (-) TimerEvent: {}
+[36.571005] (-) TimerEvent: {}
+[36.674079] (-) TimerEvent: {}
+[36.775115] (-) TimerEvent: {}
+[36.875960] (-) TimerEvent: {}
+[36.976776] (-) TimerEvent: {}
+[37.077783] (-) TimerEvent: {}
+[37.179387] (-) TimerEvent: {}
+[37.280338] (-) TimerEvent: {}
+[37.383021] (-) TimerEvent: {}
+[37.483775] (-) TimerEvent: {}
+[37.584981] (-) TimerEvent: {}
+[37.686098] (-) TimerEvent: {}
+[37.787246] (-) TimerEvent: {}
+[37.888456] (-) TimerEvent: {}
+[37.989878] (-) TimerEvent: {}
+[38.091746] (-) TimerEvent: {}
+[38.195286] (-) TimerEvent: {}
+[38.296699] (-) TimerEvent: {}
+[38.397527] (-) TimerEvent: {}
+[38.498665] (-) TimerEvent: {}
+[38.599839] (-) TimerEvent: {}
+[38.700511] (-) TimerEvent: {}
+[38.801105] (-) TimerEvent: {}
+[38.903276] (-) TimerEvent: {}
+[39.004178] (-) TimerEvent: {}
+[39.107439] (-) TimerEvent: {}
+[39.208142] (-) TimerEvent: {}
+[39.309251] (-) TimerEvent: {}
+[39.410421] (-) TimerEvent: {}
+[39.511278] (-) TimerEvent: {}
+[39.612300] (-) TimerEvent: {}
+[39.713002] (-) TimerEvent: {}
+[39.814729] (-) TimerEvent: {}
+[39.918463] (-) TimerEvent: {}
+[40.019038] (-) TimerEvent: {}
+[40.119841] (-) TimerEvent: {}
+[40.222061] (-) TimerEvent: {}
+[40.325010] (-) TimerEvent: {}
+[40.427496] (-) TimerEvent: {}
+[40.528299] (-) TimerEvent: {}
+[40.631538] (-) TimerEvent: {}
+[40.732671] (-) TimerEvent: {}
+[40.833200] (-) TimerEvent: {}
+[40.934298] (-) TimerEvent: {}
+[41.035416] (-) TimerEvent: {}
+[41.136470] (-) TimerEvent: {}
+[41.239418] (-) TimerEvent: {}
+[41.265542] (dis_tutorial1) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[41.339923] (-) TimerEvent: {}
+[41.387119] (dis_tutorial1) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX executable simple_set_bool_server_node\x1b[0m\n'}
+[41.441181] (-) TimerEvent: {}
+[41.543056] (-) TimerEvent: {}
+[41.644152] (-) TimerEvent: {}
+[41.746126] (-) TimerEvent: {}
+[41.782415] (dis_tutorial1) StdoutLine: {'line': b'[ 19%] Built target simple_set_bool_server_node\n'}
+[41.846800] (-) TimerEvent: {}
+[41.947782] (-) TimerEvent: {}
+[42.049112] (-) TimerEvent: {}
+[42.055405] (dis_tutorial1) StdoutLine: {'line': b'[ 19%] Built target simple_subscriber\n'}
+[42.072580] (dis_tutorial1) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[42.149809] (-) TimerEvent: {}
+[42.252628] (-) TimerEvent: {}
+[42.353794] (-) TimerEvent: {}
+[42.454209] (-) TimerEvent: {}
+[42.482900] (dis_tutorial1) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o\x1b[0m\n'}
+[42.554980] (-) TimerEvent: {}
+[42.656285] (-) TimerEvent: {}
+[42.757365] (-) TimerEvent: {}
+[42.802585] (dis_tutorial1) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[42.857647] (-) TimerEvent: {}
+[42.958829] (-) TimerEvent: {}
+[43.060006] (-) TimerEvent: {}
+[43.137273] (dis_tutorial1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[43.160255] (-) TimerEvent: {}
+[43.261206] (-) TimerEvent: {}
+[43.362175] (-) TimerEvent: {}
+[43.441565] (dis_tutorial1) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o\x1b[0m\n'}
+[43.462349] (-) TimerEvent: {}
+[43.563480] (-) TimerEvent: {}
+[43.664140] (-) TimerEvent: {}
+[43.754452] (dis_tutorial1) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[43.764547] (-) TimerEvent: {}
+[43.824283] (dis_tutorial1) StdoutLine: {'line': b'[ 28%] Built target dis_tutorial1__rosidl_typesupport_cpp\n'}
+[43.842509] (dis_tutorial1) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[43.865041] (-) TimerEvent: {}
+[43.966066] (-) TimerEvent: {}
+[44.068657] (-) TimerEvent: {}
+[44.169817] (-) TimerEvent: {}
+[44.270279] (-) TimerEvent: {}
+[44.371135] (-) TimerEvent: {}
+[44.383364] (dis_tutorial1) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/msg/detail/custom_message__type_support_c.cpp.o\x1b[0m\n'}
+[44.471979] (-) TimerEvent: {}
+[44.573103] (-) TimerEvent: {}
+[44.674093] (-) TimerEvent: {}
+[44.775001] (-) TimerEvent: {}
+[44.780438] (dis_tutorial1) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[44.875641] (-) TimerEvent: {}
+[44.976628] (-) TimerEvent: {}
+[45.077215] (-) TimerEvent: {}
+[45.161852] (dis_tutorial1) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/msg/detail/custom_message2__type_support_c.cpp.o\x1b[0m\n'}
+[45.179375] (-) TimerEvent: {}
+[45.280232] (-) TimerEvent: {}
+[45.380976] (-) TimerEvent: {}
+[45.481389] (-) TimerEvent: {}
+[45.562746] (dis_tutorial1) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/srv/detail/sum_service__type_support_c.cpp.o\x1b[0m\n'}
+[45.581843] (-) TimerEvent: {}
+[45.682465] (-) TimerEvent: {}
+[45.783026] (-) TimerEvent: {}
+[45.884019] (-) TimerEvent: {}
+[45.980285] (dis_tutorial1) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[45.984304] (-) TimerEvent: {}
+[46.085273] (-) TimerEvent: {}
+[46.122488] (dis_tutorial1) StdoutLine: {'line': b'[ 37%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c\n'}
+[46.140282] (dis_tutorial1) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[46.186924] (-) TimerEvent: {}
+[46.288023] (-) TimerEvent: {}
+[46.389110] (-) TimerEvent: {}
+[46.489742] (-) TimerEvent: {}
+[46.590387] (-) TimerEvent: {}
+[46.686866] (dis_tutorial1) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o\x1b[0m\n'}
+[46.691187] (-) TimerEvent: {}
+[46.792301] (-) TimerEvent: {}
+[46.893405] (-) TimerEvent: {}
+[46.994225] (-) TimerEvent: {}
+[47.095311] (-) TimerEvent: {}
+[47.149227] (dis_tutorial1) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[47.196203] (-) TimerEvent: {}
+[47.296929] (-) TimerEvent: {}
+[47.397518] (-) TimerEvent: {}
+[47.498353] (-) TimerEvent: {}
+[47.598896] (-) TimerEvent: {}
+[47.609378] (dis_tutorial1) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/msg/detail/dds_fastrtps/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[47.699363] (-) TimerEvent: {}
+[47.800277] (-) TimerEvent: {}
+[47.901361] (-) TimerEvent: {}
+[48.002097] (-) TimerEvent: {}
+[48.055557] (dis_tutorial1) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/srv/detail/dds_fastrtps/sum_service__type_support.cpp.o\x1b[0m\n'}
+[48.102764] (-) TimerEvent: {}
+[48.203856] (-) TimerEvent: {}
+[48.304687] (-) TimerEvent: {}
+[48.405555] (-) TimerEvent: {}
+[48.507192] (-) TimerEvent: {}
+[48.579968] (dis_tutorial1) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[48.607505] (-) TimerEvent: {}
+[48.708531] (-) TimerEvent: {}
+[48.720007] (dis_tutorial1) StdoutLine: {'line': b'[ 46%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_cpp\n'}
+[48.744889] (dis_tutorial1) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[48.809166] (-) TimerEvent: {}
+[48.909961] (-) TimerEvent: {}
+[49.010633] (-) TimerEvent: {}
+[49.111649] (-) TimerEvent: {}
+[49.212283] (-) TimerEvent: {}
+[49.262666] (dis_tutorial1) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[49.268674] (dis_tutorial1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/msg/detail/custom_message__type_support.c.o\x1b[0m\n'}
+[49.312533] (-) TimerEvent: {}
+[49.331628] (dis_tutorial1) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[49.406358] (dis_tutorial1) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/msg/detail/custom_message2__type_support.c.o\x1b[0m\n'}
+[49.413022] (-) TimerEvent: {}
+[49.484512] (dis_tutorial1) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/srv/detail/sum_service__type_support.c.o\x1b[0m\n'}
+[49.513938] (-) TimerEvent: {}
+[49.557622] (dis_tutorial1) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libdis_tutorial1__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[49.614426] (-) TimerEvent: {}
+[49.628068] (dis_tutorial1) StdoutLine: {'line': b'[ 56%] Built target dis_tutorial1__rosidl_typesupport_introspection_c\n'}
+[49.654249] (dis_tutorial1) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[49.715094] (-) TimerEvent: {}
+[49.810071] (dis_tutorial1) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/msg/custom_message__type_support.cpp.o\x1b[0m\n'}
+[49.815633] (-) TimerEvent: {}
+[49.873922] (dis_tutorial1) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[49.916175] (-) TimerEvent: {}
+[49.937139] (dis_tutorial1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/msg/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[49.993607] (dis_tutorial1) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/srv/sum_service__type_support.cpp.o\x1b[0m\n'}
+[50.017015] (-) TimerEvent: {}
+[50.061382] (dis_tutorial1) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_c.so\x1b[0m\n'}
+[50.117963] (-) TimerEvent: {}
+[50.139279] (dis_tutorial1) StdoutLine: {'line': b'[ 65%] Built target dis_tutorial1__rosidl_typesupport_c\n'}
+[50.219511] (-) TimerEvent: {}
+[50.320513] (-) TimerEvent: {}
+[50.401374] (dis_tutorial1) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message__type_support.cpp.o\x1b[0m\n'}
+[50.421896] (-) TimerEvent: {}
+[50.498365] (dis_tutorial1) StdoutLine: {'line': b'running egg_info\n'}
+[50.498627] (dis_tutorial1) StdoutLine: {'line': b'creating dis_tutorial1.egg-info\n'}
+[50.498840] (dis_tutorial1) StdoutLine: {'line': b'writing dis_tutorial1.egg-info/PKG-INFO\n'}
+[50.499534] (dis_tutorial1) StdoutLine: {'line': b'writing dependency_links to dis_tutorial1.egg-info/dependency_links.txt\n'}
+[50.499944] (dis_tutorial1) StdoutLine: {'line': b'writing top-level names to dis_tutorial1.egg-info/top_level.txt\n'}
+[50.501302] (dis_tutorial1) StdoutLine: {'line': b"writing manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[50.504531] (dis_tutorial1) StdoutLine: {'line': b"reading manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[50.505432] (dis_tutorial1) StdoutLine: {'line': b"writing manifest file 'dis_tutorial1.egg-info/SOURCES.txt'\n"}
+[50.522606] (-) TimerEvent: {}
+[50.566538] (dis_tutorial1) StdoutLine: {'line': b'[ 67%] Built target ament_cmake_python_build_dis_tutorial1_egg\n'}
+[50.614481] (dis_tutorial1) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/simple_client_node.dir/src/simple_client_node.cpp.o\x1b[0m\n'}
+[50.623543] (-) TimerEvent: {}
+[50.724227] (-) TimerEvent: {}
+[50.824879] (-) TimerEvent: {}
+[50.925887] (-) TimerEvent: {}
+[51.010487] (dis_tutorial1) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[51.026111] (-) TimerEvent: {}
+[51.129194] (-) TimerEvent: {}
+[51.230210] (-) TimerEvent: {}
+[51.331451] (-) TimerEvent: {}
+[51.432867] (-) TimerEvent: {}
+[51.535766] (-) TimerEvent: {}
+[51.636308] (-) TimerEvent: {}
+[51.671575] (dis_tutorial1) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message2__type_support.cpp.o\x1b[0m\n'}
+[51.736853] (-) TimerEvent: {}
+[51.837839] (-) TimerEvent: {}
+[51.938385] (-) TimerEvent: {}
+[52.042152] (-) TimerEvent: {}
+[52.143275] (-) TimerEvent: {}
+[52.244412] (-) TimerEvent: {}
+[52.322038] (dis_tutorial1) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/sum_service__type_support.cpp.o\x1b[0m\n'}
+[52.345387] (-) TimerEvent: {}
+[52.446096] (-) TimerEvent: {}
+[52.549201] (-) TimerEvent: {}
+[52.649974] (-) TimerEvent: {}
+[52.750820] (-) TimerEvent: {}
+[52.851665] (-) TimerEvent: {}
+[52.952130] (-) TimerEvent: {}
+[53.042172] (dis_tutorial1) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[53.052445] (-) TimerEvent: {}
+[53.153225] (-) TimerEvent: {}
+[53.253850] (-) TimerEvent: {}
+[53.255452] (dis_tutorial1) StdoutLine: {'line': b'[ 74%] Built target dis_tutorial1__rosidl_typesupport_introspection_cpp\n'}
+[53.308272] (dis_tutorial1) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/simple_server_node.dir/src/simple_server_node.cpp.o\x1b[0m\n'}
+[53.354098] (-) TimerEvent: {}
+[53.454765] (-) TimerEvent: {}
+[53.557427] (-) TimerEvent: {}
+[53.658319] (-) TimerEvent: {}
+[53.759299] (-) TimerEvent: {}
+[53.861325] (-) TimerEvent: {}
+[53.963778] (-) TimerEvent: {}
+[54.065254] (-) TimerEvent: {}
+[54.167153] (-) TimerEvent: {}
+[54.269146] (-) TimerEvent: {}
+[54.369987] (-) TimerEvent: {}
+[54.471533] (-) TimerEvent: {}
+[54.572083] (-) TimerEvent: {}
+[54.674003] (-) TimerEvent: {}
+[54.774680] (-) TimerEvent: {}
+[54.876984] (-) TimerEvent: {}
+[54.977587] (-) TimerEvent: {}
+[55.080031] (-) TimerEvent: {}
+[55.180834] (-) TimerEvent: {}
+[55.281380] (-) TimerEvent: {}
+[55.383538] (-) TimerEvent: {}
+[55.485061] (-) TimerEvent: {}
+[55.586174] (-) TimerEvent: {}
+[55.689160] (-) TimerEvent: {}
+[55.789827] (-) TimerEvent: {}
+[55.890915] (-) TimerEvent: {}
+[55.992236] (-) TimerEvent: {}
+[56.092896] (-) TimerEvent: {}
+[56.195857] (-) TimerEvent: {}
+[56.296530] (-) TimerEvent: {}
+[56.397645] (-) TimerEvent: {}
+[56.498619] (-) TimerEvent: {}
+[56.599408] (-) TimerEvent: {}
+[56.701355] (-) TimerEvent: {}
+[56.802258] (-) TimerEvent: {}
+[56.903121] (-) TimerEvent: {}
+[57.004267] (-) TimerEvent: {}
+[57.105880] (-) TimerEvent: {}
+[57.206963] (-) TimerEvent: {}
+[57.309895] (-) TimerEvent: {}
+[57.391563] (dis_tutorial1) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable simple_client_node\x1b[0m\n'}
+[57.410159] (-) TimerEvent: {}
+[57.511244] (-) TimerEvent: {}
+[57.612666] (-) TimerEvent: {}
+[57.713370] (-) TimerEvent: {}
+[57.731959] (dis_tutorial1) StdoutLine: {'line': b'[ 77%] Built target simple_client_node\n'}
+[57.782004] (dis_tutorial1) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/complete_node.dir/src/complete_node.cpp.o\x1b[0m\n'}
+[57.813867] (-) TimerEvent: {}
+[57.915012] (-) TimerEvent: {}
+[58.016098] (-) TimerEvent: {}
+[58.117129] (-) TimerEvent: {}
+[58.219145] (-) TimerEvent: {}
+[58.320177] (-) TimerEvent: {}
+[58.422150] (-) TimerEvent: {}
+[58.523158] (-) TimerEvent: {}
+[58.624973] (-) TimerEvent: {}
+[58.725840] (-) TimerEvent: {}
+[58.827260] (-) TimerEvent: {}
+[58.929105] (-) TimerEvent: {}
+[59.030055] (-) TimerEvent: {}
+[59.133157] (-) TimerEvent: {}
+[59.233991] (-) TimerEvent: {}
+[59.334544] (-) TimerEvent: {}
+[59.435284] (-) TimerEvent: {}
+[59.518936] (dis_tutorial1) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable simple_server_node\x1b[0m\n'}
+[59.538373] (-) TimerEvent: {}
+[59.638994] (-) TimerEvent: {}
+[59.740097] (-) TimerEvent: {}
+[59.841296] (-) TimerEvent: {}
+[59.884178] (dis_tutorial1) StdoutLine: {'line': b'[ 80%] Built target simple_server_node\n'}
+[59.942002] (-) TimerEvent: {}
+[60.043091] (-) TimerEvent: {}
+[60.145776] (-) TimerEvent: {}
+[60.246294] (-) TimerEvent: {}
+[60.347317] (-) TimerEvent: {}
+[60.448288] (-) TimerEvent: {}
+[60.549076] (-) TimerEvent: {}
+[60.651709] (-) TimerEvent: {}
+[60.752553] (-) TimerEvent: {}
+[60.853206] (-) TimerEvent: {}
+[60.953876] (-) TimerEvent: {}
+[61.054319] (-) TimerEvent: {}
+[61.155480] (-) TimerEvent: {}
+[61.257418] (-) TimerEvent: {}
+[61.358856] (-) TimerEvent: {}
+[61.459833] (-) TimerEvent: {}
+[61.560836] (-) TimerEvent: {}
+[61.662467] (-) TimerEvent: {}
+[61.763247] (-) TimerEvent: {}
+[61.863917] (-) TimerEvent: {}
+[61.964847] (-) TimerEvent: {}
+[62.065867] (-) TimerEvent: {}
+[62.166787] (-) TimerEvent: {}
+[62.267518] (-) TimerEvent: {}
+[62.368194] (-) TimerEvent: {}
+[62.468864] (-) TimerEvent: {}
+[62.569772] (-) TimerEvent: {}
+[62.670857] (-) TimerEvent: {}
+[62.771606] (-) TimerEvent: {}
+[62.872598] (-) TimerEvent: {}
+[62.974107] (-) TimerEvent: {}
+[63.074961] (-) TimerEvent: {}
+[63.176070] (-) TimerEvent: {}
+[63.277070] (-) TimerEvent: {}
+[63.377977] (-) TimerEvent: {}
+[63.479067] (-) TimerEvent: {}
+[63.579739] (-) TimerEvent: {}
+[63.680923] (-) TimerEvent: {}
+[63.781845] (-) TimerEvent: {}
+[63.882481] (-) TimerEvent: {}
+[63.984382] (-) TimerEvent: {}
+[64.085167] (-) TimerEvent: {}
+[64.185982] (-) TimerEvent: {}
+[64.287149] (-) TimerEvent: {}
+[64.388140] (-) TimerEvent: {}
+[64.488923] (-) TimerEvent: {}
+[64.590000] (-) TimerEvent: {}
+[64.690760] (-) TimerEvent: {}
+[64.791872] (-) TimerEvent: {}
+[64.893093] (-) TimerEvent: {}
+[64.994156] (-) TimerEvent: {}
+[65.095054] (-) TimerEvent: {}
+[65.196009] (-) TimerEvent: {}
+[65.296870] (-) TimerEvent: {}
+[65.397721] (-) TimerEvent: {}
+[65.498627] (-) TimerEvent: {}
+[65.599489] (-) TimerEvent: {}
+[65.700578] (-) TimerEvent: {}
+[65.801905] (-) TimerEvent: {}
+[65.902887] (-) TimerEvent: {}
+[66.004526] (-) TimerEvent: {}
+[66.105473] (-) TimerEvent: {}
+[66.206602] (-) TimerEvent: {}
+[66.307750] (-) TimerEvent: {}
+[66.408751] (-) TimerEvent: {}
+[66.509853] (-) TimerEvent: {}
+[66.610820] (-) TimerEvent: {}
+[66.711530] (-) TimerEvent: {}
+[66.812296] (-) TimerEvent: {}
+[66.913017] (-) TimerEvent: {}
+[67.014263] (-) TimerEvent: {}
+[67.115126] (-) TimerEvent: {}
+[67.215728] (-) TimerEvent: {}
+[67.316246] (-) TimerEvent: {}
+[67.416926] (-) TimerEvent: {}
+[67.517342] (-) TimerEvent: {}
+[67.618110] (-) TimerEvent: {}
+[67.718847] (-) TimerEvent: {}
+[67.820093] (-) TimerEvent: {}
+[67.920473] (-) TimerEvent: {}
+[68.021118] (-) TimerEvent: {}
+[68.121968] (-) TimerEvent: {}
+[68.222722] (-) TimerEvent: {}
+[68.323631] (-) TimerEvent: {}
+[68.424125] (-) TimerEvent: {}
+[68.524986] (-) TimerEvent: {}
+[68.626008] (-) TimerEvent: {}
+[68.726897] (-) TimerEvent: {}
+[68.827549] (-) TimerEvent: {}
+[68.928109] (-) TimerEvent: {}
+[69.029066] (-) TimerEvent: {}
+[69.129838] (-) TimerEvent: {}
+[69.230809] (-) TimerEvent: {}
+[69.332084] (-) TimerEvent: {}
+[69.433024] (-) TimerEvent: {}
+[69.533731] (-) TimerEvent: {}
+[69.634482] (-) TimerEvent: {}
+[69.736314] (-) TimerEvent: {}
+[69.837890] (-) TimerEvent: {}
+[69.938486] (-) TimerEvent: {}
+[70.039304] (-) TimerEvent: {}
+[70.140247] (-) TimerEvent: {}
+[70.241178] (-) TimerEvent: {}
+[70.342285] (-) TimerEvent: {}
+[70.443168] (-) TimerEvent: {}
+[70.543924] (-) TimerEvent: {}
+[70.628999] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable complete_node\x1b[0m\n'}
+[70.644149] (-) TimerEvent: {}
+[70.745164] (-) TimerEvent: {}
+[70.845952] (-) TimerEvent: {}
+[70.946884] (-) TimerEvent: {}
+[71.047503] (-) TimerEvent: {}
+[71.148665] (-) TimerEvent: {}
+[71.249788] (-) TimerEvent: {}
+[71.350512] (-) TimerEvent: {}
+[71.414140] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] Built target complete_node\n'}
+[71.451041] (-) TimerEvent: {}
+[71.451525] (dis_tutorial1) StdoutLine: {'line': b'[ 82%] Built target dis_tutorial1\n'}
+[71.491243] (dis_tutorial1) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[71.551551] (-) TimerEvent: {}
+[71.652348] (-) TimerEvent: {}
+[71.753140] (-) TimerEvent: {}
+[71.854054] (-) TimerEvent: {}
+[71.955227] (-) TimerEvent: {}
+[72.055888] (-) TimerEvent: {}
+[72.157127] (-) TimerEvent: {}
+[72.258098] (-) TimerEvent: {}
+[72.358689] (-) TimerEvent: {}
+[72.459769] (-) TimerEvent: {}
+[72.561335] (-) TimerEvent: {}
+[72.663201] (-) TimerEvent: {}
+[72.691379] (dis_tutorial1) StdoutLine: {'line': b'[ 83%] Built target dis_tutorial1__py\n'}
+[72.736899] (dis_tutorial1) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[72.737689] (dis_tutorial1) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/msg/_custom_message_s.c.o\x1b[0m\n'}
+[72.765313] (-) TimerEvent: {}
+[72.866367] (-) TimerEvent: {}
+[72.900408] (dis_tutorial1) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/msg/_custom_message2_s.c.o\x1b[0m\n'}
+[72.919622] (dis_tutorial1) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/srv/_sum_service_s.c.o\x1b[0m\n'}
+[72.968350] (-) TimerEvent: {}
+[73.069041] (-) TimerEvent: {}
+[73.130636] (dis_tutorial1) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so\x1b[0m\n'}
+[73.170064] (-) TimerEvent: {}
+[73.213842] (dis_tutorial1) StdoutLine: {'line': b'[ 91%] Built target dis_tutorial1__rosidl_generator_py\n'}
+[73.260802] (dis_tutorial1) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[73.261074] (dis_tutorial1) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[73.270552] (-) TimerEvent: {}
+[73.371434] (-) TimerEvent: {}
+[73.454981] (dis_tutorial1) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[73.468429] (dis_tutorial1) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[73.472277] (-) TimerEvent: {}
+[73.519139] (dis_tutorial1) StdoutLine: {'line': b'[ 97%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[73.548625] (dis_tutorial1) StdoutLine: {'line': b'[ 97%] Built target dis_tutorial1__rosidl_typesupport_introspection_c__pyext\n'}
+[73.566110] (dis_tutorial1) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[73.572679] (-) TimerEvent: {}
+[73.673291] (-) TimerEvent: {}
+[73.770631] (dis_tutorial1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[73.774014] (-) TimerEvent: {}
+[73.844367] (dis_tutorial1) StdoutLine: {'line': b'[100%] Built target dis_tutorial1__rosidl_typesupport_c__pyext\n'}
+[73.869738] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[73.871216] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'install'}
+[73.871268] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1'], 'cwd': '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ilija'), ('LC_TIME', 'sl_SI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ilija'), ('OLDPWD', '/home/ilija/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sl_SI.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ilija'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ilija'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ilija-virtual-machine:@/tmp/.ICE-unix/1271,unix/ilija-virtual-machine:/tmp/.ICE-unix/1271'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sl_SI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/096e4dd6_9afa_4c97_866f_57fe2c7c1a5e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sl_SI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3ARS32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sl_SI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sl_SI.UTF-8'), ('LC_IDENTIFICATION', 'sl_SI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c341f37981d662d4f09d181e67d33383'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sl_SI.UTF-8'), ('LC_PAPER', 'sl_SI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[73.874455] (-) TimerEvent: {}
+[73.882788] (dis_tutorial1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[73.883602] (dis_tutorial1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[73.885594] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1\n'}
+[73.903148] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.h\n'}
+[73.921234] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.h\n'}
+[73.939747] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__functions.h\n'}
+[73.955416] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.h\n'}
+[73.970906] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.h\n'}
+[73.974880] (-) TimerEvent: {}
+[73.986154] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__functions.h\n'}
+[74.000498] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.h\n'}
+[74.018157] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.h\n'}
+[74.034077] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_c__visibility_control.h\n'}
+[74.048220] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.h\n'}
+[74.064445] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__functions.h\n'}
+[74.075204] (-) TimerEvent: {}
+[74.079390] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.h\n'}
+[74.094239] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.h\n'}
+[74.110146] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__functions.h\n'}
+[74.126993] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.h\n'}
+[74.140841] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.h\n'}
+[74.154853] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.h\n'}
+[74.169368] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.sh\n'}
+[74.175679] (-) TimerEvent: {}
+[74.183949] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.dsv\n'}
+[74.201470] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_c.h\n'}
+[74.224929] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_c.h\n'}
+[74.242716] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[74.262245] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[74.277315] (-) TimerEvent: {}
+[74.284801] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[74.304206] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.hpp\n'}
+[74.322073] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message2.hpp\n'}
+[74.341625] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__builder.hpp\n'}
+[74.356346] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__struct.hpp\n'}
+[74.371238] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__traits.hpp\n'}
+[74.379108] (-) TimerEvent: {}
+[74.387956] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__type_support.hpp\n'}
+[74.403579] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__builder.hpp\n'}
+[74.422135] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.hpp\n'}
+[74.439173] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__traits.hpp\n'}
+[74.453878] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.hpp\n'}
+[74.468003] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[74.479963] (-) TimerEvent: {}
+[74.483449] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.hpp\n'}
+[74.497535] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__builder.hpp\n'}
+[74.514287] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.hpp\n'}
+[74.531158] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__traits.hpp\n'}
+[74.545364] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.hpp\n'}
+[74.560516] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__builder.hpp\n'}
+[74.574075] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__struct.hpp\n'}
+[74.580377] (-) TimerEvent: {}
+[74.588279] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__traits.hpp\n'}
+[74.602981] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__type_support.hpp\n'}
+[74.617746] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/sum_service.hpp\n'}
+[74.635684] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[74.650317] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[74.664445] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[74.681789] (-) TimerEvent: {}
+[74.682554] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[74.702609] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[74.720960] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_c.h\n'}
+[74.738204] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_c.h\n'}
+[74.759604] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[74.778905] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[74.781933] (-) TimerEvent: {}
+[74.793641] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_c.h\n'}
+[74.811271] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[74.824888] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[74.845553] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[74.865558] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[74.882436] (-) TimerEvent: {}
+[74.885494] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.sh\n'}
+[74.903098] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.dsv\n'}
+[74.929258] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[74.948138] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[74.967388] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[74.983005] (-) TimerEvent: {}
+[74.986940] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[75.006076] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py\n'}
+[75.026206] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c\n'}
+[75.049716] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[75.067890] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[75.083363] (-) TimerEvent: {}
+[75.086735] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[75.104392] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[75.126612] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[75.149159] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so\n'}
+[75.166145] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py\n'}
+[75.181591] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py\n'}
+[75.183912] (-) TimerEvent: {}
+[75.195978] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2.py\n'}
+[75.217563] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2_s.c\n'}
+[75.235621] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message_s.c\n'}
+[75.252543] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py\n'}
+[75.268814] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py\n'}
+[75.284267] (-) TimerEvent: {}
+[75.285365] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints_s.c\n'}
+[75.305254] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service.py\n'}
+[75.327308] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service_s.c\n'}
+[75.344917] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[75.346615] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[75.347631] (dis_tutorial1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[75.347886] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.idl\n'}
+[75.363198] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.idl\n'}
+[75.382859] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.idl\n'}
+[75.384469] (-) TimerEvent: {}
+[75.400546] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.idl\n'}
+[75.424032] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.msg\n'}
+[75.447883] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.srv\n'}
+[75.463830] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Request.msg\n'}
+[75.482065] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Response.msg\n'}
+[75.485186] (-) TimerEvent: {}
+[75.498439] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage2.msg\n'}
+[75.514257] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService.srv\n'}
+[75.532264] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Request.msg\n'}
+[75.546510] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/srv/SumService_Response.msg\n'}
+[75.563383] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_publisher\n'}
+[75.578307] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_subscriber\n'}
+[75.585344] (-) TimerEvent: {}
+[75.592725] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_client_node\n'}
+[75.609230] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_server_node\n'}
+[75.624475] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/complete_node\n'}
+[75.642242] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/simple_set_bool_server_node\n'}
+[75.655817] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_publisher.py\n'}
+[75.671458] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_subscriber.py\n'}
+[75.685323] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_server_node.py\n'}
+[75.685518] (-) TimerEvent: {}
+[75.701339] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_simple_client_node.py\n'}
+[75.718226] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_complete_node.py\n'}
+[75.736780] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/py_draw_square.py\n'}
+[75.752833] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/publisher_node.py\n'}
+[75.768109] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/subscriber_node.py\n'}
+[75.782376] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/service_node.py\n'}
+[75.786000] (-) TimerEvent: {}
+[75.798888] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/dis_tutorial1/client_node.py\n'}
+[75.812943] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1\n'}
+[75.832271] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1\n'}
+[75.846868] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.sh\n'}
+[75.863176] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.dsv\n'}
+[75.878388] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/path.sh\n'}
+[75.886980] (-) TimerEvent: {}
+[75.894477] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/environment/path.dsv\n'}
+[75.909699] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.bash\n'}
+[75.926487] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.sh\n'}
+[75.946027] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.zsh\n'}
+[75.960201] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/local_setup.dsv\n'}
+[75.976157] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.dsv\n'}
+[75.987102] (-) TimerEvent: {}
+[75.993869] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/ament_index/resource_index/packages/dis_tutorial1\n'}
+[76.013531] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake-extras.cmake\n'}
+[76.033478] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[76.048329] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[76.063709] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[76.080966] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[76.088088] (-) TimerEvent: {}
+[76.095713] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[76.109741] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[76.126474] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config.cmake\n'}
+[76.143234] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config-version.cmake\n'}
+[76.158291] (dis_tutorial1) StdoutLine: {'line': b'-- Symlinking: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/package.xml\n'}
+[76.172342] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so\n'}
+[76.172974] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so" to ""\n'}
+[76.173403] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so\n'}
+[76.173882] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[76.174601] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[76.175456] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[76.175881] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so\n'}
+[76.176535] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so" to ""\n'}
+[76.178472] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so\n'}
+[76.178694] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so" to ""\n'}
+[76.178817] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so\n'}
+[76.179272] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[76.179609] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so\n'}
+[76.180403] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so" to ""\n'}
+[76.190088] (-) TimerEvent: {}
+[76.230387] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1'...\n"}
+[76.230830] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py'...\n"}
+[76.230891] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg'...\n"}
+[76.230936] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py'...\n"}
+[76.230978] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py'...\n"}
+[76.231020] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message2.py'...\n"}
+[76.231061] (dis_tutorial1) StdoutLine: {'line': b"Listing '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv'...\n"}
+[76.231102] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py'...\n"}
+[76.231397] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py'...\n"}
+[76.231469] (dis_tutorial1) StdoutLine: {'line': b"Compiling '/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_sum_service.py'...\n"}
+[76.239681] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so\n'}
+[76.241819] (dis_tutorial1) StdoutLine: {'line': b'-- Set runtime path of "/home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so" to ""\n'}
+[76.248281] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport.cmake\n'}
+[76.248375] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport-noconfig.cmake\n'}
+[76.248425] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[76.248529] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[76.248958] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cppExport.cmake\n'}
+[76.251292] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[76.251843] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[76.252528] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[76.252735] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[76.255643] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport.cmake\n'}
+[76.256154] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[76.260841] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[76.261396] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[76.261470] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport.cmake\n'}
+[76.261518] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[76.261827] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport.cmake\n'}
+[76.262847] (dis_tutorial1) StdoutLine: {'line': b'-- Installing: /home/ilija/ros2_ws/src/RINS/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[76.268910] (dis_tutorial1) CommandEnded: {'returncode': 0}
+[76.290831] (-) TimerEvent: {}
+[76.301416] (dis_tutorial1) JobEnded: {'identifier': 'dis_tutorial1', 'rc': 0}
+[76.302777] (-) EventReactorShutdown: {}
