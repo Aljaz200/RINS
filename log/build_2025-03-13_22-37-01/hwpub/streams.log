@@ -1,0 +1,142 @@
+[0.023s] Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/hwpub -- -j2 -l2
+[0.144s] [  2%] Built target hwpub__cpp
+[0.199s] [ 12%] Built target hwpub__rosidl_generator_c
+[0.242s] [ 12%] Built target ament_cmake_python_symlink_hwpub
+[0.274s] [ 23%] Built target hwpub__rosidl_typesupport_cpp
+[0.328s] [ 33%] Built target hwpub__rosidl_typesupport_fastrtps_cpp
+[0.344s] [ 43%] Built target hwpub__rosidl_typesupport_fastrtps_c
+[0.410s] [ 53%] Built target hwpub__rosidl_typesupport_introspection_c
+[0.437s] [ 64%] Built target hwpub__rosidl_typesupport_c
+[0.479s] [ 74%] Built target hwpub__rosidl_typesupport_introspection_cpp
+[0.532s] [ 74%] Built target hwpub
+[0.586s] [ 76%] Built target hwpub__py
+[0.634s] [ 84%] Built target hwpub__rosidl_generator_py
+[0.687s] [ 89%] Built target hwpub__rosidl_typesupport_fastrtps_c__pyext
+[0.741s] [ 94%] Built target hwpub__rosidl_typesupport_introspection_c__pyext
+[0.793s] [100%] Built target hwpub__rosidl_typesupport_c__pyext
+[1.023s] running egg_info
+[1.024s] writing hwpub.egg-info/PKG-INFO
+[1.025s] writing dependency_links to hwpub.egg-info/dependency_links.txt
+[1.026s] writing top-level names to hwpub.egg-info/top_level.txt
+[1.030s] reading manifest file 'hwpub.egg-info/SOURCES.txt'
+[1.030s] writing manifest file 'hwpub.egg-info/SOURCES.txt'
+[1.082s] [100%] Built target ament_cmake_python_build_hwpub_egg
+[1.109s] Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/ilija/ros2_ws/src/RINS/build/hwpub -- -j2 -l2
+[1.110s] Invoking command in '/home/ilija/ros2_ws/src/RINS/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/hwpub
+[1.125s] -- Install configuration: ""
+[1.126s] -- Execute custom install script
+[1.126s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/rosidl_interfaces/hwpub
+[1.127s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__functions.h
+[1.127s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.h
+[1.127s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.h
+[1.128s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/hwmsg.h
+[1.128s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_c__visibility_control.h
+[1.128s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/customserv.h
+[1.129s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__functions.h
+[1.129s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.h
+[1.129s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.h
+[1.130s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/library_path.sh
+[1.130s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/library_path.dsv
+[1.131s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_c.h
+[1.132s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.132s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_c.h
+[1.133s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__builder.hpp
+[1.133s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.hpp
+[1.133s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__traits.hpp
+[1.133s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.hpp
+[1.134s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/hwmsg.hpp
+[1.134s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.134s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/customserv.hpp
+[1.134s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__builder.hpp
+[1.135s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.hpp
+[1.135s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__traits.hpp
+[1.137s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.hpp
+[1.137s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.137s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.137s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_cpp.hpp
+[1.137s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_c.h
+[1.137s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.138s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_c.h
+[1.138s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_cpp.hpp
+[1.139s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_cpp.hpp
+[1.139s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/pythonpath.sh
+[1.139s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/pythonpath.dsv
+[1.139s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/PKG-INFO
+[1.139s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/SOURCES.txt
+[1.139s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/dependency_links.txt
+[1.141s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/top_level.txt
+[1.141s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py
+[1.141s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c
+[1.141s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.141s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c
+[1.141s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/libhwpub__rosidl_generator_py.so
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg_s.c
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py
+[1.144s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py
+[1.145s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv_s.c
+[1.145s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.145s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.145s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.146s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/msg/Hwmsg.idl
+[1.146s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv.idl
+[1.146s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/msg/Hwmsg.msg
+[1.147s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv.srv
+[1.147s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv_Request.msg
+[1.147s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/srv/Customserv_Response.msg
+[1.148s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/hwpub/py_move_trajectory.py
+[1.148s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/package_run_dependencies/hwpub
+[1.148s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/parent_prefix_path/hwpub
+[1.149s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/ament_prefix_path.sh
+[1.149s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/ament_prefix_path.dsv
+[1.150s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/path.sh
+[1.150s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/environment/path.dsv
+[1.151s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.bash
+[1.151s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.sh
+[1.151s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.zsh
+[1.152s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/local_setup.dsv
+[1.152s] -- Symlinking: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.dsv
+[1.170s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/ament_index/resource_index/packages/hwpub
+[1.171s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake-extras.cmake
+[1.171s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.171s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_libraries-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/ament_cmake_export_targets-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.173s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.173s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpubConfig.cmake
+[1.174s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpubConfig-version.cmake
+[1.174s] -- Up-to-date symlink: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/package.xml
+[1.174s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_c.so
+[1.175s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so
+[1.176s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so
+[1.176s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so
+[1.177s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so
+[1.177s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so
+[1.178s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so
+[1.222s] Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub'...
+[1.222s] Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg'...
+[1.222s] Listing '/home/ilija/ros2_ws/src/RINS/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv'...
+[1.228s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/lib/libhwpub__rosidl_generator_py.so
+[1.228s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport.cmake
+[1.229s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport-noconfig.cmake
+[1.229s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport.cmake
+[1.229s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.229s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cppExport.cmake
+[1.230s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.230s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.230s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport.cmake
+[1.231s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.231s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport.cmake
+[1.231s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport-noconfig.cmake
+[1.231s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport.cmake
+[1.231s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.232s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport.cmake
+[1.232s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport-noconfig.cmake
+[1.232s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport.cmake
+[1.233s] -- Up-to-date: /home/ilija/ros2_ws/src/RINS/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport-noconfig.cmake
+[1.238s] Invoked command in '/home/ilija/ros2_ws/src/RINS/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilija/ros2_ws/src/RINS/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/ilija/ros2_ws/src/RINS/build/hwpub

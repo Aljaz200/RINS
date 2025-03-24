@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hwpub/srv/Customserv.srv
+// generated code does not contain a copyright notice
+
+
+module hwpub {
+  module srv {
+    struct Customserv_Request {
+      string s;
+
+      int64 time;
+    };
+    struct Customserv_Response {
+      string st;
+    };
+  };
+};
