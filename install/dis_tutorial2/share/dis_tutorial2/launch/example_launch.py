@@ -1,1 +1,0 @@
-/home/ilija/ros2_ws/src/RINS/build/dis_tutorial2/launch/example_launch.py

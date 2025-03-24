@@ -1,7 +1,0 @@
-[console_scripts]
-achtung_die_turtle = dis_tutorial2.achtung_die_turtles:main
-go_to_position = dis_tutorial2.go_to_position_simple_node:main
-intersection = dis_tutorial2.intersection:main
-random_velocity_publisher = dis_tutorial2.random_velocity_publisher_node:main
-turtle_move = dis_tutorial2.turtle_move:main
-
