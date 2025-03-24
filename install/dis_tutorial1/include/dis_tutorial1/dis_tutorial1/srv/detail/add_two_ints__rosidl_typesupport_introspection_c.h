@@ -1,1 +1,0 @@
-/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_introspection_c/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h

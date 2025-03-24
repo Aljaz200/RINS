@@ -1,1 +1,0 @@
-/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_core/dis_tutorial1Config-version.cmake

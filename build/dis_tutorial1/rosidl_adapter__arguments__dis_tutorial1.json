@@ -1,9 +1,0 @@
-{
-  "package_name": "dis_tutorial1",
-  "non_idl_tuples": [
-    "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1:msg/CustomMessage.msg",
-    "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1:srv/AddTwoInts.srv",
-    "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1:msg/CustomMessage2.msg",
-    "/home/ilija/ros2_ws/src/RINS/src/dis_tutorial1:srv/SumService.srv"
-  ]
-}

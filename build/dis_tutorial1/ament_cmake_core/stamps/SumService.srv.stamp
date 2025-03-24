@@ -1,5 +1,0 @@
-string request_text
-int32[] numbers
----
-string response_text
-int32 sum
