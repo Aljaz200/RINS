@@ -1,0 +1,33 @@
+[0.812s] Invoking command in '/home/osboxes/ros2_ws/build/dis_tutorial4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/dis_tutorial4 -- -j4 -l4
+[1.091s] Invoked command in '/home/osboxes/ros2_ws/build/dis_tutorial4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/osboxes/ros2_ws/build/dis_tutorial4 -- -j4 -l4
+[1.103s] Invoking command in '/home/osboxes/ros2_ws/build/dis_tutorial4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/dis_tutorial4
+[1.147s] -- Install configuration: ""
+[1.153s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch
+[1.154s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/create3_nodes.launch.py
+[1.155s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/nav2.launch.py
+[1.155s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/turtlebot4_spawn.launch.py
+[1.156s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/turtlebot4_spawn_nav.launch.py
+[1.158s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/ignition.launch.py
+[1.158s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/localization.launch.py
+[1.158s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/sim_turtlebot_slam.launch.py
+[1.158s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/slam.launch.py
+[1.158s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/sim_turtlebot_nav.launch.py
+[1.158s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4//launch/dis_sim.launch.py
+[1.158s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/lib/dis_tutorial4/map_goals.py
+[1.159s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/lib/dis_tutorial4/transform_point.py
+[1.163s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/ament_index/resource_index/package_run_dependencies/dis_tutorial4
+[1.166s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/ament_index/resource_index/parent_prefix_path/dis_tutorial4
+[1.167s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/environment/ament_prefix_path.sh
+[1.167s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/environment/ament_prefix_path.dsv
+[1.168s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/environment/path.sh
+[1.168s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/environment/path.dsv
+[1.172s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/local_setup.bash
+[1.172s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/local_setup.sh
+[1.173s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/local_setup.zsh
+[1.177s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/local_setup.dsv
+[1.178s] -- Installing: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/package.dsv
+[1.179s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/ament_index/resource_index/packages/dis_tutorial4
+[1.179s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/cmake/dis_tutorial4Config.cmake
+[1.179s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/cmake/dis_tutorial4Config-version.cmake
+[1.180s] -- Up-to-date: /home/osboxes/ros2_ws/install/dis_tutorial4/share/dis_tutorial4/package.xml
+[1.186s] Invoked command in '/home/osboxes/ros2_ws/build/dis_tutorial4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/osboxes/ros2_ws/build/dis_tutorial4
