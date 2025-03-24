@@ -30,8 +30,6 @@ set(dependencies rclcpp std_msgs std_srvs rosidl_default_generators)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CustomMessage.msg"
   "srv/AddTwoInts.srv"
-  "msg/CustomMessage2.msg"
-  "srv/SumService.srv"
   DEPENDENCIES std_msgs # Add packages that the listed interfaces depend on
 )
 
@@ -62,8 +60,7 @@ install(TARGETS
     simple_server_node
     complete_node
     simple_set_bool_server_node
-    DESTINATION lib/${PROJECT_NAME}   
-)
+    DESTINATION lib/${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
@@ -73,10 +70,6 @@ install(PROGRAMS
   scripts/py_simple_client_node.py
   scripts/py_complete_node.py
   scripts/py_draw_square.py
-  scripts/publisher_node.py
-  scripts/subscriber_node.py
-  scripts/service_node.py
-  scripts/client_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

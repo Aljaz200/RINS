@@ -1,1 +1,6 @@
-/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/hwpub
+msg/Hwmsg.idl
+msg/Hwmsg.msg
+srv/Customserv.idl
+srv/Customserv.srv
+srv/Customserv_Request.msg
+srv/Customserv_Response.msg

@@ -1,0 +1,333 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (dis_tutorial1) JobQueued: {'identifier': 'dis_tutorial1', 'dependencies': OrderedDict()}
+[0.000289] (dis_tutorial2) JobQueued: {'identifier': 'dis_tutorial2', 'dependencies': OrderedDict()}
+[0.000343] (dis_tutorial3) JobQueued: {'identifier': 'dis_tutorial3', 'dependencies': OrderedDict()}
+[0.000396] (dis_tutorial4) JobQueued: {'identifier': 'dis_tutorial4', 'dependencies': OrderedDict()}
+[0.000449] (hwpub) JobQueued: {'identifier': 'hwpub', 'dependencies': OrderedDict()}
+[0.000503] (dis_tutorial1) JobStarted: {'identifier': 'dis_tutorial1'}
+[0.013058] (dis_tutorial2) JobStarted: {'identifier': 'dis_tutorial2'}
+[0.028177] (dis_tutorial3) JobStarted: {'identifier': 'dis_tutorial3'}
+[0.030947] (dis_tutorial4) JobStarted: {'identifier': 'dis_tutorial4'}
+[0.042846] (dis_tutorial1) JobProgress: {'identifier': 'dis_tutorial1', 'progress': 'cmake'}
+[0.043826] (dis_tutorial1) Command: {'cmd': ['/usr/bin/cmake', '/home/osboxes/ros2_ws/src/dis_tutorial1', '-DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/dis_tutorial1'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1746,unix/osboxes:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8867787b_9ffb_49d9_9d10_ab2df70d74ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MYB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099238] (-) TimerEvent: {}
+[0.200651] (-) TimerEvent: {}
+[0.301125] (-) TimerEvent: {}
+[0.401743] (-) TimerEvent: {}
+[0.502453] (-) TimerEvent: {}
+[0.604866] (-) TimerEvent: {}
+[0.658162] (dis_tutorial3) JobProgress: {'identifier': 'dis_tutorial3', 'progress': 'cmake'}
+[0.663488] (dis_tutorial3) Command: {'cmd': ['/usr/bin/cmake', '/home/osboxes/ros2_ws/src/dis_tutorial3', '-DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/dis_tutorial3'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1746,unix/osboxes:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8867787b_9ffb_49d9_9d10_ab2df70d74ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MYB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.668972] (dis_tutorial1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.670682] (dis_tutorial4) JobProgress: {'identifier': 'dis_tutorial4', 'progress': 'cmake'}
+[0.672273] (dis_tutorial4) Command: {'cmd': ['/usr/bin/cmake', '/home/osboxes/ros2_ws/src/dis_tutorial4', '-DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/dis_tutorial4'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1746,unix/osboxes:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8867787b_9ffb_49d9_9d10_ab2df70d74ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MYB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial4'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.705864] (-) TimerEvent: {}
+[0.806416] (-) TimerEvent: {}
+[0.821171] (dis_tutorial3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.837927] (dis_tutorial4) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.857787] (dis_tutorial1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.904476] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.906737] (-) TimerEvent: {}
+[1.004210] (dis_tutorial3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.007837] (-) TimerEvent: {}
+[1.019316] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.026249] (dis_tutorial4) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.053019] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.107964] (-) TimerEvent: {}
+[1.123917] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.136320] (dis_tutorial1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.138007] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.140504] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.151094] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.208120] (-) TimerEvent: {}
+[1.228139] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.242279] (dis_tutorial3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.242591] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.245034] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.245243] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.257527] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.271815] (dis_tutorial4) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.272002] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.272550] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.281993] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.308507] (-) TimerEvent: {}
+[1.346108] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.374831] (dis_tutorial1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.375049] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.375146] (dis_tutorial1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.390804] (dis_tutorial1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.409860] (-) TimerEvent: {}
+[1.513906] (-) TimerEvent: {}
+[1.530433] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.550218] (dis_tutorial4) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.553168] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.555047] (dis_tutorial4) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.560357] (dis_tutorial4) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.565951] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.607484] (dis_tutorial2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dis_tutorial2', 'build', '--build-base', '/home/osboxes/ros2_ws/build/dis_tutorial2/build', 'install', '--record', '/home/osboxes/ros2_ws/build/dis_tutorial2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/osboxes/ros2_ws/src/dis_tutorial2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'osboxes', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/osboxes', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1746', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'osboxes', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'osboxes', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/osboxes:@/tmp/.ICE-unix/1746,unix/osboxes:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8867787b_9ffb_49d9_9d10_ab2df70d74ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7MYB42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/osboxes/ros2_ws/build/dis_tutorial2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/osboxes/ros2_ws/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.615388] (-) TimerEvent: {}
+[1.616723] (dis_tutorial3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.621170] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.621265] (dis_tutorial3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.623525] (dis_tutorial3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.720363] (-) TimerEvent: {}
+[1.820764] (-) TimerEvent: {}
+[1.925196] (-) TimerEvent: {}
+[1.983887] (dis_tutorial4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.025319] (-) TimerEvent: {}
+[2.063815] (dis_tutorial1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.125450] (-) TimerEvent: {}
+[2.183733] (dis_tutorial3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.225676] (-) TimerEvent: {}
+[2.272087] (dis_tutorial2) StdoutLine: {'line': b'running egg_info\n'}
+[2.272413] (dis_tutorial2) StdoutLine: {'line': b'creating ../../build/dis_tutorial2/dis_tutorial2.egg-info\n'}
+[2.272546] (dis_tutorial2) StdoutLine: {'line': b'writing ../../build/dis_tutorial2/dis_tutorial2.egg-info/PKG-INFO\n'}
+[2.272672] (dis_tutorial2) StdoutLine: {'line': b'writing dependency_links to ../../build/dis_tutorial2/dis_tutorial2.egg-info/dependency_links.txt\n'}
+[2.272810] (dis_tutorial2) StdoutLine: {'line': b'writing entry points to ../../build/dis_tutorial2/dis_tutorial2.egg-info/entry_points.txt\n'}
+[2.272955] (dis_tutorial2) StdoutLine: {'line': b'writing requirements to ../../build/dis_tutorial2/dis_tutorial2.egg-info/requires.txt\n'}
+[2.273161] (dis_tutorial2) StdoutLine: {'line': b'writing top-level names to ../../build/dis_tutorial2/dis_tutorial2.egg-info/top_level.txt\n'}
+[2.273334] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file '../../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[2.277874] (dis_tutorial2) StdoutLine: {'line': b"reading manifest file '../../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[2.278067] (dis_tutorial2) StdoutLine: {'line': b"writing manifest file '../../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'\n"}
+[2.278174] (dis_tutorial2) StdoutLine: {'line': b'running build\n'}
+[2.278259] (dis_tutorial2) StdoutLine: {'line': b'running build_py\n'}
+[2.278342] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/build/dis_tutorial2/build\n'}
+[2.278436] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib\n'}
+[2.278511] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2\n'}
+[2.278589] (dis_tutorial2) StdoutLine: {'line': b'copying dis_tutorial2/random_velocity_publisher_node.py -> /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2\n'}
+[2.278669] (dis_tutorial2) StdoutLine: {'line': b'copying dis_tutorial2/go_to_position_simple_node.py -> /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2\n'}
+[2.278747] (dis_tutorial2) StdoutLine: {'line': b'copying dis_tutorial2/__init__.py -> /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2\n'}
+[2.279234] (dis_tutorial2) StdoutLine: {'line': b'copying dis_tutorial2/achtung_die_turtles.py -> /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2\n'}
+[2.279330] (dis_tutorial2) StdoutLine: {'line': b'running install\n'}
+[2.279395] (dis_tutorial2) StdoutLine: {'line': b'running install_lib\n'}
+[2.280857] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2\n'}
+[2.280976] (dis_tutorial2) StdoutLine: {'line': b'copying /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2/random_velocity_publisher_node.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2\n'}
+[2.281066] (dis_tutorial2) StdoutLine: {'line': b'copying /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2/go_to_position_simple_node.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2\n'}
+[2.281135] (dis_tutorial2) StdoutLine: {'line': b'copying /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2/__init__.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2\n'}
+[2.281204] (dis_tutorial2) StdoutLine: {'line': b'copying /home/osboxes/ros2_ws/build/dis_tutorial2/build/lib/dis_tutorial2/achtung_die_turtles.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2\n'}
+[2.281423] (dis_tutorial2) StdoutLine: {'line': b'byte-compiling /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/random_velocity_publisher_node.py to random_velocity_publisher_node.cpython-310.pyc\n'}
+[2.281505] (dis_tutorial2) StdoutLine: {'line': b'byte-compiling /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/go_to_position_simple_node.py to go_to_position_simple_node.cpython-310.pyc\n'}
+[2.283551] (dis_tutorial2) StdoutLine: {'line': b'byte-compiling /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/__init__.py to __init__.cpython-310.pyc\n'}
+[2.284053] (dis_tutorial2) StdoutLine: {'line': b'byte-compiling /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/achtung_die_turtles.py to achtung_die_turtles.cpython-310.pyc\n'}
+[2.286305] (dis_tutorial2) StdoutLine: {'line': b'running install_data\n'}
+[2.286500] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index\n'}
+[2.286655] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index\n'}
+[2.287183] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index/packages\n'}
+[2.287358] (dis_tutorial2) StdoutLine: {'line': b'copying resource/dis_tutorial2 -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/ament_index/resource_index/packages\n'}
+[2.287515] (dis_tutorial2) StdoutLine: {'line': b'copying package.xml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2\n'}
+[2.287671] (dis_tutorial2) StdoutLine: {'line': b'creating /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[2.287868] (dis_tutorial2) StdoutLine: {'line': b'copying launch/example_launch.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[2.288041] (dis_tutorial2) StdoutLine: {'line': b'copying launch/example_launch.xml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[2.288199] (dis_tutorial2) StdoutLine: {'line': b'copying launch/go_to_position_launch.py -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[2.288352] (dis_tutorial2) StdoutLine: {'line': b'copying launch/example_launch.yaml -> /home/osboxes/ros2_ws/install/dis_tutorial2/share/dis_tutorial2/launch\n'}
+[2.288509] (dis_tutorial2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.294259] (dis_tutorial2) StdoutLine: {'line': b'Copying ../../build/dis_tutorial2/dis_tutorial2.egg-info to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2-0.0.1-py3.10.egg-info\n'}
+[2.294406] (dis_tutorial2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.298198] (dis_tutorial1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.298635] (dis_tutorial4) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.326181] (-) TimerEvent: {}
+[2.356130] (dis_tutorial2) StdoutLine: {'line': b'Installing achtung_die_turtle script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.357148] (dis_tutorial2) StdoutLine: {'line': b'Installing go_to_position script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.357501] (dis_tutorial2) StdoutLine: {'line': b'Installing intersection script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.357596] (dis_tutorial2) StdoutLine: {'line': b'Installing random_velocity_publisher script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2\n'}
+[2.357666] (dis_tutorial2) StdoutLine: {'line': b"writing list of installed files to '/home/osboxes/ros2_ws/build/dis_tutorial2/install.log'\n"}
+[2.364301] (dis_tutorial3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.418927] (dis_tutorial2) CommandEnded: {'returncode': 0}
+[2.429342] (-) TimerEvent: {}
+[2.460898] (dis_tutorial2) JobEnded: {'identifier': 'dis_tutorial2', 'rc': 0}
+[2.462198] (hwpub) JobStarted: {'identifier': 'hwpub'}
+[2.471777] (hwpub) JobProgress: {'identifier': 'hwpub', 'progress': 'cmake'}
+[2.471838] (hwpub) Command: {'cmd': ['/usr/bin/cmake', '/home/osboxes/ros2_ws/src/hwpub', '-DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/hwpub'], 'cwd': '/home/osboxes/ros2_ws/build/hwpub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1746,unix/osboxes:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8867787b_9ffb_49d9_9d10_ab2df70d74ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MYB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/hwpub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.490611] (dis_tutorial4) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.491350] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.492178] (dis_tutorial3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.505461] (dis_tutorial4) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.506807] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.507000] (dis_tutorial3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.529555] (-) TimerEvent: {}
+[2.541221] (dis_tutorial3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.548775] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.549104] (dis_tutorial4) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.598159] (dis_tutorial4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.598325] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.598465] (dis_tutorial3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.630270] (-) TimerEvent: {}
+[2.650864] (dis_tutorial4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.651238] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.661859] (dis_tutorial3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.662657] (hwpub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.730512] (-) TimerEvent: {}
+[2.824032] (dis_tutorial3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.830899] (-) TimerEvent: {}
+[2.831633] (dis_tutorial1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.834740] (dis_tutorial4) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.835283] (dis_tutorial3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.849857] (dis_tutorial1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.850330] (dis_tutorial4) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.891375] (hwpub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.924912] (hwpub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.931096] (-) TimerEvent: {}
+[3.032110] (-) TimerEvent: {}
+[3.119862] (hwpub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.128225] (dis_tutorial1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.132567] (-) TimerEvent: {}
+[3.136021] (hwpub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.136230] (hwpub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.136715] (hwpub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.143850] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.148377] (dis_tutorial3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.193584] (dis_tutorial4) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.205508] (dis_tutorial1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.210121] (dis_tutorial3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.234737] (-) TimerEvent: {}
+[3.264434] (dis_tutorial4) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.291025] (dis_tutorial1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.310372] (dis_tutorial1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.315877] (dis_tutorial3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.323838] (dis_tutorial3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.334924] (-) TimerEvent: {}
+[3.337167] (dis_tutorial4) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.350986] (dis_tutorial4) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.409828] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.427424] (hwpub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.429034] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.431844] (hwpub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.435839] (hwpub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.436032] (-) TimerEvent: {}
+[3.511210] (dis_tutorial1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.512073] (dis_tutorial1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.516008] (dis_tutorial3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.524083] (dis_tutorial3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.536174] (-) TimerEvent: {}
+[3.561908] (dis_tutorial4) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.562495] (dis_tutorial4) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.636315] (-) TimerEvent: {}
+[3.687292] (dis_tutorial1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.692975] (dis_tutorial1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.725021] (dis_tutorial3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.731073] (dis_tutorial3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.736424] (-) TimerEvent: {}
+[3.773154] (hwpub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.822945] (dis_tutorial4) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.826169] (dis_tutorial4) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.836641] (-) TimerEvent: {}
+[3.866940] (dis_tutorial3) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.869394] (dis_tutorial1) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.870534] (dis_tutorial3) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.872943] (dis_tutorial1) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.908685] (dis_tutorial1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.936869] (-) TimerEvent: {}
+[3.949882] (hwpub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.966927] (dis_tutorial4) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.967257] (dis_tutorial4) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.983819] (dis_tutorial4) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[4.006121] (hwpub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.019856] (hwpub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.037008] (-) TimerEvent: {}
+[4.042895] (hwpub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.066428] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.097489] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.115497] (dis_tutorial3) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.133297] (dis_tutorial3) StdoutLine: {'line': b'-- Generating done\n'}
+[4.137144] (-) TimerEvent: {}
+[4.144937] (dis_tutorial3) StdoutLine: {'line': b'-- Build files have been written to: /home/osboxes/ros2_ws/build/dis_tutorial3\n'}
+[4.158826] (dis_tutorial4) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.159042] (dis_tutorial4) StdoutLine: {'line': b'See also "/home/osboxes/ros2_ws/build/dis_tutorial4/CMakeFiles/CMakeOutput.log".\n'}
+[4.159104] (dis_tutorial4) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[4.159160] (dis_tutorial4) StderrLine: {'line': b'  By not providing "Findnav2_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.159204] (dis_tutorial4) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.159240] (dis_tutorial4) StderrLine: {'line': b'  "nav2_msgs", but CMake did not find one.\n'}
+[4.159275] (dis_tutorial4) StderrLine: {'line': b'\n'}
+[4.159311] (dis_tutorial4) StderrLine: {'line': b'  Could not find a package configuration file provided by "nav2_msgs" with\n'}
+[4.159347] (dis_tutorial4) StderrLine: {'line': b'  any of the following names:\n'}
+[4.159383] (dis_tutorial4) StderrLine: {'line': b'\n'}
+[4.159443] (dis_tutorial4) StderrLine: {'line': b'    nav2_msgsConfig.cmake\n'}
+[4.159513] (dis_tutorial4) StderrLine: {'line': b'    nav2_msgs-config.cmake\n'}
+[4.159584] (dis_tutorial4) StderrLine: {'line': b'\n'}
+[4.159654] (dis_tutorial4) StderrLine: {'line': b'  Add the installation prefix of "nav2_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[4.159728] (dis_tutorial4) StderrLine: {'line': b'  "nav2_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[4.159922] (dis_tutorial4) StderrLine: {'line': b'  "nav2_msgs" provides a separate development package or SDK, be sure it has\n'}
+[4.160090] (dis_tutorial4) StderrLine: {'line': b'  been installed.\n'}
+[4.160153] (dis_tutorial4) StderrLine: {'line': b'\n'}
+[4.160214] (dis_tutorial4) StderrLine: {'line': b'\x1b[0m\n'}
+[4.164355] (dis_tutorial3) CommandEnded: {'returncode': 0}
+[4.165333] (dis_tutorial3) JobProgress: {'identifier': 'dis_tutorial3', 'progress': 'build'}
+[4.168187] (dis_tutorial3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osboxes/ros2_ws/build/dis_tutorial3', '--', '-j4', '-l4'], 'cwd': '/home/osboxes/ros2_ws/build/dis_tutorial3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osboxes'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osboxes'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osboxes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osboxes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/osboxes:@/tmp/.ICE-unix/1746,unix/osboxes:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8867787b_9ffb_49d9_9d10_ab2df70d74ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7MYB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osboxes/ros2_ws/build/dis_tutorial3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19465fc95d3b344b7406440367e1e795'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.170856] (hwpub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.178153] (dis_tutorial4) CommandEnded: {'returncode': 1}
+[4.179246] (hwpub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.221362] (dis_tutorial4) JobEnded: {'identifier': 'dis_tutorial4', 'rc': 1}
+[4.237276] (-) TimerEvent: {}
+[4.286153] (dis_tutorial3) JobEnded: {'identifier': 'dis_tutorial3', 'rc': 'SIGINT'}
+[4.337598] (-) TimerEvent: {}
+[4.401943] (hwpub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.437957] (-) TimerEvent: {}
+[4.489251] (hwpub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.538202] (-) TimerEvent: {}
+[4.595141] (hwpub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.612921] (hwpub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.638338] (-) TimerEvent: {}
+[4.670963] (dis_tutorial1) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.738657] (-) TimerEvent: {}
+[4.839292] (-) TimerEvent: {}
+[4.857044] (hwpub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.857338] (hwpub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.939499] (-) TimerEvent: {}
+[5.040200] (-) TimerEvent: {}
+[5.081025] (hwpub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.083089] (hwpub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.140395] (-) TimerEvent: {}
+[5.189174] (hwpub) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[5.191959] (hwpub) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[5.221019] (hwpub) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.242997] (-) TimerEvent: {}
+[5.343496] (-) TimerEvent: {}
+[5.444312] (-) TimerEvent: {}
+[5.529305] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.544535] (-) TimerEvent: {}
+[5.645898] (-) TimerEvent: {}
+[5.748861] (-) TimerEvent: {}
+[5.849724] (-) TimerEvent: {}
+[5.910501] (dis_tutorial1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.941298] (hwpub) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.952912] (-) TimerEvent: {}
+[5.988515] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.995272] (dis_tutorial1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.053187] (-) TimerEvent: {}
+[6.069911] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.070213] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.070277] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.070330] (dis_tutorial1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.118994] (dis_tutorial1) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.153314] (-) TimerEvent: {}
+[6.254193] (-) TimerEvent: {}
+[6.300837] (dis_tutorial1) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.354365] (-) TimerEvent: {}
+[6.454812] (-) TimerEvent: {}
+[6.478251] (dis_tutorial1) StdoutLine: {'line': b'-- Generating done\n'}
+[6.527577] (dis_tutorial1) StdoutLine: {'line': b'-- Build files have been written to: /home/osboxes/ros2_ws/build/dis_tutorial1\n'}
+[6.555077] (-) TimerEvent: {}
+[6.561838] (dis_tutorial1) JobEnded: {'identifier': 'dis_tutorial1', 'rc': 'SIGINT'}
+[6.655286] (-) TimerEvent: {}
+[6.754554] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.756916] (-) TimerEvent: {}
+[6.857590] (-) TimerEvent: {}
+[6.958249] (-) TimerEvent: {}
+[7.060926] (-) TimerEvent: {}
+[7.065713] (hwpub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.110966] (hwpub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.113587] (hwpub) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.149250] (hwpub) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.149842] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.150100] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.150255] (hwpub) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.161560] (-) TimerEvent: {}
+[7.192266] (hwpub) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.263933] (-) TimerEvent: {}
+[7.302991] (hwpub) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.364294] (-) TimerEvent: {}
+[7.421784] (hwpub) StdoutLine: {'line': b'-- Generating done\n'}
+[7.445648] (hwpub) StdoutLine: {'line': b'-- Build files have been written to: /home/osboxes/ros2_ws/build/hwpub\n'}
+[7.461837] (hwpub) JobEnded: {'identifier': 'hwpub', 'rc': 'SIGINT'}
+[7.464424] (-) TimerEvent: {}
+[7.472863] (-) EventReactorShutdown: {}

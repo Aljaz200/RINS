@@ -1,1 +1,4 @@
-/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dis_tutorial1/environment/ament_prefix_path.sh
+source;share/dis_tutorial1/environment/library_path.sh
+source;share/dis_tutorial1/environment/path.sh
+source;share/dis_tutorial1/environment/pythonpath.sh

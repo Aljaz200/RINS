@@ -1,1 +1,6 @@
-/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_python/dis_tutorial1/dis_tutorial1.egg-info/SOURCES.txt
+setup.py
+dis_tutorial1/__init__.py
+dis_tutorial1.egg-info/PKG-INFO
+dis_tutorial1.egg-info/SOURCES.txt
+dis_tutorial1.egg-info/dependency_links.txt
+dis_tutorial1.egg-info/top_level.txt
