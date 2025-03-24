@@ -1,0 +1,24 @@
+[3.114s] Invoking command in '/home/osboxes/ros2_ws/src/dis_tutorial2': PYTHONPATH=/home/osboxes/ros2_ws/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dis_tutorial2 build --build-base /home/osboxes/ros2_ws/build/dis_tutorial2/build install --record /home/osboxes/ros2_ws/build/dis_tutorial2/install.log --single-version-externally-managed install_data
+[3.797s] running egg_info
+[3.799s] writing ../../build/dis_tutorial2/dis_tutorial2.egg-info/PKG-INFO
+[3.803s] writing dependency_links to ../../build/dis_tutorial2/dis_tutorial2.egg-info/dependency_links.txt
+[3.805s] writing entry points to ../../build/dis_tutorial2/dis_tutorial2.egg-info/entry_points.txt
+[3.806s] writing requirements to ../../build/dis_tutorial2/dis_tutorial2.egg-info/requires.txt
+[3.809s] writing top-level names to ../../build/dis_tutorial2/dis_tutorial2.egg-info/top_level.txt
+[3.816s] reading manifest file '../../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'
+[3.819s] writing manifest file '../../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'
+[3.819s] running build
+[3.820s] running build_py
+[3.824s] running install
+[3.824s] running install_lib
+[3.828s] running install_data
+[3.834s] running install_egg_info
+[3.842s] removing '/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2-0.0.1-py3.10.egg-info' (and everything under it)
+[3.843s] Copying ../../build/dis_tutorial2/dis_tutorial2.egg-info to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2-0.0.1-py3.10.egg-info
+[3.847s] running install_scripts
+[3.895s] Installing achtung_die_turtle script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[3.896s] Installing go_to_position script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[3.897s] Installing intersection script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[3.897s] Installing random_velocity_publisher script to /home/osboxes/ros2_ws/install/dis_tutorial2/lib/dis_tutorial2
+[3.899s] writing list of installed files to '/home/osboxes/ros2_ws/build/dis_tutorial2/install.log'
+[3.939s] Invoked command in '/home/osboxes/ros2_ws/src/dis_tutorial2' returned '0': PYTHONPATH=/home/osboxes/ros2_ws/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osboxes/ros2_ws/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dis_tutorial2 build --build-base /home/osboxes/ros2_ws/build/dis_tutorial2/build install --record /home/osboxes/ros2_ws/build/dis_tutorial2/install.log --single-version-externally-managed install_data
