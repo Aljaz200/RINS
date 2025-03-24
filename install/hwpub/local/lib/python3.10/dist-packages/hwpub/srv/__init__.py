@@ -1,1 +1,1 @@
-/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_py/hwpub/srv/__init__.py
+from hwpub.srv._customserv import Customserv  # noqa: F401

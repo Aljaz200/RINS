@@ -4,9 +4,3 @@ dis_tutorial1.egg-info/PKG-INFO
 dis_tutorial1.egg-info/SOURCES.txt
 dis_tutorial1.egg-info/dependency_links.txt
 dis_tutorial1.egg-info/top_level.txt
-dis_tutorial1/msg/__init__.py
-dis_tutorial1/msg/_custom_message.py
-dis_tutorial1/msg/_custom_message2.py
-dis_tutorial1/srv/__init__.py
-dis_tutorial1/srv/_add_two_ints.py
-dis_tutorial1/srv/_sum_service.py

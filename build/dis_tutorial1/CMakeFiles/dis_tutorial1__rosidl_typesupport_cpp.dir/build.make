@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1
+CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/dis_tutorial1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1
+CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/dis_tutorial1
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/depend.make
@@ -77,8 +77,6 @@ rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: rosidl_adapter/dis_tutorial1/msg/CustomMessage.idl
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: rosidl_adapter/dis_tutorial1/srv/AddTwoInts.idl
-rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: rosidl_adapter/dis_tutorial1/msg/CustomMessage2.idl
-rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: rosidl_adapter/dis_tutorial1/srv/SumService.idl
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -111,88 +109,50 @@ rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp: rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp
 
-rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp: rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp
-
-rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp: rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp
-
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o: rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o -MF CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o.d -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o -c /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o -MF CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o.d -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o -c /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp
 
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp > CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp > CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.i
 
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.s
 
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o: rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o -MF CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o.d -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o -c /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o -MF CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o.d -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o -c /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp
 
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp > CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp > CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.i
 
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.s
-
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/flags.make
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o: rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o -MF CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o.d -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o -c /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp
-
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp > CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.i
-
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.s
-
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/flags.make
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o: rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o -MF CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o.d -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o -c /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp
-
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp > CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.i
-
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/osboxes/ros2_ws/build/dis_tutorial1/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp -o CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.s
 
 # Object files for target dis_tutorial1__rosidl_typesupport_cpp
 dis_tutorial1__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o" \
-"CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o" \
-"CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o" \
-"CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o"
+"CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o"
 
 # External object files for target dis_tutorial1__rosidl_typesupport_cpp
 dis_tutorial1__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 
 libdis_tutorial1__rosidl_typesupport_cpp.so: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o
 libdis_tutorial1__rosidl_typesupport_cpp.so: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o
-libdis_tutorial1__rosidl_typesupport_cpp.so: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp.o
-libdis_tutorial1__rosidl_typesupport_cpp.so: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp.o
 libdis_tutorial1__rosidl_typesupport_cpp.so: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/build.make
 libdis_tutorial1__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libdis_tutorial1__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
@@ -201,7 +161,7 @@ libdis_tutorial1__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librosidl_types
 libdis_tutorial1__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdis_tutorial1__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librcutils.so
 libdis_tutorial1__rosidl_typesupport_cpp.so: CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libdis_tutorial1__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdis_tutorial1__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,10 +172,8 @@ CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/clean
 
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message2__type_support.cpp
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp
 CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp
-CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/dis_tutorial1/srv/sum_service__type_support.cpp
-	cd /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/osboxes/ros2_ws/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1
+CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/dis_tutorial1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1
+CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/dis_tutorial1
 
 # Utility rule file for dis_tutorial1_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dis_tutorial1_uninstall.dir/compiler_depend.make
 include CMakeFiles/dis_tutorial1_uninstall.dir/progress.make
 
 CMakeFiles/dis_tutorial1_uninstall:
-	/usr/bin/cmake -P /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/osboxes/ros2_ws/build/dis_tutorial1/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dis_tutorial1_uninstall: CMakeFiles/dis_tutorial1_uninstall
 dis_tutorial1_uninstall: CMakeFiles/dis_tutorial1_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dis_tutorial1_uninstall.dir/clean:
 .PHONY : CMakeFiles/dis_tutorial1_uninstall.dir/clean
 
 CMakeFiles/dis_tutorial1_uninstall.dir/depend:
-	cd /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/src/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1 /home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/CMakeFiles/dis_tutorial1_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/osboxes/ros2_ws/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles/dis_tutorial1_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dis_tutorial1_uninstall.dir/depend
 

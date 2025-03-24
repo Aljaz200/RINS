@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ilija/ros2_ws/src/RINS/src/hwpub
-# Build directory: /home/ilija/ros2_ws/src/RINS/build/hwpub
+# Source directory: /home/osboxes/ros2_ws/src/hwpub
+# Build directory: /home/osboxes/ros2_ws/build/hwpub
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

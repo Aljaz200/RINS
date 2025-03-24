@@ -1,1 +1,6 @@
-/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_python/hwpub/hwpub.egg-info/SOURCES.txt
+setup.py
+hwpub/__init__.py
+hwpub.egg-info/PKG-INFO
+hwpub.egg-info/SOURCES.txt
+hwpub.egg-info/dependency_links.txt
+hwpub.egg-info/top_level.txt

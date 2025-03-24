@@ -1,1 +1,3 @@
-/home/ilija/ros2_ws/src/RINS/src/hwpub/msg/Hwmsg.msg
+string s
+int64 num
+bool b

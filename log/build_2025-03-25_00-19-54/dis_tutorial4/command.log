@@ -1,0 +1,2 @@
+Invoking command in '/home/osboxes/ros2_ws/build/dis_tutorial4': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/osboxes/ros2_ws/src/dis_tutorial4 -DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/dis_tutorial4
+Invoked command in '/home/osboxes/ros2_ws/build/dis_tutorial4' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/osboxes/ros2_ws/src/dis_tutorial4 -DCMAKE_INSTALL_PREFIX=/home/osboxes/ros2_ws/install/dis_tutorial4

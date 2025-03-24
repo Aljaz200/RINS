@@ -1,5 +1,0 @@
-string movement_type  # "circle", "rectangle", "triangle", "random"
-int32 duration
----
-string previous_movement
-

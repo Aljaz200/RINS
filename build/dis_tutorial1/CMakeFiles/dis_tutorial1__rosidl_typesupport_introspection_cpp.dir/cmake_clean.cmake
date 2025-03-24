@@ -1,22 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message2__type_support.cpp.o"
-  "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message2__type_support.cpp.o.d"
   "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message__type_support.cpp.o"
   "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message__type_support.cpp.o.d"
   "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/add_two_ints__type_support.cpp.o"
   "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/add_two_ints__type_support.cpp.o.d"
-  "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/sum_service__type_support.cpp.o"
-  "CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/sum_service__type_support.cpp.o.d"
   "libdis_tutorial1__rosidl_typesupport_introspection_cpp.pdb"
   "libdis_tutorial1__rosidl_typesupport_introspection_cpp.so"
-  "rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message2__rosidl_typesupport_introspection_cpp.hpp"
-  "rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message2__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/add_two_ints__type_support.cpp"
-  "rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/sum_service__rosidl_typesupport_introspection_cpp.hpp"
-  "rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/sum_service__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

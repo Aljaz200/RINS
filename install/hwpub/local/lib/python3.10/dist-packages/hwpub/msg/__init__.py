@@ -1,1 +1,1 @@
-/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_generator_py/hwpub/msg/__init__.py
+from hwpub.msg._hwmsg import Hwmsg  # noqa: F401

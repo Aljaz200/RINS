@@ -1,10 +1,10 @@
 {
   "package_name": "hwpub",
-  "output_dir": "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_typesupport_fastrtps_c/hwpub",
+  "output_dir": "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_fastrtps_c/hwpub",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub:msg/Hwmsg.idl",
-    "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub:srv/Customserv.idl"
+    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub:msg/Hwmsg.idl",
+    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub:srv/Customserv.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -49,8 +49,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl",
-    "/home/ilija/ros2_ws/src/RINS/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl",
+    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl",
+    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",
