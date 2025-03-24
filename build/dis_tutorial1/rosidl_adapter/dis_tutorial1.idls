@@ -1,0 +1,4 @@
+/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:msg/CustomMessage.idl
+/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:srv/AddTwoInts.idl
+/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:msg/CustomMessage2.idl
+/home/ilija/ros2_ws/src/RINS/build/dis_tutorial1/rosidl_adapter/dis_tutorial1:srv/SumService.idl

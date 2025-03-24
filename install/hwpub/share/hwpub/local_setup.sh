@@ -1,0 +1,1 @@
+/home/ilija/ros2_ws/src/RINS/build/hwpub/ament_cmake_environment_hooks/local_setup.sh
