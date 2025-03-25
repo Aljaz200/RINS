@@ -1,10 +1,10 @@
 {
   "package_name": "hwpub",
-  "output_dir": "/home/osboxes/ros2_ws/build/hwpub/rosidl_typesupport_cpp/hwpub",
+  "output_dir": "/home/tau/colcon_ws/build/hwpub/rosidl_typesupport_cpp/hwpub",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub:msg/Hwmsg.idl",
-    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub:srv/Customserv.idl"
+    "/home/tau/colcon_ws/build/hwpub/rosidl_adapter/hwpub:msg/Hwmsg.idl",
+    "/home/tau/colcon_ws/build/hwpub/rosidl_adapter/hwpub:srv/Customserv.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -47,8 +47,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl",
-    "/home/osboxes/ros2_ws/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl",
+    "/home/tau/colcon_ws/build/hwpub/rosidl_adapter/hwpub/msg/Hwmsg.idl",
+    "/home/tau/colcon_ws/build/hwpub/rosidl_adapter/hwpub/srv/Customserv.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

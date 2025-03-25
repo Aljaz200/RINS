@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cf8a1c5e8dd05c7594dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "hwpub__py",
+					"jsonFile" : "directory-hwpub__py-d0519fa203cf77418fb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tau/colcon_ws/build/hwpub/hwpub__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hwpub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hwpub_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hwpub_egg-2cf000a9ab8d9fed887c.json",
+					"name" : "ament_cmake_python_build_hwpub_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hwpub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hwpub-36f32191e6122b0f6e19.json",
+					"name" : "ament_cmake_python_copy_hwpub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub-4a983574a22013c32ab4.json",
+					"name" : "hwpub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__cpp-b0099d4470f72e5405f2.json",
+					"name" : "hwpub__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hwpub__py::@4fffec9863761137092f",
+					"jsonFile" : "target-hwpub__py-0b651e5dd1879eb0cc70.json",
+					"name" : "hwpub__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_generator_c-b0d9be34e1c3b37e9ee8.json",
+					"name" : "hwpub__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_generator_py-61393fda5768db915de5.json",
+					"name" : "hwpub__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_c-de76b1b79501c80e4e8c.json",
+					"name" : "hwpub__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_c__pyext-098883970cb1a6a37e8f.json",
+					"name" : "hwpub__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_cpp-c25b2a8cd0b1df68e8a0.json",
+					"name" : "hwpub__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_fastrtps_c-c612864d7ad4396e6c8b.json",
+					"name" : "hwpub__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_fastrtps_c__pyext-14c068a0e124b6cea32e.json",
+					"name" : "hwpub__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_fastrtps_cpp-90deac3b529a2cea8412.json",
+					"name" : "hwpub__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_introspection_c-044d0c640a5537ff2867.json",
+					"name" : "hwpub__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_introspection_c__pyext-857728dda577368f5016.json",
+					"name" : "hwpub__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub__rosidl_typesupport_introspection_cpp-6c0d2bbe7191960dcd32.json",
+					"name" : "hwpub__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hwpub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hwpub_uninstall-130deaf58d80ba457983.json",
+					"name" : "hwpub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-163d4a316bbe3f637c03.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tau/colcon_ws/build/hwpub",
+		"source" : "/home/tau/colcon_ws/src/hwpub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -16,6 +16,8 @@
 
 from enum import Enum
 import time
+import math
+import json
 
 from action_msgs.msg import GoalStatus
 from builtin_interfaces.msg import Duration
@@ -35,6 +37,9 @@ from rclpy.qos import QoSDurabilityPolicy, QoSHistoryPolicy
 from rclpy.qos import QoSProfile, QoSReliabilityPolicy
 from rclpy.qos import qos_profile_sensor_data
 
+from visualization_msgs.msg import Marker
+import json
+
 
 class TaskResult(Enum):
     UNKNOWN = 0
@@ -49,6 +54,12 @@ amcl_pose_qos = QoSProfile(
           depth=1)
 
 class RobotCommander(Node):
+    def peoplemarkercallback(self, marker):
+        print("\n POSITIONS:")
+        print(marker.pose.position.x)
+        print(marker.pose.position.y)
+        print(marker.pose.position.z)
+
 
     def __init__(self, node_name='robot_commander', namespace=''):
         super().__init__(node_name=node_name, namespace=namespace)
@@ -63,6 +74,11 @@ class RobotCommander(Node):
         self.initial_pose_received = False
         self.is_docked = None
 
+        #Subscription for position of faces
+        self.create_subscription(Marker,
+                                 '/people_marker',
+                                 self.peoplemarkercallback, 10)
+
         # ROS2 subscribers
         self.create_subscription(DockStatus,
                                  'dock_status',
@@ -73,7 +89,7 @@ class RobotCommander(Node):
                                                               'amcl_pose',
                                                               self._amclPoseCallback,
                                                               amcl_pose_qos)
-        
+
         # ROS2 publishers
         self.initial_pose_pub = self.create_publisher(PoseWithCovarianceStamped,
                                                       'initialpose',
@@ -92,7 +108,6 @@ class RobotCommander(Node):
         super().destroy_node()     
 
     def goToPose(self, pose, behavior_tree=''):
-        """Send a `NavToPose` action request."""
         self.debug("Waiting for 'NavigateToPose' action server")
         while not self.nav_to_pose_client.wait_for_server(timeout_sec=1.0):
             self.info("'NavigateToPose' action server not available, waiting...")
@@ -262,6 +277,8 @@ class RobotCommander(Node):
         self.debug('Received amcl pose')
         self.initial_pose_received = True
         self.current_pose = msg.pose
+        print(self.current_pose.pose.position)
+        print(self.current_pose.pose.orientation)
         return
 
     def _feedbackCallback(self, msg):
@@ -296,9 +313,19 @@ class RobotCommander(Node):
     def debug(self, msg):
         self.get_logger().debug(msg)
         return
-    
+
+def quaternion_to_yaw(z, w):
+    yaw = 2 * math.atan2(z, w)
+    return yaw
+
+def load_positions(json_file):
+    with open(json_file, 'r') as file:
+        data = json.load(file)
+    return data
+
+
 def main(args=None):
-    
+
     rclpy.init(args=args)
     rc = RobotCommander()
 
@@ -312,23 +339,48 @@ def main(args=None):
     # If it is docked, undock it first
     if rc.is_docked:
         rc.undock()
+
+    positions = load_positions("src/dis_tutorial3/scripts/face_positions.json")
     
     # Finally send it a goal to reach
+    """
     goal_pose = PoseStamped()
     goal_pose.header.frame_id = 'map'
     goal_pose.header.stamp = rc.get_clock().now().to_msg()
 
-    goal_pose.pose.position.x = 2.6
-    goal_pose.pose.position.y = -1.3
-    goal_pose.pose.orientation = rc.YawToQuaternion(0.57)
+    goal_pose.pose.position.y =1.8
+    goal_pose.pose.position.x = -0.5
+    goal_pose.pose.orientation.z = 0.5
+    goal_pose.pose.orientation.w= 0.5
 
-    rc.goToPose(goal_pose)
+    rc.goToPose(goal_pose)"""
 
-    while not rc.isTaskComplete():
-        rc.info("Waiting for the task to complete...")
-        time.sleep(1)
+    for position in positions:
+        x = position["x"]
+        y = position["y"]
+        z = position["z"]
+        z1 = position["z1"]
+        w = position["w"]
 
-    rc.spin(-0.57)
+        yaw = quaternion_to_yaw(z1,w)
+
+        goal_pose = PoseStamped()
+        goal_pose.header.frame_id = 'map'
+        goal_pose.header.stamp = rc.get_clock().now().to_msg()
+        goal_pose.pose.position.x = x
+        goal_pose.pose.position.y = y
+        goal_pose.pose.position.z = z
+        goal_pose.pose.orientation.z = z1
+        goal_pose.pose.orientation.w = w
+
+        print(f"Moving to position: ({x}, {y}, {z}), with yaw: {yaw} radians")
+
+        rc.goToPose(goal_pose)
+
+        while not rc.isTaskComplete():
+            rc.info("Waiting for the task to complete...")
+            time.sleep(1)
+
 
     rc.destroyNode()
 

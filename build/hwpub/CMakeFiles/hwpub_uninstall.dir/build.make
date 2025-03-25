@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/hwpub
+CMAKE_SOURCE_DIR = /home/tau/colcon_ws/src/hwpub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/hwpub
+CMAKE_BINARY_DIR = /home/tau/colcon_ws/build/hwpub
 
 # Utility rule file for hwpub_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/hwpub_uninstall.dir/compiler_depend.make
 include CMakeFiles/hwpub_uninstall.dir/progress.make
 
 CMakeFiles/hwpub_uninstall:
-	/usr/bin/cmake -P /home/osboxes/ros2_ws/build/hwpub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/tau/colcon_ws/build/hwpub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 hwpub_uninstall: CMakeFiles/hwpub_uninstall
 hwpub_uninstall: CMakeFiles/hwpub_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/hwpub_uninstall.dir/clean:
 .PHONY : CMakeFiles/hwpub_uninstall.dir/clean
 
 CMakeFiles/hwpub_uninstall.dir/depend:
-	cd /home/osboxes/ros2_ws/build/hwpub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/hwpub /home/osboxes/ros2_ws/src/hwpub /home/osboxes/ros2_ws/build/hwpub /home/osboxes/ros2_ws/build/hwpub /home/osboxes/ros2_ws/build/hwpub/CMakeFiles/hwpub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tau/colcon_ws/build/hwpub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tau/colcon_ws/src/hwpub /home/tau/colcon_ws/src/hwpub /home/tau/colcon_ws/build/hwpub /home/tau/colcon_ws/build/hwpub /home/tau/colcon_ws/build/hwpub/CMakeFiles/hwpub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hwpub_uninstall.dir/depend
 
