@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/dis_tutorial4
+CMAKE_SOURCE_DIR = /home/tau/colcon_ws/src/dis_tutorial4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/dis_tutorial4
+CMAKE_BINARY_DIR = /home/tau/colcon_ws/build/dis_tutorial4
 
 # Utility rule file for dis_tutorial4_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dis_tutorial4_uninstall.dir/compiler_depend.make
 include CMakeFiles/dis_tutorial4_uninstall.dir/progress.make
 
 CMakeFiles/dis_tutorial4_uninstall:
-	/usr/bin/cmake -P /home/osboxes/ros2_ws/build/dis_tutorial4/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/tau/colcon_ws/build/dis_tutorial4/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dis_tutorial4_uninstall: CMakeFiles/dis_tutorial4_uninstall
 dis_tutorial4_uninstall: CMakeFiles/dis_tutorial4_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dis_tutorial4_uninstall.dir/clean:
 .PHONY : CMakeFiles/dis_tutorial4_uninstall.dir/clean
 
 CMakeFiles/dis_tutorial4_uninstall.dir/depend:
-	cd /home/osboxes/ros2_ws/build/dis_tutorial4 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/dis_tutorial4 /home/osboxes/ros2_ws/src/dis_tutorial4 /home/osboxes/ros2_ws/build/dis_tutorial4 /home/osboxes/ros2_ws/build/dis_tutorial4 /home/osboxes/ros2_ws/build/dis_tutorial4/CMakeFiles/dis_tutorial4_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tau/colcon_ws/build/dis_tutorial4 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tau/colcon_ws/src/dis_tutorial4 /home/tau/colcon_ws/src/dis_tutorial4 /home/tau/colcon_ws/build/dis_tutorial4 /home/tau/colcon_ws/build/dis_tutorial4 /home/tau/colcon_ws/build/dis_tutorial4/CMakeFiles/dis_tutorial4_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dis_tutorial4_uninstall.dir/depend
 

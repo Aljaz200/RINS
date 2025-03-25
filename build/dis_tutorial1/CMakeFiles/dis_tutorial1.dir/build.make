@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/dis_tutorial1
+CMAKE_SOURCE_DIR = /home/tau/colcon_ws/src/dis_tutorial1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/dis_tutorial1
+CMAKE_BINARY_DIR = /home/tau/colcon_ws/build/dis_tutorial1
 
 # Utility rule file for dis_tutorial1.
 
@@ -66,8 +66,8 @@ include CMakeFiles/dis_tutorial1.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/dis_tutorial1.dir/progress.make
 
-CMakeFiles/dis_tutorial1: /home/osboxes/ros2_ws/src/dis_tutorial1/msg/CustomMessage.msg
-CMakeFiles/dis_tutorial1: /home/osboxes/ros2_ws/src/dis_tutorial1/srv/AddTwoInts.srv
+CMakeFiles/dis_tutorial1: /home/tau/colcon_ws/src/dis_tutorial1/msg/CustomMessage.msg
+CMakeFiles/dis_tutorial1: /home/tau/colcon_ws/src/dis_tutorial1/srv/AddTwoInts.srv
 CMakeFiles/dis_tutorial1: rosidl_cmake/srv/AddTwoInts_Request.msg
 CMakeFiles/dis_tutorial1: rosidl_cmake/srv/AddTwoInts_Response.msg
 CMakeFiles/dis_tutorial1: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -114,6 +114,6 @@ CMakeFiles/dis_tutorial1.dir/clean:
 .PHONY : CMakeFiles/dis_tutorial1.dir/clean
 
 CMakeFiles/dis_tutorial1.dir/depend:
-	cd /home/osboxes/ros2_ws/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/src/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1 /home/osboxes/ros2_ws/build/dis_tutorial1/CMakeFiles/dis_tutorial1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tau/colcon_ws/build/dis_tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tau/colcon_ws/src/dis_tutorial1 /home/tau/colcon_ws/src/dis_tutorial1 /home/tau/colcon_ws/build/dis_tutorial1 /home/tau/colcon_ws/build/dis_tutorial1 /home/tau/colcon_ws/build/dis_tutorial1/CMakeFiles/dis_tutorial1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dis_tutorial1.dir/depend
 

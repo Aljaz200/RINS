@@ -1,5 +1,5 @@
 CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o: \
- /home/osboxes/ros2_ws/src/dis_tutorial1/src/simple_subscriber.cpp \
+ /home/tau/colcon_ws/src/dis_tutorial1/src/simple_subscriber.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

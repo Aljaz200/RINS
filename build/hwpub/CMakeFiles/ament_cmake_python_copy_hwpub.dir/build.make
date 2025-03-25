@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/ros2_ws/src/hwpub
+CMAKE_SOURCE_DIR = /home/tau/colcon_ws/src/hwpub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/ros2_ws/build/hwpub
+CMAKE_BINARY_DIR = /home/tau/colcon_ws/build/hwpub
 
 # Utility rule file for ament_cmake_python_copy_hwpub.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_hwpub.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_hwpub.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_hwpub:
-	/usr/bin/cmake -E copy_directory /home/osboxes/ros2_ws/build/hwpub/rosidl_generator_py/hwpub /home/osboxes/ros2_ws/build/hwpub/ament_cmake_python/hwpub/hwpub
+	/usr/bin/cmake -E copy_directory /home/tau/colcon_ws/build/hwpub/rosidl_generator_py/hwpub /home/tau/colcon_ws/build/hwpub/ament_cmake_python/hwpub/hwpub
 
 ament_cmake_python_copy_hwpub: CMakeFiles/ament_cmake_python_copy_hwpub
 ament_cmake_python_copy_hwpub: CMakeFiles/ament_cmake_python_copy_hwpub.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_hwpub.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_hwpub.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_hwpub.dir/depend:
-	cd /home/osboxes/ros2_ws/build/hwpub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/ros2_ws/src/hwpub /home/osboxes/ros2_ws/src/hwpub /home/osboxes/ros2_ws/build/hwpub /home/osboxes/ros2_ws/build/hwpub /home/osboxes/ros2_ws/build/hwpub/CMakeFiles/ament_cmake_python_copy_hwpub.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tau/colcon_ws/build/hwpub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tau/colcon_ws/src/hwpub /home/tau/colcon_ws/src/hwpub /home/tau/colcon_ws/build/hwpub /home/tau/colcon_ws/build/hwpub /home/tau/colcon_ws/build/hwpub/CMakeFiles/ament_cmake_python_copy_hwpub.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_hwpub.dir/depend
 

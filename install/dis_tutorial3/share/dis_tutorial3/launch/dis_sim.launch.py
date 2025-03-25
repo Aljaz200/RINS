@@ -28,11 +28,14 @@ ARGUMENTS = [
                           description='Robot namespace'),
     DeclareLaunchArgument('rviz', default_value='false',
                           choices=['true', 'false'], description='Start rviz.'),
-    DeclareLaunchArgument('world', default_value='dis',
+    DeclareLaunchArgument('world', default_value='demo1',
                           description='Ignition World'),
     DeclareLaunchArgument('model', default_value='standard',
                           choices=['standard', 'lite'],
                           description='Turtlebot4 Model'),
+    DeclareLaunchArgument('map', default_value=PathJoinSubstitution(
+                      [pkg_dis_tutorial3, 'maps', 'map.yaml']),
+                      description='Full path to map yaml file to load'),
 ]
 
 for pose_element in ['x', 'y', 'z', 'yaw']:
