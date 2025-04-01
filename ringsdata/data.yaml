@@ -1,0 +1,14 @@
+path: /home/tau/colcon_ws/ringsdata
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['black-ring', 'cobalt-W-ring', 'cobalt-blue-ring', 'metal-ring', 'orange-2-ring', 'orange-2W-ring', 'orange-L-ring', 'orange-LW-ring', 'orange-ring', 'purple-ring', 'purssian-blue-ring', 'steel-ring', 'white-ring']
+
+roboflow:
+  workspace: projects-uxaou
+  project: wipro-ring-131024
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projects-uxaou/wipro-ring-131024/dataset/2

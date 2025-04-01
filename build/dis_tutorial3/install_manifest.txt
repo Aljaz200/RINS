@@ -122,7 +122,9 @@
 /home/tau/colcon_ws/install/dis_tutorial3/share/dis_tutorial3//maps/map.pgm
 /home/tau/colcon_ws/install/dis_tutorial3/share/dis_tutorial3//maps/map1.yaml
 /home/tau/colcon_ws/install/dis_tutorial3/share/dis_tutorial3//maps/map.yaml
-/home/tau/colcon_ws/install/dis_tutorial3/lib/dis_tutorial3/detect_people.py
+/home/tau/colcon_ws/install/dis_tutorial3/lib/dis_tutorial3/detect_people_from_file.py
+/home/tau/colcon_ws/install/dis_tutorial3/lib/dis_tutorial3/detect_face.py
+/home/tau/colcon_ws/install/dis_tutorial3/lib/dis_tutorial3/detect_circles.py
 /home/tau/colcon_ws/install/dis_tutorial3/lib/dis_tutorial3/robot_commander.py
 /home/tau/colcon_ws/install/dis_tutorial3/lib/dis_tutorial3/face_saver.py
 /home/tau/colcon_ws/install/dis_tutorial3/share/ament_index/resource_index/package_run_dependencies/dis_tutorial3

@@ -1,0 +1,51 @@
+[0.437s] Invoking command in '/home/tau/colcon_ws/src/dis_tutorial2': PYTHONPATH=/home/tau/colcon_ws/src/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dis_tutorial2 build --build-base /home/tau/colcon_ws/src/build/dis_tutorial2/build install --record /home/tau/colcon_ws/src/build/dis_tutorial2/install.log --single-version-externally-managed install_data
+[0.612s] running egg_info
+[0.612s] creating ../build/dis_tutorial2/dis_tutorial2.egg-info
+[0.612s] writing ../build/dis_tutorial2/dis_tutorial2.egg-info/PKG-INFO
+[0.613s] writing dependency_links to ../build/dis_tutorial2/dis_tutorial2.egg-info/dependency_links.txt
+[0.613s] writing entry points to ../build/dis_tutorial2/dis_tutorial2.egg-info/entry_points.txt
+[0.613s] writing requirements to ../build/dis_tutorial2/dis_tutorial2.egg-info/requires.txt
+[0.613s] writing top-level names to ../build/dis_tutorial2/dis_tutorial2.egg-info/top_level.txt
+[0.613s] writing manifest file '../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'
+[0.615s] reading manifest file '../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'
+[0.615s] writing manifest file '../build/dis_tutorial2/dis_tutorial2.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] creating /home/tau/colcon_ws/src/build/dis_tutorial2/build
+[0.615s] creating /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib
+[0.615s] creating /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2
+[0.616s] copying dis_tutorial2/__init__.py -> /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2
+[0.616s] copying dis_tutorial2/go_to_position_simple_node.py -> /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2
+[0.616s] copying dis_tutorial2/achtung_die_turtles.py -> /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2
+[0.616s] copying dis_tutorial2/random_velocity_publisher_node.py -> /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2
+[0.616s] running install
+[0.616s] running install_lib
+[0.617s] creating /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2
+[0.617s] copying /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2/__init__.py -> /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2
+[0.617s] copying /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2/go_to_position_simple_node.py -> /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2
+[0.617s] copying /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2/achtung_die_turtles.py -> /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2
+[0.617s] copying /home/tau/colcon_ws/src/build/dis_tutorial2/build/lib/dis_tutorial2/random_velocity_publisher_node.py -> /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2
+[0.617s] byte-compiling /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/__init__.py to __init__.cpython-310.pyc
+[0.617s] byte-compiling /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/go_to_position_simple_node.py to go_to_position_simple_node.cpython-310.pyc
+[0.618s] byte-compiling /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/achtung_die_turtles.py to achtung_die_turtles.cpython-310.pyc
+[0.619s] byte-compiling /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2/random_velocity_publisher_node.py to random_velocity_publisher_node.cpython-310.pyc
+[0.620s] running install_data
+[0.620s] creating /home/tau/colcon_ws/src/install/dis_tutorial2/share/ament_index
+[0.620s] creating /home/tau/colcon_ws/src/install/dis_tutorial2/share/ament_index/resource_index
+[0.620s] creating /home/tau/colcon_ws/src/install/dis_tutorial2/share/ament_index/resource_index/packages
+[0.620s] copying resource/dis_tutorial2 -> /home/tau/colcon_ws/src/install/dis_tutorial2/share/ament_index/resource_index/packages
+[0.620s] copying package.xml -> /home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2
+[0.620s] creating /home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/launch
+[0.620s] copying launch/example_launch.xml -> /home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/launch
+[0.620s] copying launch/example_launch.yaml -> /home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/launch
+[0.620s] copying launch/example_launch.py -> /home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/launch
+[0.620s] copying launch/go_to_position_launch.py -> /home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/launch
+[0.620s] running install_egg_info
+[0.622s] Copying ../build/dis_tutorial2/dis_tutorial2.egg-info to /home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages/dis_tutorial2-0.0.1-py3.10.egg-info
+[0.622s] running install_scripts
+[0.636s] Installing achtung_die_turtle script to /home/tau/colcon_ws/src/install/dis_tutorial2/lib/dis_tutorial2
+[0.636s] Installing go_to_position script to /home/tau/colcon_ws/src/install/dis_tutorial2/lib/dis_tutorial2
+[0.636s] Installing intersection script to /home/tau/colcon_ws/src/install/dis_tutorial2/lib/dis_tutorial2
+[0.637s] Installing random_velocity_publisher script to /home/tau/colcon_ws/src/install/dis_tutorial2/lib/dis_tutorial2
+[0.637s] writing list of installed files to '/home/tau/colcon_ws/src/build/dis_tutorial2/install.log'
+[0.652s] Invoked command in '/home/tau/colcon_ws/src/dis_tutorial2' returned '0': PYTHONPATH=/home/tau/colcon_ws/src/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dis_tutorial2 build --build-base /home/tau/colcon_ws/src/build/dis_tutorial2/build install --record /home/tau/colcon_ws/src/build/dis_tutorial2/install.log --single-version-externally-managed install_data

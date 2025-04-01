@@ -1,0 +1,12 @@
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/uninstall.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/dis_tutorial5_uninstall.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/pcl_forwarder.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/planes.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/cylinder_segmentation.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/test.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/edit_cache.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/rebuild_cache.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/list_install_components.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/install.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/install/local.dir
+/home/tau/colcon_ws/build/dis_tutorial5/CMakeFiles/install/strip.dir

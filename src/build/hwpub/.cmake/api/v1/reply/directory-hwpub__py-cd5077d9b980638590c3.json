@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hwpub__py",
+		"source" : "/home/tau/colcon_ws/src/build/hwpub/hwpub__py"
+	}
+}

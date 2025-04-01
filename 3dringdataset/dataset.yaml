@@ -1,0 +1,6 @@
+path: /home/tau/colcon_ws/3dringdataset  # Change this to the absolute path of your dataset
+train: images/train
+val: images/val
+
+nc: 1  # Number of classes (change if detecting more objects)
+names: ["ring"]  # List of class names

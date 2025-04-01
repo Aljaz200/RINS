@@ -1,0 +1,27 @@
+[0.307s] Invoking command in '/home/tau/colcon_ws/build/dis_tutorial5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/dis_tutorial5 -- -j16 -l16
+[0.428s] [ 33%] Built target cylinder_segmentation
+[0.428s] [ 66%] Built target pcl_forwarder
+[0.428s] [100%] Built target planes
+[0.457s] Invoked command in '/home/tau/colcon_ws/build/dis_tutorial5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/dis_tutorial5 -- -j16 -l16
+[0.461s] Invoking command in '/home/tau/colcon_ws/build/dis_tutorial5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/dis_tutorial5
+[0.472s] -- Install configuration: ""
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/lib/dis_tutorial5/pcl_forwarder
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/lib/dis_tutorial5/planes
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/lib/dis_tutorial5/cylinder_segmentation
+[0.476s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial5/lib/dis_tutorial5/detect_rings.py
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/ament_index/resource_index/package_run_dependencies/dis_tutorial5
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/ament_index/resource_index/parent_prefix_path/dis_tutorial5
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/environment/ament_prefix_path.sh
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/environment/ament_prefix_path.dsv
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/environment/path.sh
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/environment/path.dsv
+[0.476s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/local_setup.bash
+[0.477s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/local_setup.sh
+[0.477s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/local_setup.zsh
+[0.479s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/local_setup.dsv
+[0.479s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/package.dsv
+[0.479s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/ament_index/resource_index/packages/dis_tutorial5
+[0.479s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/cmake/dis_tutorial5Config.cmake
+[0.480s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/cmake/dis_tutorial5Config-version.cmake
+[0.480s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial5/share/dis_tutorial5/package.xml
+[0.483s] Invoked command in '/home/tau/colcon_ws/build/dis_tutorial5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/dis_tutorial5

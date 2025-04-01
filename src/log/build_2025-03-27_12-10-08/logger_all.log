@@ -1,0 +1,451 @@
+[0.100s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.100s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x771ed0447c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x771ed0598be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x771ed0598be0>>, mixin_verb=('build',))
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.252s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tau/colcon_ws/src'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial1) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'dis_tutorial1' with type 'ros.ament_cmake' and name 'dis_tutorial1'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial2) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'dis_tutorial2' with type 'ros.ament_python' and name 'dis_tutorial2'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial3) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'dis_tutorial3' with type 'ros.ament_cmake' and name 'dis_tutorial3'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial4) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'dis_tutorial4' with type 'ros.ament_cmake' and name 'dis_tutorial4'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(dis_tutorial5) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'dis_tutorial5' with type 'ros.ament_cmake' and name 'dis_tutorial5'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(hwpub) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'hwpub' with type 'ros.ament_cmake' and name 'hwpub'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/tau/colcon_ws/src/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tau/colcon_ws/install
+[0.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/humble
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'dis_tutorial1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tau/colcon_ws/src/build/dis_tutorial1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tau/colcon_ws/src/install/dis_tutorial1', 'merge_install': False, 'path': '/home/tau/colcon_ws/src/dis_tutorial1', 'symlink_install': False, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'dis_tutorial2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tau/colcon_ws/src/build/dis_tutorial2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tau/colcon_ws/src/install/dis_tutorial2', 'merge_install': False, 'path': '/home/tau/colcon_ws/src/dis_tutorial2', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'dis_tutorial3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tau/colcon_ws/src/build/dis_tutorial3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tau/colcon_ws/src/install/dis_tutorial3', 'merge_install': False, 'path': '/home/tau/colcon_ws/src/dis_tutorial3', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'dis_tutorial4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tau/colcon_ws/src/build/dis_tutorial4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tau/colcon_ws/src/install/dis_tutorial4', 'merge_install': False, 'path': '/home/tau/colcon_ws/src/dis_tutorial4', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'dis_tutorial5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'dis_tutorial5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tau/colcon_ws/src/build/dis_tutorial5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tau/colcon_ws/src/install/dis_tutorial5', 'merge_install': False, 'path': '/home/tau/colcon_ws/src/dis_tutorial5', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'hwpub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'hwpub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tau/colcon_ws/src/build/hwpub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tau/colcon_ws/src/install/hwpub', 'merge_install': False, 'path': '/home/tau/colcon_ws/src/hwpub', 'symlink_install': False, 'test_result_base': None}
+[0.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.355s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tau/colcon_ws/src/dis_tutorial1' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tau/colcon_ws/src/dis_tutorial1'
+[0.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tau/colcon_ws/src/dis_tutorial2' with build type 'ament_python'
+[0.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial2', 'ament_prefix_path')
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/hook/ament_prefix_path.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/hook/ament_prefix_path.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/hook/ament_prefix_path.sh'
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tau/colcon_ws/src/dis_tutorial3' with build type 'ament_cmake'
+[0.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tau/colcon_ws/src/dis_tutorial3'
+[0.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.371s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tau/colcon_ws/src/dis_tutorial4' with build type 'ament_cmake'
+[0.371s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tau/colcon_ws/src/dis_tutorial4'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tau/colcon_ws/src/dis_tutorial5' with build type 'ament_cmake'
+[0.374s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tau/colcon_ws/src/dis_tutorial5'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tau/colcon_ws/src/hwpub' with build type 'ament_cmake'
+[0.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tau/colcon_ws/src/hwpub'
+[0.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial1 -- -j16 -l16
+[0.650s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tau/colcon_ws/src/dis_tutorial2'
+[0.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial3 -- -j16 -l16
+[0.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial4 -- -j16 -l16
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial5 -- -j16 -l16
+[0.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/hwpub -- -j16 -l16
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial4 -- -j16 -l16
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial4
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial3 -- -j16 -l16
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial3
+[0.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial4)
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial4
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4' for CMake module files
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4' for CMake config files
+[0.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial4', 'cmake_prefix_path')
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/hook/cmake_prefix_path.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/hook/cmake_prefix_path.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/hook/cmake_prefix_path.sh'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/lib'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/bin'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/lib/pkgconfig/dis_tutorial4.pc'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/lib/python3.10/site-packages'
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/bin'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.sh'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.bash'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.zsh'
+[0.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial4/share/colcon-core/packages/dis_tutorial4)
+[0.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial4)
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4' for CMake module files
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4' for CMake config files
+[0.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial4', 'cmake_prefix_path')
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/hook/cmake_prefix_path.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/hook/cmake_prefix_path.dsv'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/hook/cmake_prefix_path.sh'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/lib'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/bin'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/lib/pkgconfig/dis_tutorial4.pc'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/lib/python3.10/site-packages'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial4/bin'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.sh'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial4/share/dis_tutorial4/package.zsh'
+[0.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial4/share/colcon-core/packages/dis_tutorial4)
+[0.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial3)
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3' for CMake module files
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial3
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3' for CMake config files
+[0.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial3', 'cmake_prefix_path')
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/hook/cmake_prefix_path.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/hook/cmake_prefix_path.dsv'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/hook/cmake_prefix_path.sh'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/lib'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/bin'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/lib/pkgconfig/dis_tutorial3.pc'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/lib/python3.10/site-packages'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/bin'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.sh'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.bash'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.zsh'
+[0.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial3/share/colcon-core/packages/dis_tutorial3)
+[0.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial3)
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3' for CMake module files
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3' for CMake config files
+[0.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial3', 'cmake_prefix_path')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/hook/cmake_prefix_path.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/hook/cmake_prefix_path.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/hook/cmake_prefix_path.sh'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/lib'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/bin'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/lib/pkgconfig/dis_tutorial3.pc'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/lib/python3.10/site-packages'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial3/bin'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.sh'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.bash'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial3/share/dis_tutorial3/package.zsh'
+[0.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial3/share/colcon-core/packages/dis_tutorial3)
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial5 -- -j16 -l16
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial5
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial1 -- -j16 -l16
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial1
+[0.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial5)
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5' for CMake module files
+[0.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial5
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5' for CMake config files
+[0.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial5', 'cmake_prefix_path')
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/hook/cmake_prefix_path.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/hook/cmake_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/hook/cmake_prefix_path.sh'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/lib'
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/bin'
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/lib/pkgconfig/dis_tutorial5.pc'
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/lib/python3.10/site-packages'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/bin'
+[0.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.sh'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.zsh'
+[0.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial5/share/colcon-core/packages/dis_tutorial5)
+[0.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial5)
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5' for CMake module files
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5' for CMake config files
+[0.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial5', 'cmake_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/hook/cmake_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/hook/cmake_prefix_path.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/hook/cmake_prefix_path.sh'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/lib'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/bin'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/lib/pkgconfig/dis_tutorial5.pc'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/lib/python3.10/site-packages'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial5/bin'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.ps1'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.dsv'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.sh'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.bash'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.zsh'
+[0.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial5/share/colcon-core/packages/dis_tutorial5)
+[0.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial1)
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1' for CMake module files
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial1
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1' for CMake config files
+[0.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'cmake_prefix_path')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.sh'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/lib'
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'ld_library_path_lib')
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.sh'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/bin'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/lib/pkgconfig/dis_tutorial1.pc'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/lib/python3.10/site-packages'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/bin'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.bash'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.zsh'
+[0.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial1/share/colcon-core/packages/dis_tutorial1)
+[0.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial1)
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1' for CMake module files
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1' for CMake config files
+[0.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'cmake_prefix_path')
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.dsv'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/cmake_prefix_path.sh'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/lib'
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial1', 'ld_library_path_lib')
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/hook/ld_library_path_lib.sh'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/bin'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/lib/pkgconfig/dis_tutorial1.pc'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/lib/python3.10/site-packages'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial1/bin'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.ps1'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.dsv'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.sh'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.bash'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial1/share/dis_tutorial1/package.zsh'
+[0.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial1/share/colcon-core/packages/dis_tutorial1)
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/hwpub -- -j16 -l16
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/hwpub
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tau/colcon_ws/src/dis_tutorial2': PYTHONPATH=/home/tau/colcon_ws/src/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dis_tutorial2 build --build-base /home/tau/colcon_ws/src/build/dis_tutorial2/build install --record /home/tau/colcon_ws/src/build/dis_tutorial2/install.log --single-version-externally-managed install_data
+[1.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hwpub)
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub' for CMake module files
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/src/install/dis_tutorial2:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/hwpub
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub' for CMake config files
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'cmake_prefix_path')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/cmake_prefix_path.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/cmake_prefix_path.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/cmake_prefix_path.sh'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/lib'
+[1.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'ld_library_path_lib')
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/ld_library_path_lib.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/ld_library_path_lib.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/ld_library_path_lib.sh'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/lib/pkgconfig/hwpub.pc'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/lib/python3.10/site-packages'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/bin'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.sh'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.zsh'
+[1.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/hwpub/share/colcon-core/packages/hwpub)
+[1.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hwpub)
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub' for CMake module files
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub' for CMake config files
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'cmake_prefix_path')
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/cmake_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/cmake_prefix_path.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/cmake_prefix_path.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/lib'
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('hwpub', 'ld_library_path_lib')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/ld_library_path_lib.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/ld_library_path_lib.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/hook/ld_library_path_lib.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/lib/pkgconfig/hwpub.pc'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/lib/python3.10/site-packages'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/hwpub/bin'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.sh'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.bash'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/hwpub/share/hwpub/package.zsh'
+[1.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/hwpub/share/colcon-core/packages/hwpub)
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial2' for CMake module files
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tau/colcon_ws/src/dis_tutorial2' returned '0': PYTHONPATH=/home/tau/colcon_ws/src/build/dis_tutorial2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dis_tutorial2 build --build-base /home/tau/colcon_ws/src/build/dis_tutorial2/build install --record /home/tau/colcon_ws/src/build/dis_tutorial2/install.log --single-version-externally-managed install_data
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial2' for CMake config files
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial2/lib'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial2/bin'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial2/lib/pkgconfig/dis_tutorial2.pc'
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial2/lib/python3.10/site-packages'
+[1.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('dis_tutorial2', 'pythonpath')
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/hook/pythonpath.ps1'
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/hook/pythonpath.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/hook/pythonpath.sh'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/tau/colcon_ws/src/install/dis_tutorial2/bin'
+[1.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dis_tutorial2)
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/package.ps1'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/package.dsv'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/package.sh'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/package.bash'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/tau/colcon_ws/src/install/dis_tutorial2/share/dis_tutorial2/package.zsh'
+[1.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tau/colcon_ws/src/install/dis_tutorial2/share/colcon-core/packages/dis_tutorial2)
+[1.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.365s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.369s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.386s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tau/colcon_ws/src/install/local_setup.ps1'
+[1.388s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tau/colcon_ws/src/install/_local_setup_util_ps1.py'
+[1.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tau/colcon_ws/src/install/setup.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tau/colcon_ws/src/install/local_setup.sh'
+[1.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tau/colcon_ws/src/install/_local_setup_util_sh.py'
+[1.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tau/colcon_ws/src/install/setup.sh'
+[1.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tau/colcon_ws/src/install/local_setup.bash'
+[1.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tau/colcon_ws/src/install/setup.bash'
+[1.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tau/colcon_ws/src/install/local_setup.zsh'
+[1.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tau/colcon_ws/src/install/setup.zsh'
