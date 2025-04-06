@@ -1,6 +1,0 @@
-Invoking command in '/home/tau/colcon_ws/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tau/colcon_ws/src/hwpub -DCMAKE_INSTALL_PREFIX=/home/tau/colcon_ws/install/hwpub
-Invoked command in '/home/tau/colcon_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tau/colcon_ws/src/hwpub -DCMAKE_INSTALL_PREFIX=/home/tau/colcon_ws/install/hwpub
-Invoking command in '/home/tau/colcon_ws/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/hwpub -- -j16 -l16
-Invoked command in '/home/tau/colcon_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/hwpub -- -j16 -l16
-Invoking command in '/home/tau/colcon_ws/build/hwpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/hwpub
-Invoked command in '/home/tau/colcon_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/hwpub

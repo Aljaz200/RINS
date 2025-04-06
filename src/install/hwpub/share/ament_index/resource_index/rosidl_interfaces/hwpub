@@ -1,6 +1,0 @@
-msg/Hwmsg.idl
-msg/Hwmsg.msg
-srv/Customserv.idl
-srv/Customserv.srv
-srv/Customserv_Request.msg
-srv/Customserv_Response.msg
