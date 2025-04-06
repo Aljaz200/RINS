@@ -41,7 +41,7 @@ class DetectFaces(Node):
 
         self.logimages = logimages
         if self.logimages:
-            self.saver = FaceSaver("/home/omicron/Pictures/faces")
+            self.saver = FaceSaver("/home/tau/Pictures/faces")
 
         self.detection_color = (0, 0, 255)
         self.device = self.get_parameter('device').get_parameter_value().string_value
@@ -56,8 +56,7 @@ class DetectFaces(Node):
         self.painting_pub = self.create_publisher(Marker, "/painting_marker", QoSReliabilityPolicy.BEST_EFFORT)
         self.greet_ppl_pub = self.create_publisher(Marker, "/greet_ppl_marker", QoSReliabilityPolicy.BEST_EFFORT)
         self.greet_paint_pub = self.create_publisher(Marker, "/greet_paint_marker", QoSReliabilityPolicy.BEST_EFFORT)
-        self.model = YOLO("/home/omicron/colcon_ws/best2.pt")
-        self.validator = YOLO("/home/omicron/colcon_ws/yolov8n.pt")
+        self.validator = YOLO("/home/tau/colcon_ws/yolov8n.pt")
         
         self.pc_data = None
         self.faces = []
@@ -82,57 +81,29 @@ class DetectFaces(Node):
 
         try:
             cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
-            
-            ppl = self.validator.predict(cv_image, imgsz=(256, 320), show=False, classes=[0], verbose=False, device=self.device)
-            
-            cont = False 
-            for x in ppl:
-                if len(x.boxes.conf) > 0 and float(x.boxes.conf[0]) > 0.7:
-                    cont = True
-                    break
-            
-            
-            if len(ppl) > 0 and cont:
 
-                res = self.model.predict(cv_image, imgsz=(256, 320), show=False, verbose=False, device=self.device)
+            # Run prediction using only the validator model
+            results = self.validator.predict(cv_image, imgsz=(256, 320), show=False, verbose=False, device=self.device)
 
-                for x in res:
-                    if len(x.boxes) != 1:
-                        continue
-                    
-                    # check prediction confidence
-                    if len(x.boxes.conf) <= 0:
-                        continue
-                    
-                    confidence = float(x.boxes.conf[0])
-                    # print(confidence)
+            for det in results:
+                for box in det.boxes:
+                    confidence = float(box.conf[0])
                     if confidence < 0.6:
                         continue
-                    
-                    
-                    clss = self.map_class_type(int(x.boxes.cls))
 
-                    bbox = x.boxes.xyxy
-                    if bbox.nelement() == 0:
-                        continue
+                    cls = int(box.cls[0])
+                    clss = self.map_class_type(cls)
 
-                    bbox = bbox[0]
+                    bbox = box.xyxy[0]
+                    x1, y1, x2, y2 = map(int, bbox.tolist())
+                    cx = int((x1 + x2) / 2)
+                    cy = int((y1 + y2) / 2)
 
                     img_detected = cv_image.copy()
-                    img_cut = cv_image[int(bbox[1]):int(bbox[3]), int(bbox[0]):int(bbox[2])].copy()
+                    img_cut = cv_image[y1:y2, x1:x2].copy()
 
-                    cv_image = cv2.rectangle(cv_image, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])), self.detection_color, 3)
-
-                    cx = int((bbox[0] + bbox[2]) / 2)
-                    cy = int((bbox[1] + bbox[3]) / 2)
-
+                    cv_image = cv2.rectangle(cv_image, (x1, y1), (x2, y2), self.detection_color, 3)
                     cv_image = cv2.circle(cv_image, (cx, cy), 5, self.detection_color, -1)
-
-                    # cv2.imshow("Detected", img_detected)
-                    # key = cv2.waitKey(1)
-                    # if key == 27:
-                    #     print("Exiting")
-                    #     exit()
 
                     self.faces.append({'center': (cx, cy), 'img': img_detected, 'img_cut': img_cut, 'bbox': bbox, 'class': clss})
                     self.do_faces_logic()
@@ -145,6 +116,7 @@ class DetectFaces(Node):
 
         except CvBridgeError as e:
             print(e)
+
 
     def pointcloud_callback(self, data):
         self.pc_data = data

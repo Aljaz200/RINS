@@ -1,2 +1,2 @@
 #!/bin/bash
-ros2 launch dis_tutorial7 sim_turtlebot_nav.launch.py
+ros2 launch task sim_turtlebot_nav.launch.py

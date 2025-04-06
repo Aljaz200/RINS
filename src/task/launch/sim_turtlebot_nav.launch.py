@@ -23,7 +23,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 
 
-pkg_dis_tutorial3 = get_package_share_directory('dis_tutorial3')
+pkg_dis_tutorial3 = get_package_share_directory('task')
 
 
 ARGUMENTS = [
@@ -31,7 +31,7 @@ ARGUMENTS = [
                           description='Robot namespace'),
     DeclareLaunchArgument('rviz', default_value='true',
                           choices=['true', 'false'], description='Start rviz.'),
-    DeclareLaunchArgument('world', default_value='task3',
+    DeclareLaunchArgument('world', default_value='demo1',
                           description='Ignition World'),
     DeclareLaunchArgument('model', default_value='standard',
                           choices=['standard', 'lite'],

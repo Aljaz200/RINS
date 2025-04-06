@@ -24,7 +24,7 @@ from tf2_ros import TransformException
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
 from rclpy.duration import Duration
-# from RealtimeTTS import TextToAudioStream, CoquiEngine
+from RealtimeTTS import TextToAudioStream, CoquiEngine
 import webcolors
 import pyttsx3
 

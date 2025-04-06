@@ -11,7 +11,7 @@ PP = PASSPIX_T * (CHUNK_SIZE**2)
 
 KERNEL = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (DILATION, DILATION))
 
-PGM_PIC = cv2.imread("/home/omicron/colcon_ws/src/dis_tutorial3/maps/map.pgm", cv2.IMREAD_GRAYSCALE)
+PGM_PIC = cv2.imread("/home/tau/colcon_ws/src/task/maps/map.pgm", cv2.IMREAD_GRAYSCALE)
 
 #np.ones((DILATION, DILATION), dtype=np.uint8)
 
@@ -83,7 +83,7 @@ def obtain_pixel_points_from_image(I = PGM_PIC):
     img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
     for pt in pts:
         img[pt[1], pt[0]] = (255, 0, 0)
-    cv2.imwrite("/home/omicron/test.png", img)
+    cv2.imwrite("/home/tau/test.png", img)
     print("woah pts!", pts)
     return pts
 
