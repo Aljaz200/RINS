@@ -1,0 +1,313 @@
+[0.020s] Invoking command in '/home/tau/colcon_ws/build/dis_tutorial1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/dis_tutorial1 -- -j16 -l16
+[0.189s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.189s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.189s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.189s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.201s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.202s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.316s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.316s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.321s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.515s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.874s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.874s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.874s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.909s] -- Configuring done
+[0.957s] -- Generating done
+[0.969s] -- Build files have been written to: /home/tau/colcon_ws/build/dis_tutorial1
+[0.986s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target simple_set_bool_server_node[0m
+[0.992s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.996s] [  7%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.996s] [  7%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[0.996s] [  9%] [32mBuilding CXX object CMakeFiles/simple_set_bool_server_node.dir/src/simple_set_bool_server_node.cpp.o[0m
+[0.998s] [  9%] Built target ament_cmake_python_copy_dis_tutorial1
+[1.195s] running egg_info
+[1.196s] writing dis_tutorial1.egg-info/PKG-INFO
+[1.196s] writing dependency_links to dis_tutorial1.egg-info/dependency_links.txt
+[1.196s] writing top-level names to dis_tutorial1.egg-info/top_level.txt
+[1.198s] reading manifest file 'dis_tutorial1.egg-info/SOURCES.txt'
+[1.199s] writing manifest file 'dis_tutorial1.egg-info/SOURCES.txt'
+[1.220s] [  9%] Built target ament_cmake_python_build_dis_tutorial1_egg
+[1.261s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_generator_c[0m
+[1.270s] [ 11%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/msg/detail/custom_message__functions.c.o[0m
+[1.272s] [ 13%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_c.dir/rosidl_generator_c/dis_tutorial1/srv/detail/add_two_ints__functions.c.o[0m
+[1.303s] [ 13%] Built target dis_tutorial1__cpp
+[1.312s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.312s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.314s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.353s] [ 21%] [32m[1mLinking C shared library libdis_tutorial1__rosidl_generator_c.so[0m
+[1.396s] [ 21%] Built target dis_tutorial1__rosidl_generator_c
+[1.406s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.407s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.407s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.622s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_cpp[0m
+[1.638s] [ 31%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/srv/add_two_ints__type_support.cpp.o[0m
+[1.638s] [ 31%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dis_tutorial1/msg/custom_message__type_support.cpp.o[0m
+[1.722s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_c[0m
+[1.735s] [ 33%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/msg/custom_message__type_support.cpp.o[0m
+[1.742s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_introspection_cpp[0m
+[1.751s] [ 35%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_c.dir/rosidl_typesupport_c/dis_tutorial1/srv/add_two_ints__type_support.cpp.o[0m
+[1.762s] [ 37%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/srv/detail/add_two_ints__type_support.cpp.o[0m
+[1.770s] [ 39%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dis_tutorial1/msg/detail/custom_message__type_support.cpp.o[0m
+[1.793s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_fastrtps_cpp[0m
+[1.813s] [ 41%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o[0m
+[1.819s] [ 43%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dis_tutorial1/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[1.827s] [ 45%] [32m[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_c.so[0m
+[1.888s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_introspection_c[0m
+[1.918s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_fastrtps_c[0m
+[1.924s] [ 47%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/msg/detail/custom_message__type_support.c.o[0m
+[1.925s] [ 49%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dis_tutorial1/srv/detail/add_two_ints__type_support.c.o[0m
+[1.939s] [ 49%] Built target dis_tutorial1__rosidl_typesupport_c
+[1.944s] [ 50%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[1.945s] [ 52%] [32mBuilding CXX object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dis_tutorial1/msg/detail/custom_message__type_support_c.cpp.o[0m
+[2.018s] [ 54%] [32m[1mLinking C shared library libdis_tutorial1__rosidl_typesupport_introspection_c.so[0m
+[2.038s] [ 56%] [32m[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_cpp.so[0m
+[2.092s] [ 56%] Built target dis_tutorial1__rosidl_typesupport_introspection_c
+[2.123s] [ 56%] Built target dis_tutorial1__rosidl_typesupport_cpp
+[2.154s] [35m[1mConsolidate compiler generated dependencies of target simple_client_node[0m
+[2.155s] [35m[1mConsolidate compiler generated dependencies of target simple_server_node[0m
+[2.158s] [35m[1mConsolidate compiler generated dependencies of target complete_node[0m
+[2.193s] [ 58%] [32mBuilding CXX object CMakeFiles/simple_client_node.dir/src/simple_client_node.cpp.o[0m
+[2.198s] [ 60%] [32mBuilding CXX object CMakeFiles/simple_server_node.dir/src/simple_server_node.cpp.o[0m
+[2.204s] [ 62%] [32mBuilding CXX object CMakeFiles/complete_node.dir/src/complete_node.cpp.o[0m
+[2.326s] [ 64%] [32m[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_introspection_cpp.so[0m
+[2.405s] [ 64%] Built target dis_tutorial1__rosidl_typesupport_introspection_cpp
+[2.427s] [ 66%] [32m[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.468s] [ 68%] [32m[1mLinking CXX shared library libdis_tutorial1__rosidl_typesupport_fastrtps_c.so[0m
+[2.509s] [ 68%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_cpp
+[2.546s] [ 68%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c
+[2.561s] [ 68%] Built target dis_tutorial1
+[2.576s] [ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.950s] [ 70%] Built target dis_tutorial1__py
+[2.959s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_generator_py[0m
+[2.970s] [ 72%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/msg/_custom_message_s.c.o[0m
+[2.972s] [ 74%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_generator_py.dir/rosidl_generator_py/dis_tutorial1/srv/_add_two_ints_s.c.o[0m
+[3.095s] [ 76%] [32m[1mLinking C shared library rosidl_generator_py/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so[0m
+[3.129s] [ 76%] Built target dis_tutorial1__rosidl_generator_py
+[3.138s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.140s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_introspection_c__pyext[0m
+[3.140s] [35m[1mConsolidate compiler generated dependencies of target dis_tutorial1__rosidl_typesupport_c__pyext[0m
+[3.147s] [ 78%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.152s] [ 80%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c.o[0m
+[3.152s] [ 82%] [32mBuilding C object CMakeFiles/dis_tutorial1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.235s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.266s] [ 84%] Built target dis_tutorial1__rosidl_typesupport_c__pyext
+[3.278s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.284s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.310s] [ 88%] Built target dis_tutorial1__rosidl_typesupport_fastrtps_c__pyext
+[3.327s] [ 88%] Built target dis_tutorial1__rosidl_typesupport_introspection_c__pyext
+[4.344s] [ 90%] [32m[1mLinking CXX executable simple_set_bool_server_node[0m
+[4.452s] [ 90%] Built target simple_set_bool_server_node
+[5.048s] [ 92%] [32m[1mLinking CXX executable simple_server_node[0m
+[5.062s] [ 94%] [32m[1mLinking CXX executable simple_publisher[0m
+[5.154s] [ 96%] [32m[1mLinking CXX executable simple_client_node[0m
+[5.155s] [ 96%] Built target simple_server_node
+[5.193s] [ 96%] Built target simple_publisher
+[5.261s] [ 96%] Built target simple_client_node
+[7.612s] [ 98%] [32m[1mLinking CXX executable simple_subscriber[0m
+[7.876s] [ 98%] Built target simple_subscriber
+[9.488s] [100%] [32m[1mLinking CXX executable complete_node[0m
+[9.765s] [100%] Built target complete_node
+[9.772s] Invoked command in '/home/tau/colcon_ws/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/dis_tutorial1 -- -j16 -l16
+[9.773s] Invoking command in '/home/tau/colcon_ws/build/dis_tutorial1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/dis_tutorial1
+[9.778s] -- Install configuration: ""
+[9.778s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/ament_index/resource_index/rosidl_interfaces/dis_tutorial1
+[9.778s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1
+[9.778s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg
+[9.778s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_c__visibility_control.h
+[9.778s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.h
+[9.778s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail
+[9.778s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.h
+[9.778s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.h
+[9.778s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__functions.c
+[9.778s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__functions.h
+[9.778s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv
+[9.778s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.h
+[9.778s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail
+[9.779s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.h
+[9.779s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__functions.c
+[9.779s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__functions.h
+[9.779s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.h
+[9.779s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.sh
+[9.779s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/library_path.dsv
+[9.779s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so
+[9.779s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_c.so" to ""
+[9.779s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1
+[9.779s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg
+[9.779s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.780s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail
+[9.780s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_c.h
+[9.780s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv
+[9.780s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail
+[9.780s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[9.780s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so
+[9.780s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_c.so" to ""
+[9.780s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1
+[9.780s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg
+[9.780s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.780s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/custom_message.hpp
+[9.780s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail
+[9.780s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__traits.hpp
+[9.780s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__struct.hpp
+[9.780s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__builder.hpp
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.hpp
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/add_two_ints.hpp
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__builder.hpp
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.hpp
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__traits.hpp
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__struct.hpp
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/dds_fastrtps
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail
+[9.781s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/dds_fastrtps
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[9.781s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so
+[9.782s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.782s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1
+[9.782s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg
+[9.782s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail
+[9.782s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_c.h
+[9.782s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.c
+[9.782s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.782s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv
+[9.782s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail
+[9.782s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.c
+[9.782s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[9.782s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so
+[9.782s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_c.so" to ""
+[9.783s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so
+[9.783s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_c.so" to ""
+[9.783s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1
+[9.783s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg
+[9.783s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail
+[9.783s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp
+[9.783s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/msg/detail/custom_message__type_support.cpp
+[9.783s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv
+[9.783s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail
+[9.783s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[9.783s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/include/dis_tutorial1/dis_tutorial1/srv/detail/add_two_ints__type_support.cpp
+[9.783s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so
+[9.783s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_introspection_cpp.so" to ""
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so
+[9.784s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_typesupport_cpp.so" to ""
+[9.784s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.sh
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/pythonpath.dsv
+[9.784s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/dependency_links.txt
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/PKG-INFO
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/top_level.txt
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1-0.0.1-py3.10.egg-info/SOURCES.txt
+[9.784s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.784s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message_s.c
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_introspection_c.c
+[9.784s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/libdis_tutorial1__rosidl_generator_py.so
+[9.785s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv
+[9.785s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py
+[9.785s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints_s.c
+[9.785s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py
+[9.785s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.785s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/_dis_tutorial1_s.ep.rosidl_typesupport_c.c
+[9.808s] Listing '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1'...
+[9.808s] Compiling '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/__init__.py'...
+[9.808s] Listing '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg'...
+[9.808s] Compiling '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/__init__.py'...
+[9.808s] Compiling '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/msg/_custom_message.py'...
+[9.808s] Listing '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv'...
+[9.808s] Compiling '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/__init__.py'...
+[9.808s] Compiling '/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/srv/_add_two_ints.py'...
+[9.811s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.811s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.811s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.811s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.811s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.811s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/local/lib/python3.10/dist-packages/dis_tutorial1/dis_tutorial1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.812s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so
+[9.812s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/libdis_tutorial1__rosidl_generator_py.so" to ""
+[9.812s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.idl
+[9.812s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.idl
+[9.812s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/msg/CustomMessage.msg
+[9.812s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts.srv
+[9.812s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Request.msg
+[9.812s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/srv/AddTwoInts_Response.msg
+[9.813s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_publisher
+[9.813s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_publisher" to ""
+[9.814s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_subscriber
+[9.815s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_subscriber" to ""
+[9.816s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_client_node
+[9.816s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_client_node" to ""
+[9.817s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_server_node
+[9.817s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_server_node" to ""
+[9.817s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/complete_node
+[9.819s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/complete_node" to ""
+[9.820s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_set_bool_server_node
+[9.820s] -- Set runtime path of "/home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/simple_set_bool_server_node" to ""
+[9.820s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_publisher.py
+[9.820s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_subscriber.py
+[9.820s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_server_node.py
+[9.820s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/py_simple_client_node.py
+[9.820s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/py_complete_node.py
+[9.820s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/lib/dis_tutorial1/py_draw_square.py
+[9.820s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/ament_index/resource_index/package_run_dependencies/dis_tutorial1
+[9.821s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/share/ament_index/resource_index/parent_prefix_path/dis_tutorial1
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.sh
+[9.821s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/ament_prefix_path.dsv
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/path.sh
+[9.821s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/environment/path.dsv
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.bash
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.sh
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.zsh
+[9.821s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/local_setup.dsv
+[9.821s] -- Installing: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/package.dsv
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/ament_index/resource_index/packages/dis_tutorial1
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport.cmake
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cExport-noconfig.cmake
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport.cmake
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_cppExport.cmake
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.821s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cExport-noconfig.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1__rosidl_typesupport_cppExport-noconfig.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/export_dis_tutorial1__rosidl_generator_pyExport-noconfig.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake-extras.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_libraries-extras.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/ament_cmake_export_targets-extras.cmake
+[9.822s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.823s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.823s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config.cmake
+[9.823s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/cmake/dis_tutorial1Config-version.cmake
+[9.823s] -- Up-to-date: /home/tau/colcon_ws/install/dis_tutorial1/share/dis_tutorial1/package.xml
+[9.824s] Invoked command in '/home/tau/colcon_ws/build/dis_tutorial1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/dis_tutorial1

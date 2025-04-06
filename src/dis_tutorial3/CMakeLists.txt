@@ -28,6 +28,8 @@ install(DIRECTORY
 
 install(PROGRAMS
   scripts/detect_people.py
+  scripts/detect_face.py
+  scripts/detect_circles.py
   scripts/robot_commander.py
   scripts/face_saver.py
   DESTINATION lib/${PROJECT_NAME})

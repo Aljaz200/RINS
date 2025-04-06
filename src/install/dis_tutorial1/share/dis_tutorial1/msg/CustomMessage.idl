@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dis_tutorial1/msg/CustomMessage.msg
+// generated code does not contain a copyright notice
+
+
+module dis_tutorial1 {
+  module msg {
+    @verbatim (language="comment", text=
+      "request constants" "\n"
+      "int8 FOO=1" "\n"
+      "int8 BAR=2" "\n"
+      "int32 y" "\n"
+      "another_pkg/AnotherMessage msg" "\n"
+      "response constants" "\n"
+      "uint32 SECRET=123456" "\n"
+      "another_pkg/YetAnotherMessage val" "\n"
+      "CustomMessageDefinedInThisPackage value" "\n"
+      "int32 result")
+    struct CustomMessage {
+      string content;
+
+      uint8 id;
+    };
+  };
+};

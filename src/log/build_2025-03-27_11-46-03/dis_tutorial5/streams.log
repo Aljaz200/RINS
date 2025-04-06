@@ -1,0 +1,135 @@
+[0.287s] Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake /home/tau/colcon_ws/src/dis_tutorial5 -DCMAKE_INSTALL_PREFIX=/home/tau/colcon_ws/src/install/dis_tutorial5
+[0.410s] -- The C compiler identification is GNU 11.4.0
+[0.518s] -- The CXX compiler identification is GNU 11.4.0
+[0.530s] -- Detecting C compiler ABI info
+[0.605s] -- Detecting C compiler ABI info - done
+[0.611s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.612s] -- Detecting C compile features
+[0.612s] -- Detecting C compile features - done
+[0.615s] -- Detecting CXX compiler ABI info
+[0.700s] -- Detecting CXX compiler ABI info - done
+[0.708s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.708s] -- Detecting CXX compile features
+[0.708s] -- Detecting CXX compile features - done
+[0.712s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.863s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.961s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.006s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.011s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.021s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.101s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.205s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.242s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.253s] -- Looking for pthread.h
+[1.313s] -- Looking for pthread.h - found
+[1.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.373s] -- Found Threads: TRUE  
+[1.423s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.425s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.440s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.478s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.489s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.505s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.506s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.506s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.594s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.626s] -- Checking for module 'eigen3'
+[1.639s] --   Found eigen3, version 3.4.0
+[1.662s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.662s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.700s] -- Checking for module 'flann'
+[1.710s] --   Found flann, version 1.9.1
+[1.740s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.740s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.565s] -- Checking for module 'libusb-1.0'
+[2.576s] --   Found libusb-1.0, version 1.0.25
+[2.603s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.604s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.649s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.786s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.791s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.797s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.917s] -- Found Qhull version 8.0.2
+[3.039s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.172s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.173s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.174s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.175s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.175s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.176s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.176s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.177s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.177s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.178s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.179s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.180s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.181s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.182s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.183s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.184s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.185s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.186s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.187s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.188s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.188s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.188s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.189s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.190s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.191s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.193s] [33mCMake Warning (dev) at CMakeLists.txt:27 (find_package):
+[3.193s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.193s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.193s]   command to set the policy and suppress this warning.
+[3.193s] 
+[3.193s]   CMake variable PCL_ROOT is set to:
+[3.193s] 
+[3.193s]     /usr
+[3.193s] 
+[3.193s]   For compatibility, CMake is ignoring the variable.
+[3.193s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.193s] [0m
+[3.283s] -- Configuring done
+[3.363s] -- Generating done
+[3.380s] -- Build files have been written to: /home/tau/colcon_ws/src/build/dis_tutorial5
+[3.401s] Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake /home/tau/colcon_ws/src/dis_tutorial5 -DCMAKE_INSTALL_PREFIX=/home/tau/colcon_ws/src/install/dis_tutorial5
+[3.403s] Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial5 -- -j16 -l16
+[3.446s] [ 50%] [32mBuilding CXX object CMakeFiles/planes.dir/src/planes.cpp.o[0m
+[3.446s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinder_segmentation.dir/src/cylinder_segmentation.cpp.o[0m
+[3.446s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_forwarder.dir/src/forwarder.cpp.o[0m
+[15.768s] [ 66%] [32m[1mLinking CXX executable pcl_forwarder[0m
+[16.688s] [ 66%] Built target pcl_forwarder
+[16.830s] [ 83%] [32m[1mLinking CXX executable planes[0m
+[18.340s] [ 83%] Built target planes
+[19.738s] [100%] [32m[1mLinking CXX executable cylinder_segmentation[0m
+[22.846s] [100%] Built target cylinder_segmentation
+[22.858s] Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/src/build/dis_tutorial5 -- -j16 -l16
+[22.860s] Invoking command in '/home/tau/colcon_ws/src/build/dis_tutorial5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial5
+[22.865s] -- Install configuration: ""
+[22.865s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/lib/dis_tutorial5/pcl_forwarder
+[22.868s] -- Set runtime path of "/home/tau/colcon_ws/src/install/dis_tutorial5/lib/dis_tutorial5/pcl_forwarder" to ""
+[22.868s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/lib/dis_tutorial5/planes
+[22.870s] -- Set runtime path of "/home/tau/colcon_ws/src/install/dis_tutorial5/lib/dis_tutorial5/planes" to ""
+[22.870s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/lib/dis_tutorial5/cylinder_segmentation
+[22.873s] -- Set runtime path of "/home/tau/colcon_ws/src/install/dis_tutorial5/lib/dis_tutorial5/cylinder_segmentation" to ""
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/lib/dis_tutorial5/detect_rings.py
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/ament_index/resource_index/package_run_dependencies/dis_tutorial5
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/ament_index/resource_index/parent_prefix_path/dis_tutorial5
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/environment/ament_prefix_path.sh
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/environment/ament_prefix_path.dsv
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/environment/path.sh
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/environment/path.dsv
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/local_setup.bash
+[22.873s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/local_setup.sh
+[22.874s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/local_setup.zsh
+[22.874s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/local_setup.dsv
+[22.874s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.dsv
+[22.874s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/ament_index/resource_index/packages/dis_tutorial5
+[22.874s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/cmake/dis_tutorial5Config.cmake
+[22.874s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/cmake/dis_tutorial5Config-version.cmake
+[22.874s] -- Installing: /home/tau/colcon_ws/src/install/dis_tutorial5/share/dis_tutorial5/package.xml
+[22.876s] Invoked command in '/home/tau/colcon_ws/src/build/dis_tutorial5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/src/build/dis_tutorial5

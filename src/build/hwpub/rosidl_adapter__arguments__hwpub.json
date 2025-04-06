@@ -1,0 +1,7 @@
+{
+  "package_name": "hwpub",
+  "non_idl_tuples": [
+    "/home/tau/colcon_ws/src/hwpub:msg/Hwmsg.msg",
+    "/home/tau/colcon_ws/src/hwpub:srv/Customserv.srv"
+  ]
+}

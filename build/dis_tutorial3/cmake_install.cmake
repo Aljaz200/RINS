@@ -53,7 +53,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dis_tutorial3" TYPE PROGRAM FILES
-    "/home/tau/colcon_ws/src/dis_tutorial3/scripts/detect_people.py"
+    "/home/tau/colcon_ws/src/dis_tutorial3/scripts/detect_people_from_file.py"
+    "/home/tau/colcon_ws/src/dis_tutorial3/scripts/detect_face.py"
+    "/home/tau/colcon_ws/src/dis_tutorial3/scripts/detect_circles.py"
     "/home/tau/colcon_ws/src/dis_tutorial3/scripts/robot_commander.py"
     "/home/tau/colcon_ws/src/dis_tutorial3/scripts/face_saver.py"
     )

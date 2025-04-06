@@ -1,0 +1,272 @@
+[0.178s] Invoking command in '/home/tau/colcon_ws/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/hwpub -- -j16 -l16
+[0.194s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.306s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.307s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.311s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.318s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.346s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.347s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.448s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.448s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.454s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.654s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.973s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.987s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.987s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.987s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.015s] -- Configuring done
+[1.051s] -- Generating done
+[1.061s] -- Build files have been written to: /home/tau/colcon_ws/build/hwpub
+[1.082s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.089s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.100s] [  5%] Built target ament_cmake_python_copy_hwpub
+[1.317s] running egg_info
+[1.318s] writing hwpub.egg-info/PKG-INFO
+[1.318s] writing dependency_links to hwpub.egg-info/dependency_links.txt
+[1.318s] writing top-level names to hwpub.egg-info/top_level.txt
+[1.320s] reading manifest file 'hwpub.egg-info/SOURCES.txt'
+[1.321s] writing manifest file 'hwpub.egg-info/SOURCES.txt'
+[1.348s] [  5%] Built target ament_cmake_python_build_hwpub_egg
+[1.361s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_generator_c[0m
+[1.374s] [  7%] [32mBuilding C object CMakeFiles/hwpub__rosidl_generator_c.dir/rosidl_generator_c/hwpub/msg/detail/hwmsg__functions.c.o[0m
+[1.374s] [ 10%] [32mBuilding C object CMakeFiles/hwpub__rosidl_generator_c.dir/rosidl_generator_c/hwpub/srv/detail/customserv__functions.c.o[0m
+[1.385s] [ 10%] Built target hwpub__cpp
+[1.397s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.397s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.397s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.443s] [ 20%] [32m[1mLinking C shared library libhwpub__rosidl_generator_c.so[0m
+[1.473s] [ 20%] Built target hwpub__rosidl_generator_c
+[1.484s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.484s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.484s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.785s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_cpp[0m
+[1.810s] [ 30%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hwpub/msg/hwmsg__type_support.cpp.o[0m
+[1.814s] [ 33%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hwpub/srv/customserv__type_support.cpp.o[0m
+[1.856s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_introspection_cpp[0m
+[1.882s] [ 35%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hwpub/msg/detail/hwmsg__type_support.cpp.o[0m
+[1.889s] [ 38%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hwpub/srv/detail/customserv__type_support.cpp.o[0m
+[1.893s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_c[0m
+[1.896s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_fastrtps_cpp[0m
+[1.915s] [ 41%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_c.dir/rosidl_typesupport_c/hwpub/msg/hwmsg__type_support.cpp.o[0m
+[1.926s] [ 43%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_c.dir/rosidl_typesupport_c/hwpub/srv/customserv__type_support.cpp.o[0m
+[1.930s] [ 46%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hwpub/msg/detail/dds_fastrtps/hwmsg__type_support.cpp.o[0m
+[1.933s] [ 48%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hwpub/srv/detail/dds_fastrtps/customserv__type_support.cpp.o[0m
+[1.948s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_introspection_c[0m
+[1.969s] [ 51%] [32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hwpub/msg/detail/hwmsg__type_support.c.o[0m
+[1.974s] [ 53%] [32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hwpub/srv/detail/customserv__type_support.c.o[0m
+[1.974s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_fastrtps_c[0m
+[1.991s] [ 56%] [32m[1mLinking CXX shared library libhwpub__rosidl_typesupport_c.so[0m
+[2.010s] [ 58%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hwpub/msg/detail/hwmsg__type_support_c.cpp.o[0m
+[2.015s] [ 61%] [32mBuilding CXX object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hwpub/srv/detail/customserv__type_support_c.cpp.o[0m
+[2.073s] [ 64%] [32m[1mLinking C shared library libhwpub__rosidl_typesupport_introspection_c.so[0m
+[2.079s] [ 64%] Built target hwpub__rosidl_typesupport_c
+[2.150s] [ 64%] Built target hwpub__rosidl_typesupport_introspection_c
+[2.201s] [ 66%] [32m[1mLinking CXX shared library libhwpub__rosidl_typesupport_cpp.so[0m
+[2.306s] [ 66%] Built target hwpub__rosidl_typesupport_cpp
+[2.476s] [ 69%] [32m[1mLinking CXX shared library libhwpub__rosidl_typesupport_introspection_cpp.so[0m
+[2.536s] [ 71%] [32m[1mLinking CXX shared library libhwpub__rosidl_typesupport_fastrtps_c.so[0m
+[2.540s] [ 71%] Built target hwpub__rosidl_typesupport_introspection_cpp
+[2.548s] [ 74%] [32m[1mLinking CXX shared library libhwpub__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.595s] [ 74%] Built target hwpub__rosidl_typesupport_fastrtps_c
+[2.607s] [ 74%] Built target hwpub__rosidl_typesupport_fastrtps_cpp
+[2.623s] [ 74%] Built target hwpub
+[2.638s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.994s] [ 76%] Built target hwpub__py
+[3.006s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_generator_py[0m
+[3.016s] [ 82%] [32mBuilding C object CMakeFiles/hwpub__rosidl_generator_py.dir/rosidl_generator_py/hwpub/msg/_hwmsg_s.c.o[0m
+[3.016s] [ 82%] [32mBuilding C object CMakeFiles/hwpub__rosidl_generator_py.dir/rosidl_generator_py/hwpub/srv/_customserv_s.c.o[0m
+[3.098s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/hwpub/libhwpub__rosidl_generator_py.so[0m
+[3.129s] [ 84%] Built target hwpub__rosidl_generator_py
+[3.138s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.138s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_c__pyext[0m
+[3.139s] [35m[1mConsolidate compiler generated dependencies of target hwpub__rosidl_typesupport_introspection_c__pyext[0m
+[3.151s] [ 87%] [32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.152s] [ 92%] [32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.152s] [ 92%] [32mBuilding C object CMakeFiles/hwpub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c.o[0m
+[3.280s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.284s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.285s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.314s] [100%] Built target hwpub__rosidl_typesupport_introspection_c__pyext
+[3.314s] [100%] Built target hwpub__rosidl_typesupport_fastrtps_c__pyext
+[3.318s] [100%] Built target hwpub__rosidl_typesupport_c__pyext
+[3.328s] Invoked command in '/home/tau/colcon_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --build /home/tau/colcon_ws/build/hwpub -- -j16 -l16
+[3.329s] Invoking command in '/home/tau/colcon_ws/build/hwpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/hwpub
+[3.336s] -- Install configuration: ""
+[3.336s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/ament_index/resource_index/rosidl_interfaces/hwpub
+[3.336s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub
+[3.336s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg
+[3.336s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/hwmsg.h
+[3.336s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_c__visibility_control.h
+[3.336s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail
+[3.336s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.h
+[3.336s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__functions.h
+[3.336s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.h
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__functions.c
+[3.337s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/customserv.h
+[3.337s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__functions.c
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.h
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.h
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__functions.h
+[3.337s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/library_path.sh
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/library_path.dsv
+[3.337s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_generator_c.so
+[3.337s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_generator_c.so" to ""
+[3.337s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail
+[3.338s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_c.h
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail
+[3.338s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_c.h
+[3.338s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so
+[3.338s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_c.so" to ""
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg
+[3.338s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.338s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/hwmsg.hpp
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__struct.hpp
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.hpp
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__builder.hpp
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__traits.hpp
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/customserv.hpp
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__traits.hpp
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.hpp
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__builder.hpp
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__struct.hpp
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail
+[3.339s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.339s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/dds_fastrtps
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail
+[3.340s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_fastrtps_cpp.hpp
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/dds_fastrtps
+[3.340s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so
+[3.340s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail
+[3.340s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_c.h
+[3.340s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.c
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv
+[3.340s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail
+[3.340s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.c
+[3.341s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_c.h
+[3.341s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so
+[3.341s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_c.so" to ""
+[3.341s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so
+[3.341s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_c.so" to ""
+[3.341s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub
+[3.341s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg
+[3.341s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail
+[3.341s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__type_support.cpp
+[3.342s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/msg/detail/hwmsg__rosidl_typesupport_introspection_cpp.hpp
+[3.342s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv
+[3.342s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail
+[3.342s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__type_support.cpp
+[3.342s] -- Installing: /home/tau/colcon_ws/install/hwpub/include/hwpub/hwpub/srv/detail/customserv__rosidl_typesupport_introspection_cpp.hpp
+[3.342s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so
+[3.342s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_introspection_cpp.so" to ""
+[3.342s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so
+[3.343s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_typesupport_cpp.so" to ""
+[3.343s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/pythonpath.sh
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/pythonpath.dsv
+[3.343s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/dependency_links.txt
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/PKG-INFO
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/top_level.txt
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub-0.0.1-py3.10.egg-info/SOURCES.txt
+[3.343s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/libhwpub__rosidl_generator_py.so
+[3.343s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg_s.c
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py
+[3.343s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_c.c
+[3.344s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv_s.c
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.344s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/_hwpub_s.ep.rosidl_typesupport_introspection_c.c
+[3.375s] Listing '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub'...
+[3.375s] Compiling '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/__init__.py'...
+[3.375s] Listing '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg'...
+[3.375s] Compiling '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/__init__.py'...
+[3.375s] Compiling '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/msg/_hwmsg.py'...
+[3.375s] Listing '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv'...
+[3.375s] Compiling '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/__init__.py'...
+[3.375s] Compiling '/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/srv/_customserv.py'...
+[3.379s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.379s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.379s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.380s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.380s] -- Installing: /home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.380s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/local/lib/python3.10/dist-packages/hwpub/hwpub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.381s] -- Installing: /home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_generator_py.so
+[3.381s] -- Set runtime path of "/home/tau/colcon_ws/install/hwpub/lib/libhwpub__rosidl_generator_py.so" to ""
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/msg/Hwmsg.idl
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/srv/Customserv.idl
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/msg/Hwmsg.msg
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/srv/Customserv.srv
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/srv/Customserv_Request.msg
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/srv/Customserv_Response.msg
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/lib/hwpub/py_move_trajectory.py
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/ament_index/resource_index/package_run_dependencies/hwpub
+[3.381s] -- Installing: /home/tau/colcon_ws/install/hwpub/share/ament_index/resource_index/parent_prefix_path/hwpub
+[3.381s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/ament_prefix_path.sh
+[3.382s] -- Installing: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/ament_prefix_path.dsv
+[3.382s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/path.sh
+[3.382s] -- Installing: /home/tau/colcon_ws/install/hwpub/share/hwpub/environment/path.dsv
+[3.382s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/local_setup.bash
+[3.382s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/local_setup.sh
+[3.382s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/local_setup.zsh
+[3.382s] -- Installing: /home/tau/colcon_ws/install/hwpub/share/hwpub/local_setup.dsv
+[3.382s] -- Installing: /home/tau/colcon_ws/install/hwpub/share/hwpub/package.dsv
+[3.382s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/ament_index/resource_index/packages/hwpub
+[3.382s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport.cmake
+[3.382s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cExport-noconfig.cmake
+[3.383s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport.cmake
+[3.383s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.383s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_cppExport.cmake
+[3.383s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.383s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.383s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport.cmake
+[3.383s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cExport-noconfig.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpub__rosidl_typesupport_cppExport-noconfig.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/export_hwpub__rosidl_generator_pyExport-noconfig.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake-extras.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.384s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.385s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_libraries-extras.cmake
+[3.385s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/ament_cmake_export_targets-extras.cmake
+[3.385s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.385s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.385s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpubConfig.cmake
+[3.385s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/cmake/hwpubConfig-version.cmake
+[3.385s] -- Up-to-date: /home/tau/colcon_ws/install/hwpub/share/hwpub/package.xml
+[3.387s] Invoked command in '/home/tau/colcon_ws/build/hwpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tau/colcon_ws/install/dis_tutorial2:/opt/ros/humble /usr/bin/cmake --install /home/tau/colcon_ws/build/hwpub
