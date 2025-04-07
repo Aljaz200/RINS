@@ -2,6 +2,7 @@
 
 import cv2
 import numpy as np
+import os
 
 DILATION = 5
 DISTANCE_THRESHOLD = 5.0
@@ -11,7 +12,11 @@ PP = PASSPIX_T * (CHUNK_SIZE**2)
 
 KERNEL = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (DILATION, DILATION))
 
-PGM_PIC = cv2.imread("/home/tau/colcon_ws/src/task/maps/map.pgm", cv2.IMREAD_GRAYSCALE)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+map_path = os.path.join(script_dir, "..", "..", "maps", "map.pgm")
+PGM_PIC = cv2.imread(map_path, cv2.IMREAD_GRAYSCALE)
+if PGM_PIC is None:
+    raise FileNotFoundError(f"Map image not found at: {map_path}")
 
 #np.ones((DILATION, DILATION), dtype=np.uint8)
 
@@ -83,7 +88,8 @@ def obtain_pixel_points_from_image(I = PGM_PIC):
     img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
     for pt in pts:
         img[pt[1], pt[0]] = (255, 0, 0)
-    cv2.imwrite("/home/tau/test.png", img)
+    map_path = os.path.join(script_dir, "..", "..", "..", "..", "..", "test.png")
+    cv2.imwrite(map_path, img)
     print("woah pts!", pts)
     return pts
 

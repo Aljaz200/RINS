@@ -20,9 +20,9 @@ from tf2_ros.transform_listener import TransformListener
 from cv_bridge import CvBridge, CvBridgeError
 import cv2
 import numpy as np
+import os
 
 from ultralytics import YOLO
-import numpy as np
 
 import ring_unique as ru
 from face_saver import FaceSaver
@@ -41,7 +41,9 @@ class DetectFaces(Node):
 
         self.logimages = logimages
         if self.logimages:
-            self.saver = FaceSaver("/home/tau/Pictures/faces")
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            map_path = os.path.join(script_dir, "..", "..", "..", "..", "..", "Pictures", "faces")
+            self.saver = FaceSaver(map_path)
 
         self.detection_color = (0, 0, 255)
         self.device = self.get_parameter('device').get_parameter_value().string_value
@@ -56,7 +58,8 @@ class DetectFaces(Node):
         self.painting_pub = self.create_publisher(Marker, "/painting_marker", QoSReliabilityPolicy.BEST_EFFORT)
         self.greet_ppl_pub = self.create_publisher(Marker, "/greet_ppl_marker", QoSReliabilityPolicy.BEST_EFFORT)
         self.greet_paint_pub = self.create_publisher(Marker, "/greet_paint_marker", QoSReliabilityPolicy.BEST_EFFORT)
-        self.validator = YOLO("/home/tau/colcon_ws/yolov8n.pt")
+        map_path = os.path.join(script_dir, "..", "..", "..", "..", "yolov8n.pt")
+        self.validator = YOLO(map_path)
         
         self.pc_data = None
         self.faces = []
