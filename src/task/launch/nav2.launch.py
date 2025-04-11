@@ -36,7 +36,7 @@ ARGUMENTS = [
                           description='Use sim time'),
     DeclareLaunchArgument('params_file',
                           default_value=PathJoinSubstitution([
-                              get_package_share_directory('dis_tutorial3'),
+                              get_package_share_directory('task'),
                               'config',
                               'nav2.yaml'
                               ]),
@@ -71,7 +71,9 @@ def launch_setup(context, *args, **kwargs):
                   ('use_sim_time', use_sim_time),
                   ('params_file', nav2_params.perform(context)),
                   ('use_composition', 'False'),
-                  ('namespace', namespace_str)
+                  ('autostart', 'True'),
+                  ('namespace', namespace_str),
+                  ('map_subscribe_transient_local', 'true')
                 ]
         ),
     ])

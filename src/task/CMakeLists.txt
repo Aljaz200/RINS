@@ -34,29 +34,23 @@ install(DIRECTORY
   meshes
   urdf
   config
+  worlds
+  maps
   DESTINATION share/${PROJECT_NAME}/
 )
 
 install(PROGRAMS
-  scripts/arm_mover_actions.py
   scripts/robot_commander.py
   scripts/autonomous_nav.py
-  scripts/detect_parkings.py
   scripts/detect_rings.py
-  scripts/parker.py
-  scripts/ring_unique.py
   scripts/robot_mover.py
-  scripts/detect_cylinders.py
-  scripts/detect_qr.py
   scripts/detect_faces.py
-  scripts/speech.py
-  scripts/detect_anomalies.py
-  scripts/padim_model.py
-  scripts/face_saver.py
+  scripts/FINALONERINGS.py
+  scripts/FINALONESPEECH.py
+  scripts/pose_logger.py
 
-  scripts/detector_utils.py
   scripts/image_utils.py
-  scripts/padim_utils.py
+  scripts/temp.py
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

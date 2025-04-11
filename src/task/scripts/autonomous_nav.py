@@ -6,14 +6,15 @@ import os
 
 DILATION = 5
 DISTANCE_THRESHOLD = 5.0
-PASSPIX_T = 0.5
-CHUNK_SIZE = 20
+PASSPIX_T = 0.6
+CHUNK_SIZE = 30
 PP = PASSPIX_T * (CHUNK_SIZE**2)
 
 KERNEL = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (DILATION, DILATION))
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-map_path = os.path.join(script_dir, "..", "..", "maps", "map.pgm")
+#CHANGE
+map_path = "/home/aljaz/Desktop/colcon_ws/src/task/maps/map.pgm"
+print(map_path)
 PGM_PIC = cv2.imread(map_path, cv2.IMREAD_GRAYSCALE)
 if PGM_PIC is None:
     raise FileNotFoundError(f"Map image not found at: {map_path}")
@@ -88,8 +89,10 @@ def obtain_pixel_points_from_image(I = PGM_PIC):
     img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
     for pt in pts:
         img[pt[1], pt[0]] = (255, 0, 0)
-    map_path = os.path.join(script_dir, "..", "..", "..", "..", "..", "test.png")
-    cv2.imwrite(map_path, img)
+    #CHANGE
+    map_path = "//home/aljaz/Desktop/colcon_ws/src/task/maps/temp.png"
+    success = cv2.imwrite(map_path, img)
+    print("Shranjevanje uspešno:", success)
     print("woah pts!", pts)
     return pts
 

@@ -28,7 +28,7 @@ ARGUMENTS = [
                           description='Robot namespace'),
     DeclareLaunchArgument('rviz', default_value='false',
                           choices=['true', 'false'], description='Start rviz.'),
-    DeclareLaunchArgument('world', default_value='demo1',
+    DeclareLaunchArgument('world', default_value='dis',
                           description='Ignition World'),
     DeclareLaunchArgument('model', default_value='standard',
                           choices=['standard', 'lite'],
@@ -45,7 +45,7 @@ for pose_element in ['x', 'y', 'z', 'yaw']:
 
 def generate_launch_description():
     # Directories
-    package_dir = get_package_share_directory('dis_tutorial3')
+    package_dir = get_package_share_directory('task')
 
     # Paths
     ignition_launch = PathJoinSubstitution(

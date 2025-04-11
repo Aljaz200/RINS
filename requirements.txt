@@ -1,0 +1,6 @@
+numpy
+opencv-python
+pygame
+gTTS
+ultralytics
+tf-transformations

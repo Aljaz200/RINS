@@ -356,8 +356,8 @@ class RingDetector(Node):
                             
     def closest_color(self, requested_color):
         min_colors = {}
-        for key, name in webcolors.CSS2_HEX_TO_NAMES.items():
-            r_c, g_c, b_c = webcolors.hex_to_rgb(key)
+        for name in webcolors.names("css3"):
+            r_c, g_c, b_c = webcolors.name_to_rgb(name)
             rd = (r_c - requested_color[0]) ** 2
             gd = (g_c - requested_color[1]) ** 2
             bd = (b_c - requested_color[2]) ** 2

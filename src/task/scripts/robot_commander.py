@@ -17,12 +17,14 @@
 from enum import Enum
 import math
 import time
+import json
 
 import robot_mover
 import autonomous_nav
 import argparse
 
 from std_msgs.msg import Empty, String, Bool
+from visualization_msgs.msg import Marker, MarkerArray
 
 from action_msgs.msg import GoalStatus
 from builtin_interfaces.msg import Duration
@@ -48,6 +50,9 @@ import tf_transformations
 import numpy as np
 
 from visualization_msgs.msg import Marker
+from geometry_msgs.msg import Twist
+
+from nav2_simple_commander.robot_navigator import BasicNavigator
 
 
 # points
@@ -114,30 +119,17 @@ class RobotCommander(Node):
         if not move_only:
             self.create_subscription(Marker, people_marker_topic, self._markerCallback, 10)
         
+        #circle_marker_topic = "/circle_marker"
+        #if not move_only:
+        #    self.create_subscription(Marker, circle_marker_topic, self._markerCallbackcircle, 10)
+        
         mona_marker_topic = "/greet_paint_marker"
-        if not move_only:
-            self.create_subscription(Marker, mona_marker_topic, self._mona_marker_callback, 10)
 
-        # anomaly detection
-        begin_detecting_anomalies_topic = "/detect_anomalies"
-        self.begin_detecting_anomalies_pub = self.create_publisher(Empty, begin_detecting_anomalies_topic, qos_profile)
-        anomaly_detection_finished_topic = "/anomaly_detector/anomaly_detected"
-        if not move_only:
-            self.create_subscription(Bool, anomaly_detection_finished_topic, self.anomaly_detected_callback, 10)
-
-        # arm shit
-        self.arm_move_pub = self.create_publisher(String, "/arm_command", QoSReliabilityPolicy.BEST_EFFORT)
-        if not move_only:
-            self.arm_finish_sub = self.create_subscription(Empty, "/arm_finished", self._arm_task_callback, 10)
 
         # signaling ring color for finding
         self.ring_color_pub = self.create_publisher(String, "/searched_ring", QoSReliabilityPolicy.BEST_EFFORT)
         go_to_ring_topic = "/robot_commander/go_to_ring"
         self.ring_target_pub = self.create_publisher(Marker, go_to_ring_topic, QoSReliabilityPolicy.BEST_EFFORT)
-
-        # cylinder stuff
-        if not move_only:
-            self.marker_pub = self.create_subscription(Marker, "/cylinder_marker", self._cyl_marker_callback, 10)
 
         # continue movement
         self.continue_moving_sub = self.create_subscription(Empty, "/robot_commander/continue_moving", self.continue_moving, 10)
@@ -146,26 +138,8 @@ class RobotCommander(Node):
         look_qr_topic = "/look_for_qr"
         qr_found_topic = "/qr_scanner/found"
         self.look_qr_pub = self.create_publisher(Empty, look_qr_topic, QoSReliabilityPolicy.BEST_EFFORT)
-        self.create_subscription(Bool, qr_found_topic, self.qr_code_found, 10)
+        self.path = self.create_publisher(Marker, "/path", qos_profile)
         
-
-        # parking related stuff
-        self.arm_finished_callback = None
-        self.park_search_enabled = False
-
-        parking_found_topic = "/parker_node/parkplatz_found"
-        parking_start_topic = "/parker_node/enable_parking"
-        parking_detected_topic = "/parking_coordinates"
-        parking_finished_topic = "/parker_node/parking_finished"
-        green_ring_topic = "/green"
-
-        self.park_enable_pub = self.create_publisher(Empty, parking_start_topic, QoSReliabilityPolicy.BEST_EFFORT)
-
-        if not move_only:
-            self.create_subscription(Empty, parking_found_topic, self._parking_found, 10)
-            self.create_subscription(Marker, green_ring_topic, self._green_ring_detected, 10)
-            self.create_subscription(Pose, parking_detected_topic, self._parking_place_detected, 10)
-            self.create_subscription(Empty, parking_finished_topic, self._parking_finished, 10)
 
         map_topic = "/map"
         self.occupancy_grid_sub = self.create_subscription(OccupancyGrid, map_topic, self.map_callback, qos_profile)
@@ -454,6 +428,11 @@ class RobotCommander(Node):
     
     def setMover(self, mover):
         self.mover = mover
+    
+    def _markerCallbackcircle(self, msg):
+        if self.mover is None:
+            return
+        self.mover.newMarkerCircle(msg)
 
     # people callback
     def _markerCallback(self, msg):
@@ -606,11 +585,58 @@ class RobotCommander(Node):
         self.mover.set_n_goals(len(poses))
         self.mover.set_paused(False)
 
-    def generate_path(self):
+    def generate_path1(self):
         pts = autonomous_nav.obtain_pixel_points_from_image() # self.map_np
         coor = [float(self.current_pose.pose.position.x), float(self.current_pose.pose.position.y)]
         pts = list(map(lambda x: self.map_pixel_to_world(x[0], x[1]), pts))
         return autonomous_nav.generate_path_greedy(coor, pts)
+    
+    def generate_path(self):
+        # Pot do JSON fajla z logiranimi pozicijami
+        map_path = "/home/aljaz/Desktop/colcon_ws/src/task/maps/logged_poses.json"
+
+        # Preberi točke iz fajla
+        with open(map_path, 'r') as f:
+            data = json.load(f)
+
+        # Izlušči pozicije
+        pts = []
+        i = 0
+        for entry in data:
+            pos = entry['position']
+            y, x = pos['x'], pos['y']
+            x *=-1
+            pts.append((x, y))
+            ring_marker = Marker()
+            ring_marker.header.frame_id = "map"
+            ring_marker.header.stamp = self.get_clock().now().to_msg()
+            ring_marker.ns = "Path"
+            ring_marker.id = i
+            ring_marker.type = Marker.SPHERE
+            ring_marker.action = Marker.ADD
+            ring_marker.pose.position.x = x
+            ring_marker.pose.position.y = y
+            ring_marker.pose.orientation.w = 1.0
+
+            ring_marker.scale.x = ring_marker.scale.y = ring_marker.scale.z = 0.3
+
+            ring_marker.color.r = 0.0
+            ring_marker.color.g = 1.0
+            ring_marker.color.b = 0.0
+            ring_marker.color.a = 1.0
+
+            ring_marker.text = f"{i}"
+        
+            self.path.publish(ring_marker)
+            i += 1
+            print(i, x, y)
+            #time.sleep(2)
+
+        # Če želiš preveriti trenutno pozicijo:
+        coor = [float(self.current_pose.pose.position.x), float(self.current_pose.pose.position.y)]
+        #print("Trenutna pozicija:", coor)
+        
+        return pts
 
 
     # map map pixel into world coordinates
@@ -638,107 +664,22 @@ class RobotCommander(Node):
         self.arm_move_pub.publish(smsg)
 
 
-    def _parking_finished(self, _: Empty):
-        def cb(fut):
-            fut = fut.result()
-            self.get_logger().info(f"camera reset with status {fut.status}")
-            #if fut.status == GoalStatus.STATUS_ACCEPTED:
-            self.find_and_goto_nearest_cylinder()
-        self.reset_camera_and_look_around(cb)
-
-    # when parking place was found (by parker)
-    def _parking_found(self, msg: Empty):
-        if self.mover is None:
-            self.info("mover is none. ignoring start_stop_callback")
-            return
-        self.info("parking was found. canceling current task.")
-        self.mover.cancelTask()
     
-    # when a green ring was detected.
-    def _green_ring_detected(self, msg: Marker):
-        self.mover.searched_ring_detected(msg)
-        #if self.park_search_enabled or self.is_parking:
-        #    return
-        #self.is_parking = True
-        #self.park_search_enabled = True
-        #stamped = self.pose_to_pose_stamped(msg.pose)
-        #def move_finished(r: bool):
-        #    if r:
-        #        self.mover.run_deferred(lambda: self.mover.continueTask())
-        #self.mover.visit_point(stamped, defer = True, callback = move_finished)
-        #return
     
-    def _arm_task_callback(self, _: Empty):
-        if self.arm_finished_callback is not None:
-            cback = self.arm_finished_callback
-            self.arm_finished_callback = None
-            cback()
-
-    # when a parking place was found (by ring detector)
-    def _parking_place_detected(self, msg: Pose):
-        self.park_search_enabled = False
-        stamped = self.pose_to_pose_stamped(msg)
-        def arm_moved():
-            self.arm_finished_callback = None
-            def move_finished(r: bool):
-                if r:
-                    # disable parker
-                    if self.parking_node_disabled:
-                        self.reset_camera_and_continue()
-                    return
-            self.park_enable_pub.publish(Empty())
-            self.mover.visit_point(stamped, defer = True, override = True, callback = move_finished)
-            pass
-
-        def task_canceled():
-            # set arm camera to search for parkplaces and wait
-            self.arm_finished_callback = arm_moved
-            smsg = String()
-            smsg.data = "look_for_parking"
-            self.arm_move_pub.publish(smsg)
-
-        self.mover.cancelTask(task_canceled)
-        return
-    
-    # ===================================================
-    # Task 3 stuff
-    # ===================================================
-    def find_and_goto_nearest_cylinder(self):
-        m = Marker()
-        m.pose = self.current_pose.pose
-        cyl = self.mover.closest_cylinder(m)
-        self.cylinder_detected(cyl)
     
     def publish_color(self, color: str):
         msg = String()
         msg.data = color
         self.ring_color_pub.publish(msg)
     
-    def _cyl_marker_callback(self, msg: Marker):
-        if self.mover is None:
-            return
-        self.mover.cylinder_detected(msg)
+
 
     # continue moving
     def continue_moving(self, msg = None):
         self.mover.run_deferred(lambda: self.mover.visit_unvisited_face_or_next_goal())
 
     # called when cylinder is detected    
-    def cylinder_detected(self, msg: Marker):
-        stamped = self.pose_to_pose_stamped(msg.pose)
-        def move_finished(r: bool):
-            self.get_logger().info(f"finished moving to cylinder: {r}")
-            if not r:
-                self.continue_moving()
-        qrmsg = String()
-        qrmsg.data = "qr"
-        self.arm_move_pub.publish(qrmsg)
-        self.look_qr_pub.publish(Empty())
-        self.mover.visit_point(stamped, defer = True, callback = move_finished, override = True)
     
-    def qr_code_found(self, msg: Bool):
-        self.is_parking = False
-        self.mover.qr_found(msg.data)
     
     def reset_camera_and_look_around(self, callback):
         smsg = String()
@@ -753,27 +694,19 @@ class RobotCommander(Node):
     
     def signal_ring_target(self, marker: Marker):
         self.ring_target_pub.publish(marker)
-    
-    # called when a new mona lisa is detected.
-    def _mona_marker_callback(self, marker: Marker):
-        self.mover.new_mona_marker(marker)
-    
-    def anomaly_detected_callback(self, msg: Bool):
-        if msg.data:
-            # found the REAL mona lisa. raise hand and finish
-            self.mover.finish()
-            strmsg = String()
-            strmsg.data = "up"
-            self.arm_move_pub.publish(strmsg)
-        else:
-            # fake monalisa, continue search
-            self.mover.end_visit()
-            self.continue_moving()
-    
-    # called when mona lisa is visited. signalize that to the anomaly detection node
-    # which will then signalize back that program must continue
-    def on_monalisa_visited(self):
-        self.begin_detecting_anomalies_pub.publish(Empty())
+
+class VelocityPublisher(Node):
+
+    def __init__(self):
+        super().__init__('velocity_publisher')
+        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
+
+    def send_velocity_command(self, linear_speed, angular_speed):
+        msg = Twist()
+        msg.linear.x = linear_speed      # Naprej/nazaj
+        msg.angular.z = angular_speed    # Yaw (zavijanje levo/desno)
+        self.publisher.publish(msg)
+        self.get_logger().info(f'Sent velocity -> linear: {linear_speed}, angular: {angular_speed}')
 
 
 
@@ -781,31 +714,67 @@ class RobotCommander(Node):
 def main(args=None):
     
     rclpy.init(args=args)
+    node = VelocityPublisher()
     parser = argparse.ArgumentParser(description="The robbot KOMMANDER!")
     parser.add_argument('--move-only', action='store_true', help='Enable move-only mode')
-    parsed_args = parser.parse_args(args=args[1:])  # Skip the first argument which is the program name
+    parsed_args = parser.parse_args(args=args[1:])
 
     rc = RobotCommander(move_only=parsed_args.move_only)
     mover = robot_mover.RobotMover(rc, rc.get_logger(), 0, faces_needed=None)
     rc.setMover(mover)
 
-    # Wait until Nav2 and Localizer are available
     rc.waitUntilNav2Active()
 
-    # Check if the robot is docked, only continue when a message is recieved
+    navigator = BasicNavigator()
+    navigator.waitUntilNav2Active()
+
+    # Počakaj na is_docked vrednost
     while rc.is_docked is None:
         rclpy.spin_once(rc, timeout_sec=0.5)
 
-    # If it is docked, undock it first
+    # Če je dockan, se odklopi
     if rc.is_docked:
         rc.undock()
+        while rc.is_docked:
+            rclpy.spin_once(rc, timeout_sec=0.1)
+            time.sleep(0.1)
 
+    node.send_velocity_command(2.4, 1.4)
+
+    # Pošlji robot na koordinati (0, 0)
+    goal = PoseStamped()
+    goal.header.frame_id = 'map'
+    goal.header.stamp = node.get_clock().now().to_msg()
+    goal.pose.position.x = 0.0
+    goal.pose.position.y = 0.0
+    goal.pose.orientation.w = 1.5
+
+    navigator.goToPose(goal)
+
+    while not navigator.isTaskComplete():
+        feedback = navigator.getFeedback()
+        if feedback:
+            rc.get_logger().info(f"Distance remaining: {feedback.distance_remaining:.2f} m")
+        rclpy.spin_once(rc, timeout_sec=0.1)
+        time.sleep(0.1)
+        if feedback.distance_remaining < 0.1:
+            break
+    rc.get_logger().info("Goal reached!")
+        
+   
+
+
+
+    time.sleep(5)
+    print("START")
     rc.generate_and_set_goals()
+    print("PREMIKANJE")
     mover.run()
 
     # wait until 3. razvojna os is finished
     while True:
         time.sleep(1)
+        print("AA")
 
     #rc.visitGoals(poses)
     #rc.info("complete!")
